@@ -1,0 +1,52 @@
+{
+  "changed_files": [
+    "sky130_dig_cells/flipflop/tb_dfrbpv4.sch",
+    "sky130_cells/ChargePump/DicksonPump_TB.sch",
+    "sky130_cells/ChargePump/InjecctPump_TB.sch",
+    "sky130_cells/ChargePump/TunnelingPump.sch",
+    "sky130_cells/ChargePump/CLKGEN_TB.sch",
+    "sky130_cells/ChargePump/InjectionPump.sch",
+    "sky130_cells/ChargePump/TunnelingPump_TB.sch",
+    "sky130_cells/IndirectVMM_4x1/IndirectVMM_4x1.sch",
+    "sky130_cells/TGate_2nMirror/TGate_2nMirror.sch",
+    "sky130_cells/IndirectVMM_Top_AorBmat_4x2/IndirectVMM_Top_AorBmat_4x2.sch",
+    "sky130_cells/Cap_Bank/Cap_Bank.sch",
+    "sky130_cells/IndirectVMM_4x2/IndirectVMM_4x2.sch",
+    "sky130_cells/Volatile_Swcs/Volatile_Swcs.sch",
+    "sky130_cells/IndirectVMM_DrainSwcs/IndirectVMM_DrainSwcs.sch",
+    "sky130_cells/IndirectVMM_Bot_Bmat_4x2/IndirectVMM_Bot_Bmat_4x2.sch",
+    "sky130_cells/Sblock/S_Block.sch",
+    "sky130_cells/Practice/DrainSelect/drainSelectActiveHighTB.sch",
+    "sky130_cells/Practice/Example_Inverter/Sims/Example_Inverter_TB_VTC.sch",
+    "sky130_cells/Practice/Example_Inverter/Sims/Example_Inverter_TB.sch",
+    "sky130_cells/Practice/Capacitor_Array/LVS/CapArrayxsch.sch",
+    "sky130_cells/Practice/Capacitor_Array/Schematic/CapArray.sch",
+    "sky130_cells/Practice/Capacitor_Array/Schematic/CAPArray_TB.sch",
+    "sky130_cells/Practice/Capacitor_Array/Schematic/TgateSmallSim.sch",
+    "sky130_cells/Mux/Sim/GateMuxSwc_Testbench.sch",
+    "sky130_cells/Mux/Design/sky130_hilas_GateMuxSwc.sch",
+    "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+    "sky130_cells/RDAC/Design/sky130_hilas_Vinj_Decode_4to16.sch",
+    "sky130_cells/RDAC/Design/sky130_hilas_Voltage_DAC_6bit.sch",
+    "sky130_cells/RDAC/Design/sky130_hilas_VinjDecode2to4.sch",
+    "sky130_cells/RDAC/Design/sky130_hilas_dac_cell.sch",
+    "sky130_cells/RDAC/Design/sky130_hilas_CellVoltageDAC01.sch",
+    "sky130_cells/RDAC/Sims/Vinj_Decode2to4_testbench.sch",
+    "sky130_cells/RDAC/Sims/6bit_RDAC_testbench.sch",
+    "sky130_cells/RDAC/Sims/Vinj_Decode4to16_testbench.sch",
+    "sky130_cells/RDAC/Sims/RDAC_cell_testbench.sch",
+    "sky130_cells/RDAC/Sims/6to64_decoder_testbench.sch",
+    "sky130_cells/RDAC/Sims/6to64_decoder_testbencn.sch",
+    "sky130_cells/RDAC/Sims/4b_rdac_testbench.sch",
+    "sky130_cells/RDAC/Sims/Voltage_DAC_6bit_testbench.sch",
+    "sky130_cells/Level_Shifter/Vertical_LS/level_shifter_vertical.sym"
+  ],
+  "changes": "Component reference paths only; no wires, pins, labels, or model properties changed.",
+  "removed_non_symbol_components": [
+    {
+      "file": "sky130_cells/TA_FGbias_1x2/TA_FGbias_1x2.sch",
+      "reference": "scripts/sky130_models.tcl",
+      "empty_placements_removed": 2
+    }
+  ]
+}

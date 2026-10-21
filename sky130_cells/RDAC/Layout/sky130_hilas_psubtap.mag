@@ -1,0 +1,28 @@
+magic
+tech sky130A
+timestamp 1739286537
+<< mvpsubdiff >>
+rect -15 437 1562 769
+rect -15 383 1063 437
+rect 1119 383 1562 437
+rect -15 38 1562 383
+<< mvpsubdiffcont >>
+rect 1063 383 1119 437
+<< locali >>
+rect 1055 437 1127 445
+rect 1055 383 1063 437
+rect 1119 383 1127 437
+rect 1055 375 1127 383
+<< viali >>
+rect 1063 383 1119 437
+<< metal1 >>
+rect 1057 437 1125 443
+rect 1057 430 1063 437
+rect 990 389 1063 430
+rect 1057 383 1063 389
+rect 1119 383 1125 437
+rect 1057 377 1125 383
+<< labels >>
+flabel metal1 990 389 1009 430 0 FreeSans 40 0 0 0 VGND
+port 1 nsew
+<< end >>

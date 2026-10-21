@@ -1,0 +1,9 @@
+{
+  "process": "sky_130nm",
+  "drainSpaceIdx": 0,
+  "drainSpace": 0,
+  "gateSpaceIdx": 0,
+  "gateSpace": 0,
+  "lib_path": "../../lib",
+  "pd_tool": "openroad"
+}

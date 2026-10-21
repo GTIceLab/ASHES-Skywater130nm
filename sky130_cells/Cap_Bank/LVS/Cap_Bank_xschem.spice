@@ -1,0 +1,36 @@
+.subckt Cap_Bank VTUN VINJ Vg Vsel OUT GND VD_P[0] VD_P[1] VD_P[2] VD_P[3] VIN
+*.PININFO VTUN:B GND:B VINJ:B VIN:B Vsel:B Vg:B VD_P[0:3]:B OUT:B
+x2 VD_P[0] VD_P[1] VD_P[2] VD_P[3] Vd_Run[0] Vd_Run[1] Vd_Run[2] Vd_Run[3] Vg VIN VTUN Vsel VINJ GND IndirectVMM_4x1
+XC3 OUT Vd_Run[3] sky130_fd_pr__cap_mim_m3_1 W=2.9 L=5 m=1
+XC2 OUT Vd_Run[2] sky130_fd_pr__cap_mim_m3_1 W=2.9 L=5 m=1
+* tap: #net1 --> Vd_Run[0]
+* tap: #net1 --> Vd_Run[1]
+* tap: #net1 --> Vd_Run[2]
+* tap: #net1 --> Vd_Run[3]
+XC4 OUT Vd_Run[2] sky130_fd_pr__cap_mim_m3_1 W=2.9 L=5 m=1
+XC5 OUT Vd_Run[1] sky130_fd_pr__cap_mim_m3_1 W=2.9 L=5 m=1
+XC6 OUT Vd_Run[1] sky130_fd_pr__cap_mim_m3_1 W=2.9 L=5 m=1
+XC1 OUT Vd_Run[0] sky130_fd_pr__cap_mim_m3_1 W=2.9 L=5 m=1
+XC7 OUT Vd_Run[0] sky130_fd_pr__cap_mim_m3_1 W=2.9 L=5 m=1
+XC8 OUT Vd_Run[0] sky130_fd_pr__cap_mim_m3_1 W=2.9 L=5 m=1
+XC9 OUT Vd_Run[0] sky130_fd_pr__cap_mim_m3_1 W=2.9 L=5 m=1
+.ends
+
+.subckt IndirectVMM_4x1 Vd_P[0] Vd_P[1] Vd_P[2] Vd_P[3] Vd_R[0] Vd_R[1] Vd_R[2] Vd_R[3] Vg Vs VTUN Vsel VINJ GND
+*.PININFO Vd_R[0:3]:B Vd_P[0:3]:B Vg:B VTUN:B Vsel:B GND:B VINJ:B Vs:B
+x5[0] Vs Vg Vsel VTUN Vd_R[0] Vd_P[0] VINJ GND FG_Indirect
+x5[1] Vs Vg Vsel VTUN Vd_R[1] Vd_P[1] VINJ GND FG_Indirect
+x5[2] Vs Vg Vsel VTUN Vd_R[2] Vd_P[2] VINJ GND FG_Indirect
+x5[3] Vs Vg Vsel VTUN Vd_R[3] Vd_P[3] VINJ GND FG_Indirect
+.ends
+
+
+.subckt FG_Indirect Vs Vg Vsel VTUN Vd_R Vd_P VINJ GND
+*.PININFO VINJ:B Vsel:B Vg:B Vs:B Vd_R:B Vd_P:B VTUN:B GND:B
+XM1 Vd_R Vfg Vs VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM2 net1 Vsel VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM3 Vd_P Vfg net1 VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XC1 Vfg VTUN GND sky130_fd_pr__cap_var W=0.29 L=0.5 m=1
+XC2 Vfg Vg GND sky130_fd_pr__cap_var W=0.54 L=0.65 m=1
+.ends
+

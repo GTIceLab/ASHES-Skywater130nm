@@ -1,0 +1,7 @@
+.subckt Buffer VDD I Z GND
+*.PININFO I:I VDD:B GND:B VDD:B GND:B Z:O
+XM1 net1 I GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM2 net1 I VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 m=1
+XM3 Z net1 GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM4 Z net1 VDD VDD sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 m=1
+.ends

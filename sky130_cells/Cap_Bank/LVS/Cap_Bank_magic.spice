@@ -1,0 +1,53 @@
+* NGSPICE file created from Cap_Bank.ext - technology: sky130A
+
+.subckt IndirectVMM_4x1 Vd_P[3] Vd_R[3] Vd_R[2] Vd_P[2] Vd_P[1] Vd_R[1] Vd_R[0] Vd_P[0]
++ Vs GND Vg VTUN VINJ Vsel
+X0 Vmid[0] Vsel VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.0735 pd=0.77 as=0.1155 ps=1.39 w=0.42 l=0.5
+**devattr s=1176,140 d=735,77
+X1 VINJ Vsel Vmid[1] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.1155 pd=1.39 as=0.078 ps=0.83 w=0.42 l=0.5
+**devattr s=780,83 d=1134,138
+X2 Vd_R[0] FG[0] Vs VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.1134 pd=1.38 as=0.08285 ps=0.895 w=0.42 l=0.5
+**devattr s=832,90 d=1134,138
+X3 FG[0] VTUN GND sky130_fd_pr__cap_var w=0.29 l=0.5
+X4 Vd_P[3] FG[3] Vmid[3] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.1176 pd=1.4 as=0.0714 ps=0.76 w=0.42 l=0.5
+**devattr s=714,76 d=1176,140
+X5 Vmid[2] FG[2] Vd_P[2] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.0839 pd=0.9 as=0.1176 ps=1.4 w=0.42 l=0.5
+**devattr s=1176,140 d=839,90
+X6 Vs FG[1] Vd_R[1] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.08285 pd=0.895 as=0.1176 ps=1.4 w=0.42 l=0.5
+**devattr s=1176,140 d=832,90
+X7 FG[3] Vg GND sky130_fd_pr__cap_var w=0.54 l=0.65
+X8 FG[1] Vg GND sky130_fd_pr__cap_var w=0.54 l=0.65
+X9 Vd_R[3] FG[3] Vs VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.1176 pd=1.4 as=0.08285 ps=0.895 w=0.42 l=0.5
+**devattr s=824,89 d=1176,140
+X10 FG[2] Vg GND sky130_fd_pr__cap_var w=0.54 l=0.65
+X11 Vs FG[2] Vd_R[2] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.08285 pd=0.895 as=0.1176 ps=1.4 w=0.42 l=0.5
+**devattr s=1176,140 d=824,89
+X12 Vmid[3] Vsel VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.0714 pd=0.76 as=0.1155 ps=1.39 w=0.42 l=0.5
+**devattr s=1176,140 d=714,76
+X13 Vmid[1] FG[1] Vd_P[1] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.078 pd=0.83 as=0.1176 ps=1.4 w=0.42 l=0.5
+**devattr s=1176,140 d=780,83
+X14 FG[3] VTUN GND sky130_fd_pr__cap_var w=0.29 l=0.5
+X15 FG[1] VTUN GND sky130_fd_pr__cap_var w=0.29 l=0.5
+X16 Vd_P[0] FG[0] Vmid[0] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.1134 pd=1.38 as=0.0735 ps=0.77 w=0.42 l=0.5
+**devattr s=735,77 d=1134,138
+X17 VINJ Vsel Vmid[2] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.1155 pd=1.39 as=0.0839 ps=0.9 w=0.42 l=0.5
+**devattr s=839,90 d=1134,138
+X18 FG[2] VTUN GND sky130_fd_pr__cap_var w=0.29 l=0.5
+X19 FG[0] Vg GND sky130_fd_pr__cap_var w=0.54 l=0.65
+.ends
+
+.subckt Cap_Bank GND OUT Vd_P[0] Vd_P[1] Vd_P[2] Vd_P[3] Vg VINJ VIN Vsel VTUN
+XIndirectVMM_4x1_0 Vd_P[3] IndirectVMM_4x1_0/Vd_R[3] IndirectVMM_4x1_0/Vd_R[2] Vd_P[2]
++ Vd_P[1] IndirectVMM_4x1_0/Vd_R[1] IndirectVMM_4x1_0/Vd_R[0] Vd_P[0] VIN GND Vg VTUN
++ VINJ Vsel IndirectVMM_4x1
+X0 OUT IndirectVMM_4x1_0/Vd_R[1] sky130_fd_pr__cap_mim_m3_1 l=5 w=2.9
+X1 OUT IndirectVMM_4x1_0/Vd_R[0] sky130_fd_pr__cap_mim_m3_1 l=5 w=2.9
+X2 OUT IndirectVMM_4x1_0/Vd_R[2] sky130_fd_pr__cap_mim_m3_1 l=5 w=2.9
+X3 OUT IndirectVMM_4x1_0/Vd_R[0] sky130_fd_pr__cap_mim_m3_1 l=5 w=2.9
+X4 OUT IndirectVMM_4x1_0/Vd_R[3] sky130_fd_pr__cap_mim_m3_1 l=5 w=2.9
+X5 OUT IndirectVMM_4x1_0/Vd_R[2] sky130_fd_pr__cap_mim_m3_1 l=5 w=2.9
+X6 OUT IndirectVMM_4x1_0/Vd_R[0] sky130_fd_pr__cap_mim_m3_1 l=5 w=2.9
+X7 OUT IndirectVMM_4x1_0/Vd_R[1] sky130_fd_pr__cap_mim_m3_1 l=5 w=2.9
+X8 OUT IndirectVMM_4x1_0/Vd_R[0] sky130_fd_pr__cap_mim_m3_1 l=5 w=2.9
+.ends
+

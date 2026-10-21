@@ -1,0 +1,13 @@
+* NGSPICE file created from FG_Indirect.ext - technology: sky130A
+
+.subckt FG_Indirect VINJ Vs Vg VTUN GND Vsel Vd_R Vd_P
+X0 Vmid Vsel VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.0735 pd=0.77 as=0.1176 ps=1.4 w=0.42 l=0.5
+**devattr s=1176,140 d=735,77
+X1 Vd_R FG Vs VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.1134 pd=1.38 as=0.1134 ps=1.38 w=0.42 l=0.5
+**devattr s=1134,138 d=1134,138
+X2 Vd_P FG Vmid VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.1134 pd=1.38 as=0.0735 ps=0.77 w=0.42 l=0.5
+**devattr s=735,77 d=1134,138
+X3 FG Vg GND sky130_fd_pr__cap_var w=0.54 l=0.65
+X4 FG VTUN GND sky130_fd_pr__cap_var w=0.29 l=0.5
+.ends
+

@@ -1,0 +1,14 @@
+* NGSPICE file created from alexpmos.ext - technology: sky130A
+
+X0 D2 VG VS VDD sky130_fd_pr__pfet_01v8 ad=1.8 pd=9.8 as=1.8 ps=9.8 w=4.5 l=0.45
+X1 VS VG D3 VDD sky130_fd_pr__pfet_01v8 ad=1.8 pd=9.8 as=0.9 ps=4.9 w=4.5 l=0.45
+X2 VS VG D3 VDD sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=4.5 l=0.45
+X3 VS VG D3 VDD sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=4.5 l=0.45
+X4 VS VG D3 VDD sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=4.5 l=0.45
+X5 VS VG D3 VDD sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=4.5 l=0.45
+X6 D3 VG VS VDD sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=4.5 l=0.45
+X7 D3 VG VS VDD sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=1.8 ps=9.8 w=4.5 l=0.45
+X8 D3 VG VS VDD sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=4.5 l=0.45
+X9 D3 VG VS VDD sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=4.5 l=0.45
+X10 D3 VG VS VDD sky130_fd_pr__pfet_01v8 ad=0.9 pd=4.9 as=0.9 ps=4.9 w=4.5 l=0.45
+X11 D1 VG VS VDD sky130_fd_pr__pfet_01v8 ad=0.18 pd=1.7 as=0.18 ps=1.7 w=0.45 l=0.45

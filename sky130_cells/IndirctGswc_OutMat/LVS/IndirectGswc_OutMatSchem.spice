@@ -1,0 +1,39 @@
+.subckt IndirectGswc_OutMatSchem GND AVDD VINJ Vgrun fg_pu(0) fg_pu(1) Vs_out_mtrx(0) Vs_out_mtrx(1) Vg_out_mtrx(0) Vg_out_mtrx(1)
++ Vg_global(0) Vg_global(1) prog run Vs_global(0) Vs_global(1)
+*.PININFO GND:B AVDD:B VINJ:B Vgrun:B fg_pu(0):B fg_pu(1):B Vs_out_mtrx(0):B Vs_out_mtrx(1):B Vg_out_mtrx(0):B Vg_out_mtrx(1):B
+*+ Vg_global(0):B Vg_global(1):B prog:I run:I Vs_global(0):B Vs_global(1):B
+XM3 net1 run Vs_out_mtrx(0) GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1.3 nf=1 m=1
+XM4 net1 prog Vs_out_mtrx(0) VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM5 Vgrun run Vg_out_mtrx(0) GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1.3 nf=1 m=1
+XM6 Vgrun prog Vg_out_mtrx(0) VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM7 Vg_out_mtrx(0) prog Vg_global(0) GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1.3 nf=1 m=1
+XM8 Vg_out_mtrx(0) run Vg_global(0) VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM11 Vs_global(0) GorS_ctrlb net1 GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1.3 nf=1 m=1
+XM12 Vs_global(0) GorS_ctrl net1 VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM9 Vs_out_mtrx(0) run AVDD VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM10 Vg_global(0) GorS_ctrlb net1 VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM15 GorS_ctrl fg_pu(0) GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM16 GorS_ctrl fg_pu(0) AVDD VINJ sky130_fd_pr__pfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM19 net2 net2 GND GND sky130_fd_pr__nfet_01v8 L=0.5 W=0.42 nf=1 m=1
+XM22 net3 run Vs_out_mtrx(1) GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1.3 nf=1 m=1
+XM23 net3 prog Vs_out_mtrx(1) VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM24 Vgrun run Vg_out_mtrx(1) GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1.3 nf=1 m=1
+XM25 Vgrun prog Vg_out_mtrx(1) VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM26 Vg_out_mtrx(1) prog Vg_global(1) GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1.3 nf=1 m=1
+XM27 Vg_out_mtrx(1) run Vg_global(1) VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM28 Vs_global(1) GorS_ctrlb_1 net3 GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1.3 nf=1 m=1
+XM29 Vs_global(1) GorS_ctrl_1 net3 VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM32 Vs_out_mtrx(1) run AVDD VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM33 Vg_global(1) GorS_ctrlb_1 net3 VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM17 GorS_ctrlb GorS_ctrl GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM18 GorS_ctrlb GorS_ctrl AVDD VINJ sky130_fd_pr__pfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM34 GorS_ctrl_1 fg_pu(1) GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM35 GorS_ctrl_1 fg_pu(1) AVDD VINJ sky130_fd_pr__pfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM36 GorS_ctrlb_1 GorS_ctrl_1 GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM37 GorS_ctrlb_1 GorS_ctrl_1 AVDD VINJ sky130_fd_pr__pfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM39 fg_pu(0) fg_pu(0) net2 GND sky130_fd_pr__nfet_01v8 L=0.5 W=0.42 nf=1 m=1
+XM38 net4 net4 GND GND sky130_fd_pr__nfet_01v8 L=0.5 W=0.42 nf=1 m=1
+XM40 fg_pu(1) fg_pu(1) net4 GND sky130_fd_pr__nfet_01v8 L=0.5 W=0.42 nf=1 m=1
+XM41 Vg_global(0) GorS_ctrl net1 GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1.3 nf=1 m=1
+XM1 Vg_global(1) GorS_ctrl_1 net3 GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1.3 nf=1 m=1
+.ends

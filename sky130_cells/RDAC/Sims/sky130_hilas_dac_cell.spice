@@ -1,0 +1,50 @@
+**.subckt sky130_hilas_dac_cell VDD VREFin D0 D1 Out D2 D3 GND VREFout
+*.iopin VDD
+*.opin Out
+*.ipin D0
+*.ipin D1
+*.ipin D2
+*.ipin D3
+*.iopin GND
+*.iopin VREFout
+*.iopin VREFin
+x1 VDD Out D0 Node[0] GND Tgate
+x2 VDD Out D1 Node[1] GND Tgate
+x3 VDD Out D2 Node[2] GND Tgate
+x4 VDD Out D3 Node[3] GND Tgate
+x5 VREFin Node[3] Node[2] Node[1] Node[0] VREFout sky130_hilas_resistor_string
+**.ends
+
+.subckt Tgate VINJ OUTPUT SELECT INPUT VGND
+*.iopin VINJ
+*.ipin SELECT
+*.iopin INPUT
+*.iopin OUTPUT
+*.ipin VGND
+XM5 net1 SELECT VGND VGND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.42 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM1 net1 SELECT VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2 INPUT net1 OUTPUT VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM3 OUTPUT SELECT INPUT VGND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.42 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+*+ pins=3
+.subckt sky130_hilas_resistor_string VREFin Node[3] Node[2] Node[1] Node[0] VREFout
+*.iopin VREFout
+*.iopin VREFin
+*.opin Node[3],Node[2],Node[1],Node[0]
+XR1 Node[0] VREFin sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR2 net1 Node[0] sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR3 Node[1] net1 sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR4 net2 Node[1] sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR5 Node[2] net2 sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR6 net3 Node[2] sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR7 Node[3] net3 sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR8 VREFout Node[3] sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+.ends
+
+.end

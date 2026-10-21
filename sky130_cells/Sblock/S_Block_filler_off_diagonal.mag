@@ -1,0 +1,52 @@
+magic
+tech sky130A
+timestamp 1772043214
+<< metal1 >>
+rect 2481 -2087 2521 -2062
+rect 2559 -2087 2599 -2062
+rect 2647 -2087 2687 -2062
+rect 2737 -2087 2777 -2062
+rect 2485 -2687 2517 -2087
+rect 2563 -2687 2595 -2087
+rect 2651 -2687 2683 -2087
+rect 2741 -2687 2773 -2087
+rect 2481 -2712 2521 -2687
+rect 2559 -2712 2599 -2687
+rect 2647 -2712 2687 -2687
+rect 2737 -2712 2777 -2687
+<< metal2 >>
+rect 2461 -2099 2811 -2084
+rect 2461 -2139 2811 -2125
+rect 2461 -2191 2811 -2177
+rect 2461 -2222 2811 -2207
+rect 2461 -2289 2811 -2274
+rect 2461 -2352 2811 -2338
+rect 2461 -2391 2811 -2375
+rect 2461 -2460 2811 -2444
+rect 2461 -2525 2811 -2509
+rect 2461 -2559 2811 -2544
+rect 2461 -2618 2811 -2599
+rect 2461 -2685 2811 -2670
+<< metal3 >>
+rect 2461 -2129 2811 -2099
+rect 2461 -2250 2811 -2220
+rect 2461 -2487 2811 -2457
+rect 2461 -2646 2811 -2616
+<< labels >>
+flabel metal1 2481 -2087 2521 -2062 0 FreeSans 80 0 0 0 N[0]
+port 61 nsew
+flabel metal1 2481 -2712 2521 -2687 0 FreeSans 80 0 0 0 S[0]
+port 69 nsew
+flabel metal1 2559 -2087 2599 -2062 0 FreeSans 80 0 0 0 N[1]
+port 63 nsew
+flabel metal1 2559 -2712 2599 -2687 0 FreeSans 80 0 0 0 S[1]
+port 73 nsew
+flabel metal1 2647 -2087 2687 -2062 0 FreeSans 80 0 0 0 N[2]
+port 65 nsew
+flabel metal1 2647 -2712 2687 -2687 0 FreeSans 80 0 0 0 S[2]
+port 75 nsew
+flabel metal1 2737 -2087 2777 -2062 0 FreeSans 80 0 0 0 N[3]
+port 67 nsew
+flabel metal1 2737 -2712 2777 -2687 0 FreeSans 80 0 0 0 S[3]
+port 77 nsew
+<< end >>

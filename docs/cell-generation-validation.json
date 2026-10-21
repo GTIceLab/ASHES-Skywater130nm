@@ -1,0 +1,97 @@
+[
+  {
+    "cell": "Cap_Bank",
+    "generation": "passed",
+    "detail": null
+  },
+  {
+    "cell": "G_or_S_IndrctSwcs",
+    "generation": "passed",
+    "detail": null
+  },
+  {
+    "cell": "IndirectGswc_OutMat",
+    "generation": "failed",
+    "detail": "Cell IndirectGswc_OutMat: bus 'fg_pu_s' must be contiguous and zero-based, got [1]"
+  },
+  {
+    "cell": "IndirectVMM_4x2",
+    "generation": "passed",
+    "detail": null
+  },
+  {
+    "cell": "IndirectVMM_Bot_Bmat_4x2",
+    "generation": "failed",
+    "detail": "Cell IndirectVMM_Bot_Bmat_4x2: conflicting labels for 'Vs_s'; prepare directional GDS first"
+  },
+  {
+    "cell": "IndirectVMM_DrainSwcs",
+    "generation": "failed",
+    "detail": "Cell IndirectVMM_DrainSwcs: bus 'N_Sel_w' must be contiguous and zero-based, got [0, 3]"
+  },
+  {
+    "cell": "IndirectVMM_GSwcs_1x2",
+    "generation": "passed",
+    "detail": null
+  },
+  {
+    "cell": "IndirectVMM_Top_AorBmat_4x2",
+    "generation": "failed",
+    "detail": "Cell IndirectVMM_Top_AorBmat_4x2: conflicting labels for 'Vs_s'; prepare directional GDS first"
+  },
+  {
+    "cell": "S_Block",
+    "generation": "failed",
+    "detail": "Cell S_Block: conflicting labels for 'Vg_s'; prepare directional GDS first"
+  },
+  {
+    "cell": "S_Block_NS_routing_diagonal",
+    "generation": "passed",
+    "detail": null
+  },
+  {
+    "cell": "S_Block_east",
+    "generation": "failed",
+    "detail": "Cell S_Block_east: conflicting labels for 'Vg_s'; prepare directional GDS first"
+  },
+  {
+    "cell": "S_Block_filler_off_diagonal",
+    "generation": "passed",
+    "detail": null
+  },
+  {
+    "cell": "S_Block_west",
+    "generation": "failed",
+    "detail": "Cell S_Block_west: conflicting labels for 'Vg_s'; prepare directional GDS first"
+  },
+  {
+    "cell": "TA_FGbias_1x2",
+    "generation": "passed",
+    "detail": null
+  },
+  {
+    "cell": "TGate_2nMirror",
+    "generation": "passed",
+    "detail": null
+  },
+  {
+    "cell": "Volatile_Swcs",
+    "generation": "failed",
+    "detail": "Cell Volatile_Swcs: native label 'sky130_fd_sc_hd__dfrbp_1_1.Q_n' is not a supported Verilog pin identifier. Review internal annotations or explicitly select pin-label layers; no labels were silently removed."
+  },
+  {
+    "cell": "alexpmos",
+    "generation": "passed",
+    "detail": null
+  },
+  {
+    "cell": "level_shifter_horizontal",
+    "generation": "failed",
+    "detail": "Cell level_shifter_horizontal: bus 'Vout_e' must be contiguous and zero-based, got [0, 3]"
+  },
+  {
+    "cell": "level_shifter_vertical",
+    "generation": "passed",
+    "detail": null
+  }
+]

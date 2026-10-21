@@ -1,0 +1,82 @@
+magic
+tech sky130A
+timestamp 1762287578
+<< error_s >>
+rect 107 511 121 515
+rect 108 313 121 317
+rect 137 200 149 204
+<< nwell >>
+rect -203 649 0 650
+rect -385 378 0 649
+rect -203 -10 0 378
+<< poly >>
+rect -189 561 -154 565
+rect -189 557 -146 561
+rect -565 485 -550 543
+rect -189 539 -181 557
+rect -162 546 -146 557
+rect -162 539 -154 546
+rect -189 531 -154 539
+rect -565 473 -317 485
+rect -565 470 -235 473
+rect -332 458 -235 470
+<< polycont >>
+rect -181 539 -162 557
+<< locali >>
+rect -500 589 -112 607
+rect -30 590 0 596
+rect -500 573 -468 589
+rect -69 587 0 590
+rect -500 572 -488 573
+rect -69 571 -26 587
+rect -30 570 -26 571
+rect -8 570 0 587
+rect -189 557 -154 565
+rect -30 563 0 570
+rect -189 555 -181 557
+rect -223 543 -181 555
+rect -206 539 -181 543
+rect -162 539 -154 557
+rect -206 535 -154 539
+rect -189 531 -154 535
+rect -473 496 -354 513
+rect -373 463 -354 496
+rect -133 463 -115 515
+rect -373 446 -115 463
+<< viali >>
+rect -26 570 -8 587
+<< metal1 >>
+rect -30 593 0 596
+rect -4 566 0 593
+rect -30 563 0 566
+<< via1 >>
+rect -30 587 -4 593
+rect -30 570 -26 587
+rect -26 570 -8 587
+rect -8 570 -4 587
+rect -30 566 -4 570
+<< metal2 >>
+rect -30 593 0 596
+rect -4 566 0 593
+rect -30 563 0 566
+use 4x1_Indirect  4x1_Indirect_0
+timestamp 1762047564
+transform 1 0 -545 0 1 -155
+box 545 155 1390 805
+use NMos150x420nm  NMos150x420nm_0
+timestamp 1762225393
+transform 0 1 -514 -1 0 553
+box -20 -36 57 54
+use NMos150x420nm  NMos150x420nm_1
+timestamp 1762225393
+transform 1 0 -522 0 1 416
+box -20 -36 57 54
+use PMos150x640nm  PMos150x640nm_0
+timestamp 1762226727
+transform 0 1 -133 -1 0 560
+box -48 -18 63 82
+use PMos150x640nm  PMos150x640nm_1
+timestamp 1762226727
+transform -1 0 -236 0 -1 547
+box -48 -18 63 82
+<< end >>

@@ -1,0 +1,9 @@
+* NGSPICE file created from sky130_hilas_TgateVinj02.ext - technology: sky130A
+
+.subckt sky130_hilas_TgateVinj02
+X0 a_n194_98# SELECT VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.126 pd=1.44 as=0.126 ps=1.44 w=0.42 l=0.5
+X1 VGND SELECT a_n194_98# VGND sky130_fd_pr__nfet_g5v0d10v5 ad=0.1176 pd=1.4 as=0.1176 ps=1.4 w=0.42 l=0.5
+X2 OUTPUT a_n194_98# INPUT VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.126 pd=1.44 as=0.126 ps=1.44 w=0.42 l=0.5
+X3 INPUT SELECT OUTPUT VGND sky130_fd_pr__nfet_g5v0d10v5 ad=0.1176 pd=1.4 as=0.1176 ps=1.4 w=0.42 l=0.5
+.ends
+

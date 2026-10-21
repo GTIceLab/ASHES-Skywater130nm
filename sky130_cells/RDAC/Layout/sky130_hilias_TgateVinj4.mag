@@ -1,0 +1,20 @@
+magic
+tech sky130A
+timestamp 1738074525
+use sky130_hilas_TgateVinj02  sky130_hilas_TgateVinj02_0
+timestamp 1738012375
+transform 1 0 197 0 1 55
+box -211 -53 500 126
+use sky130_hilas_TgateVinj02  sky130_hilas_TgateVinj02_1
+timestamp 1738012375
+transform 1 0 197 0 1 -102
+box -211 -53 500 126
+use sky130_hilas_TgateVinj02  sky130_hilas_TgateVinj02_2
+timestamp 1738012375
+transform 1 0 197 0 1 -259
+box -211 -53 500 126
+use sky130_hilas_TgateVinj02  sky130_hilas_TgateVinj02_3
+timestamp 1738012375
+transform 1 0 197 0 1 -416
+box -211 -53 500 126
+<< end >>

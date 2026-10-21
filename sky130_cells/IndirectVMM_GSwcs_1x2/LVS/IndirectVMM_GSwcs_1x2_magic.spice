@@ -1,0 +1,42 @@
+* NGSPICE file created from IndirectVMM_GSwcs_1x2.ext - technology: sky130A
+
+.subckt IndirectVMM_GSwcs_1x2 GND PROG RUN Vg[0] Vg[1] Vgrun[0] Vgrun[1] Vgsel VINJ
++ Vs[0] Vs[1] Vsel[0] Vsel[1] Vsel_B[0] Vsel_B[1] VTUN
+X0 a_20_1440# RUN Vg[0] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.667 pd=3.33 as=0.5 ps=2.5 w=2 l=0.5
+**devattr s=20000,500 d=20000,500
+X1 Vg[0] RUN Vgrun[0] GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.25 pd=1.5 as=0.4 ps=2.8 w=1 l=0.5
+**devattr s=16000,560 d=10000,300
+X2 VINJ Vsel[0] Vsel_B[0] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=1 pd=5 as=0.9 ps=4.9 w=2 l=0.5
+**devattr s=36000,980 d=40000,1000
+X3 Vgsel Vsel_B[1] a_1290_1440# VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=1 pd=5 as=0.667 ps=3.33 w=2 l=0.5
+**devattr s=20000,500 d=40000,1000
+X4 VINJ Vsel[1] a_1290_1440# VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=1 pd=5 as=0.667 ps=3.33 w=2 l=0.5
+**devattr s=40000,1000 d=40000,1000
+X5 GND Vsel[1] Vsel_B[1] GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.5
+**devattr s=20000,600 d=20000,600
+X6 a_1290_1440# PROG Vg[1] GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.5
+**devattr s=10000,300 d=10000,300
+X7 Vg[1] PROG Vgrun[1] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.5 pd=2.5 as=1 ps=5 w=2 l=0.5
+**devattr s=40000,1000 d=20000,500
+X8 Vgsel Vsel_B[0] a_20_1440# VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=1 pd=5 as=0.667 ps=3.33 w=2 l=0.5
+**devattr s=20000,500 d=40000,1000
+X9 VINJ Vsel[1] Vsel_B[1] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=1 pd=5 as=0.78 ps=4.78 w=2 l=0.5
+**devattr s=31200,956 d=40000,1000
+X10 a_20_1440# PROG Vg[0] GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.5
+**devattr s=10000,300 d=10000,300
+X11 VINJ Vsel[0] a_20_1440# VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=1 pd=5 as=0.667 ps=3.33 w=2 l=0.5
+**devattr s=40000,1000 d=40000,1000
+X12 Vgsel Vsel[1] a_1290_1440# GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.39 pd=2.78 as=0.25 ps=1.5 w=1 l=0.5
+**devattr s=10000,300 d=16000,560
+X13 Vg[0] PROG Vgrun[0] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.5 pd=2.5 as=1 ps=5 w=2 l=0.5
+**devattr s=40000,1000 d=20000,500
+X14 a_1290_1440# RUN Vg[1] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.667 pd=3.33 as=0.5 ps=2.5 w=2 l=0.5
+**devattr s=20000,500 d=20000,500
+X15 Vsel_B[0] Vsel[0] GND GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.5
+**devattr s=20000,600 d=20000,600
+X16 Vgsel Vsel[0] a_20_1440# GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.39 pd=2.78 as=0.25 ps=1.5 w=1 l=0.5
+**devattr s=10000,300 d=15200,552
+X17 Vg[1] RUN Vgrun[1] GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.25 pd=1.5 as=0.4 ps=2.8 w=1 l=0.5
+**devattr s=16000,560 d=10000,300
+.ends
+

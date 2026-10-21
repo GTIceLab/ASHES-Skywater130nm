@@ -1,0 +1,2368 @@
+{
+  "files": [
+    {
+      "path": "sky130_cells/Cap_Bank/Cap_Bank.mag",
+      "source_sha256": "bb376c02d2076843e079c7b1e44a5526d4c540555458dc0ed8ab4ff313c3cb4f",
+      "public_sha256": "bb376c02d2076843e079c7b1e44a5526d4c540555458dc0ed8ab4ff313c3cb4f",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Cap_Bank/Cap_Bank.mag"
+    },
+    {
+      "path": "sky130_cells/Cap_Bank/Cap_Bank.sch",
+      "source_sha256": "a7e9b0cac1f8d912bb17c8986664ac4b80cb682a14b87e0b5750883505241016",
+      "public_sha256": "8ef54ff32b711f9b51123d6449a15318002a8a82b17f53c2d5d06fc6be6b6786",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Cap_Bank/Cap_Bank.sch"
+    },
+    {
+      "path": "sky130_cells/Cap_Bank/Cap_Bank.sym",
+      "source_sha256": "c58188917d73532374233b18d163f0219f34fdcb1134e1604594c2584a28c871",
+      "public_sha256": "c58188917d73532374233b18d163f0219f34fdcb1134e1604594c2584a28c871",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Cap_Bank/Cap_Bank.sym"
+    },
+    {
+      "path": "sky130_cells/Cap_Bank/LVS/Cap_Bank_magic.spice",
+      "source_sha256": "6c3bdf36eba6e0755ab65e146286df087bde58674ccd32b04246888f2f0fff4f",
+      "public_sha256": "6c3bdf36eba6e0755ab65e146286df087bde58674ccd32b04246888f2f0fff4f",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Cap_Bank/LVS/Cap_Bank_magic.spice"
+    },
+    {
+      "path": "sky130_cells/Cap_Bank/LVS/Cap_Bank_xschem.spice",
+      "source_sha256": "1009faef5235c14be7e9ba1ecc21768edcf65c976224802567485c29d56937ce",
+      "public_sha256": "bc7e8e79a57264d4763c92922543730cee694241087081c1713efe7e833b945a",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Cap_Bank/LVS/Cap_Bank_xschem.spice"
+    },
+    {
+      "path": "sky130_cells/ChargePump/CLKGEN_TB.sch",
+      "source_sha256": "1017cf0fc220bbc47106cbddff94b9f8b17bbece902b8503f30334eaf2884467",
+      "public_sha256": "78f90b85eb0e989f81370c8b589c0864f60d6c66002a8e9d5063b132d673ef55",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/ChargePump/CLKGEN_TB.sch"
+    },
+    {
+      "path": "sky130_cells/ChargePump/DicksonPump_TB.sch",
+      "source_sha256": "d64a934d4cf160fcd15e135f4a1bf623ef69c32b2db0a5a298ec08bb481c3764",
+      "public_sha256": "523b3758a2dbc1c4d49e9b1c1db66bb060873f4c0f4d15e253cae1e83b5c14cb",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/ChargePump/DicksonPump_TB.sch"
+    },
+    {
+      "path": "sky130_cells/ChargePump/InjecctPump_TB.sch",
+      "source_sha256": "7a1ba187b1bdc6d41df00c85bddcdfc580697cf7be6076b575823b330aa450dc",
+      "public_sha256": "c33a08f9286afad42cdab8e696984e50a7a24ff0c3b87c7d5352ce1fb0e88d74",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/ChargePump/InjecctPump_TB.sch"
+    },
+    {
+      "path": "sky130_cells/ChargePump/InjectionPump.sch",
+      "source_sha256": "b53e2efea804e5aeab17b0f7fefefd5b547f070e67d10e8de6c7585394132c33",
+      "public_sha256": "a87175d7f7253067b309e2e50d05d53348ffaf6d1241f7dd6db34026873223b7",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/ChargePump/InjectionPump.sch"
+    },
+    {
+      "path": "sky130_cells/ChargePump/InjectionTgate.sch",
+      "source_sha256": "ac63800bf3123ea62847f2a44410fabf331c78dfcda098de3558197d81b9c855",
+      "public_sha256": "ac63800bf3123ea62847f2a44410fabf331c78dfcda098de3558197d81b9c855",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ChargePump/InjectionTgate.sch"
+    },
+    {
+      "path": "sky130_cells/ChargePump/InjectionTgate.sym",
+      "source_sha256": "0ddb3d72e55fe5eabc8e7fb0a21d6de40e7b1cb04a017dfb276fdf6f7f43f05e",
+      "public_sha256": "0ddb3d72e55fe5eabc8e7fb0a21d6de40e7b1cb04a017dfb276fdf6f7f43f05e",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ChargePump/InjectionTgate.sym"
+    },
+    {
+      "path": "sky130_cells/ChargePump/StepupDigital.sch",
+      "source_sha256": "fcd132b8646ec93e6bd1450ada382ced4894619564cf1d2120fe9cdaf4b0ca48",
+      "public_sha256": "fcd132b8646ec93e6bd1450ada382ced4894619564cf1d2120fe9cdaf4b0ca48",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ChargePump/StepupDigital.sch"
+    },
+    {
+      "path": "sky130_cells/ChargePump/StepupDigital.sym",
+      "source_sha256": "cc37c1749ff812054e68ea9054c82f3e7749356b91143a997c971f0bd77f6942",
+      "public_sha256": "cc37c1749ff812054e68ea9054c82f3e7749356b91143a997c971f0bd77f6942",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ChargePump/StepupDigital.sym"
+    },
+    {
+      "path": "sky130_cells/ChargePump/TunnelingPump.sch",
+      "source_sha256": "f2fe6342c3e2b5c9303e9b66eddf9df4efde04a051b18539a6768506bb36e1e3",
+      "public_sha256": "29c6864e058cdf4769a7f79f59279d126ce42262c23004123e789866329d44ba",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/ChargePump/TunnelingPump.sch"
+    },
+    {
+      "path": "sky130_cells/ChargePump/TunnelingPump.sym",
+      "source_sha256": "81152627e43fd2978ea7542e5528079eedb7a1b295a5f05e91122ffb0d4b420e",
+      "public_sha256": "81152627e43fd2978ea7542e5528079eedb7a1b295a5f05e91122ffb0d4b420e",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ChargePump/TunnelingPump.sym"
+    },
+    {
+      "path": "sky130_cells/ChargePump/TunnelingPump_TB.sch",
+      "source_sha256": "fb9bf659cee4ab23012e99023d07efa631c8e1122d473709a4052a0824316062",
+      "public_sha256": "6a7aeac3247f9024fd940d09bb751791a72adb6ef5c5494d362b9670b072037c",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/ChargePump/TunnelingPump_TB.sch"
+    },
+    {
+      "path": "sky130_cells/ChargePump/clkgen.sch",
+      "source_sha256": "3afffd676fa72b48ce46b049b1c2d404b93ca80279e86d73e1d2bf730abcc8b6",
+      "public_sha256": "3afffd676fa72b48ce46b049b1c2d404b93ca80279e86d73e1d2bf730abcc8b6",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ChargePump/clkgen.sch"
+    },
+    {
+      "path": "sky130_cells/ChargePump/clkgen.sym",
+      "source_sha256": "0f71c18f241174af19384c1369b6ab6974f1f1fdc028ee8bb1e3669d7317a2cc",
+      "public_sha256": "0f71c18f241174af19384c1369b6ab6974f1f1fdc028ee8bb1e3669d7317a2cc",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ChargePump/clkgen.sym"
+    },
+    {
+      "path": "sky130_cells/ChargePump/dicksonpump.sch",
+      "source_sha256": "241c62d2adfa90e0450e8e39bbfa2deb0313ab4fff16ceb1ac145e0dfbd2d0f8",
+      "public_sha256": "f6564728e56b2236967b9567514d87ef09b131145d8a3a302bf64847356cc714",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/ChargePump/dicksonpump.sch"
+    },
+    {
+      "path": "sky130_cells/ChargePump/dicksonpump.sym",
+      "source_sha256": "4ba23642d4b70879bdb7cb7f5db63112b6b7daf44fdb20a2165cf4dc6fde7ad5",
+      "public_sha256": "4ba23642d4b70879bdb7cb7f5db63112b6b7daf44fdb20a2165cf4dc6fde7ad5",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ChargePump/dicksonpump.sym"
+    },
+    {
+      "path": "sky130_cells/ChargePump/twostagePump_TB.sch",
+      "source_sha256": "e61d2a9a08458b3a23f3769e10dd9e95c03ab7468b50e83a0e83b23573df4807",
+      "public_sha256": "e61d2a9a08458b3a23f3769e10dd9e95c03ab7468b50e83a0e83b23573df4807",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ChargePump/twostagePump_TB.sch"
+    },
+    {
+      "path": "sky130_cells/ESD_Diode/ESD_Flatten.sch",
+      "source_sha256": "8d5d060ea546562d028995c8817dcb3ee500f482c8ea7d6ee91d3c9f02eaa9fc",
+      "public_sha256": "8d5d060ea546562d028995c8817dcb3ee500f482c8ea7d6ee91d3c9f02eaa9fc",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ESD_Diode/ESD_Flatten.sch"
+    },
+    {
+      "path": "sky130_cells/ESD_Diode/ESD_Flatten_Pins.pdf",
+      "source_sha256": "a2ca817adeda30407aa729c5995d0ff7f102ae210e499041fa37dfdfc742e557",
+      "public_sha256": "a2ca817adeda30407aa729c5995d0ff7f102ae210e499041fa37dfdfc742e557",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ESD_Diode/ESD_Flatten_Pins.pdf"
+    },
+    {
+      "path": "sky130_cells/ESD_Diode/ESD_Flatten_Pins.png",
+      "source_sha256": "4a93fb7945a7b25cd2ed9152ec80e4e19899d5ee533a0346a98e687503c713a7",
+      "public_sha256": "4a93fb7945a7b25cd2ed9152ec80e4e19899d5ee533a0346a98e687503c713a7",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ESD_Diode/ESD_Flatten_Pins.png"
+    },
+    {
+      "path": "sky130_cells/ESD_Diode/ESD_Flatten_Pins.sch",
+      "source_sha256": "9d7dc91cc20ed1dd320c7951c3f9b523ff6577048448a5db3f0f891a2d5f2d9c",
+      "public_sha256": "9d7dc91cc20ed1dd320c7951c3f9b523ff6577048448a5db3f0f891a2d5f2d9c",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ESD_Diode/ESD_Flatten_Pins.sch"
+    },
+    {
+      "path": "sky130_cells/ESD_Diode/ESD_Flatten_Pins.svg",
+      "source_sha256": "09f7d1bdfcbda420b6a7ef12b2cae7225e215951d1d212ade2401f8c6ded3096",
+      "public_sha256": "09f7d1bdfcbda420b6a7ef12b2cae7225e215951d1d212ade2401f8c6ded3096",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ESD_Diode/ESD_Flatten_Pins.svg"
+    },
+    {
+      "path": "sky130_cells/ESD_Diode/TB_Flatten.sch",
+      "source_sha256": "3d02cba6909ca335a55935f0f182a9dc1569db9c2f3d70d84e38312366ef50ad",
+      "public_sha256": "0b4626d598c964dbda9886c23ea60a26e469feb881e89453ae7f67cd36390468",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/ESD_Diode/TB_Flatten.sch"
+    },
+    {
+      "path": "sky130_cells/ESD_Diode/TB_Flatten_Pins.sch",
+      "source_sha256": "7301e84967185cfd7c2b441350cead853659bdacb77b65b846549e4624e105e0",
+      "public_sha256": "01c1898b8bb3ddf6a485e43dfcd77e4c9cb84893035d36bd3016b7d829629616",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/ESD_Diode/TB_Flatten_Pins.sch"
+    },
+    {
+      "path": "sky130_cells/ESD_Diode/esdout.csv",
+      "source_sha256": "eb7833141b0f90818e582229e9f0da2c3888891a32a2a75d81fb2d0b6fb738bf",
+      "public_sha256": "eb7833141b0f90818e582229e9f0da2c3888891a32a2a75d81fb2d0b6fb738bf",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ESD_Diode/esdout.csv"
+    },
+    {
+      "path": "sky130_cells/ESD_Diode/sky130_hilas_VinjDiodeProtect01Copy.mag",
+      "source_sha256": "4fc144199867a871e5c234ea0df67950d9f2b86a99ee8c72140182b6be4d876d",
+      "public_sha256": "4fc144199867a871e5c234ea0df67950d9f2b86a99ee8c72140182b6be4d876d",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/ESD_Diode/sky130_hilas_VinjDiodeProtect01Copy.mag"
+    },
+    {
+      "path": "sky130_cells/FETs/RichardPmos/100_transistor.mag",
+      "source_sha256": "cdc848d64ef13cde68793a1b827dfb08b6e0dbbc175824f9f1b17466730044e7",
+      "public_sha256": "cdc848d64ef13cde68793a1b827dfb08b6e0dbbc175824f9f1b17466730044e7",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/FETs/RichardPmos/100_transistor.mag"
+    },
+    {
+      "path": "sky130_cells/FETs/RichardPmos/10_transistor.mag",
+      "source_sha256": "30f718bfeda7ece987d7679fe89df6e5cdaa980e97d3a0f95f8f40a80d0c0ff0",
+      "public_sha256": "30f718bfeda7ece987d7679fe89df6e5cdaa980e97d3a0f95f8f40a80d0c0ff0",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/FETs/RichardPmos/10_transistor.mag"
+    },
+    {
+      "path": "sky130_cells/FETs/RichardPmos/1_transistor.mag",
+      "source_sha256": "4f2ff42bc642bc0e48325f89dd6f6322e3cb6dd7ad6696c2885619fdcdf7a951",
+      "public_sha256": "4f2ff42bc642bc0e48325f89dd6f6322e3cb6dd7ad6696c2885619fdcdf7a951",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/FETs/RichardPmos/1_transistor.mag"
+    },
+    {
+      "path": "sky130_cells/FETs/alexpmos/alexpmos.mag",
+      "source_sha256": "c75c6072b536b977b29c58ac749f07aa33218bda0128112a11cf24aac89b26d4",
+      "public_sha256": "c75c6072b536b977b29c58ac749f07aa33218bda0128112a11cf24aac89b26d4",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/FETs/alexpmos/alexpmos.mag"
+    },
+    {
+      "path": "sky130_cells/FETs/alexpmos/alexpmos.spice",
+      "source_sha256": "038502b647f18dbb780d0aa9f931bd597b4b9dba84b989f130c0c0dc814ae5c5",
+      "public_sha256": "038502b647f18dbb780d0aa9f931bd597b4b9dba84b989f130c0c0dc814ae5c5",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/FETs/alexpmos/alexpmos.spice"
+    },
+    {
+      "path": "sky130_cells/FETs/alexpmos/one_to_hundred.sch",
+      "source_sha256": "2a1037d321311b8056cc6395384c19c263d439231e9d5ceb6262b7e439d1ddb2",
+      "public_sha256": "2a1037d321311b8056cc6395384c19c263d439231e9d5ceb6262b7e439d1ddb2",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/FETs/alexpmos/one_to_hundred.sch"
+    },
+    {
+      "path": "sky130_cells/Floating_Gates/Indirect/FG_Indirect.mag",
+      "source_sha256": "f882cfdc0f2b8a397a092883203f04da85974f279b26bdf593e4ffaa4491a3d9",
+      "public_sha256": "f882cfdc0f2b8a397a092883203f04da85974f279b26bdf593e4ffaa4491a3d9",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Floating_Gates/Indirect/FG_Indirect.mag"
+    },
+    {
+      "path": "sky130_cells/Floating_Gates/Indirect/FG_Indirect.sch",
+      "source_sha256": "d126ad6d41c2295a5e1b713c3a6746e19c57a8a3b59dcab5bfccdb7acf3f3755",
+      "public_sha256": "d126ad6d41c2295a5e1b713c3a6746e19c57a8a3b59dcab5bfccdb7acf3f3755",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Floating_Gates/Indirect/FG_Indirect.sch"
+    },
+    {
+      "path": "sky130_cells/Floating_Gates/Indirect/FG_Indirect.sym",
+      "source_sha256": "b43febc8e7d3571f7f0c6c216595de509151a1342752c353ed6610fec9e24157",
+      "public_sha256": "b43febc8e7d3571f7f0c6c216595de509151a1342752c353ed6610fec9e24157",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Floating_Gates/Indirect/FG_Indirect.sym"
+    },
+    {
+      "path": "sky130_cells/Floating_Gates/Indirect/LVS/FG_Indirect_magic.spice",
+      "source_sha256": "c48194d052a25ad1d8699036245b0ae34d1d89341089aacd6f95798bc9753bbe",
+      "public_sha256": "c48194d052a25ad1d8699036245b0ae34d1d89341089aacd6f95798bc9753bbe",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Floating_Gates/Indirect/LVS/FG_Indirect_magic.spice"
+    },
+    {
+      "path": "sky130_cells/Floating_Gates/Indirect/LVS/FG_Indirect_xschem.spice",
+      "source_sha256": "e0ee5770c9ceb9e2188be2782238e85eacfd54173dbc1360972f5eb51c0ad570",
+      "public_sha256": "d050289fa463cd0a7ed9651af967a0f57e67969cd644e03b2a592cadc43f132a",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Floating_Gates/Indirect/LVS/FG_Indirect_xschem.spice"
+    },
+    {
+      "path": "sky130_cells/G_or_S_IndrctSwcs/G_or_S_IndrctSwcs.mag",
+      "source_sha256": "18f49b342105a12fb158b2e18a0bc35b201fef2dd04e76005e62a77868d1b48e",
+      "public_sha256": "18f49b342105a12fb158b2e18a0bc35b201fef2dd04e76005e62a77868d1b48e",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/G_or_S_IndrctSwcs/G_or_S_IndrctSwcs.mag"
+    },
+    {
+      "path": "sky130_cells/G_or_S_IndrctSwcs/G_or_S_IndrctSwcsSchem.sch",
+      "source_sha256": "756b809c378b62605d88721dd7fbc2384c6fd72d2e5bd8a62cda628a33072134",
+      "public_sha256": "756b809c378b62605d88721dd7fbc2384c6fd72d2e5bd8a62cda628a33072134",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/G_or_S_IndrctSwcs/G_or_S_IndrctSwcsSchem.sch"
+    },
+    {
+      "path": "sky130_cells/G_or_S_IndrctSwcs/G_or_S_IndrctSwcsSchem.sym",
+      "source_sha256": "9549484b8b167098a825fa17f71a7477bdcced7d12f0e20f8fb99d02356a3a2b",
+      "public_sha256": "9549484b8b167098a825fa17f71a7477bdcced7d12f0e20f8fb99d02356a3a2b",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/G_or_S_IndrctSwcs/G_or_S_IndrctSwcsSchem.sym"
+    },
+    {
+      "path": "sky130_cells/G_or_S_IndrctSwcs/LVS/G_or_S_IndrctSwcs.spice",
+      "source_sha256": "717b10431675d070aac7fdc3ae58c43c39c0ab3d80a284808656f9379e346a78",
+      "public_sha256": "717b10431675d070aac7fdc3ae58c43c39c0ab3d80a284808656f9379e346a78",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/G_or_S_IndrctSwcs/LVS/G_or_S_IndrctSwcs.spice"
+    },
+    {
+      "path": "sky130_cells/G_or_S_IndrctSwcs/LVS/G_or_S_IndrctSwcsSchem.spice",
+      "source_sha256": "4f493adac6c4cee242f82ab409e0f2ec56426ecdc2aca246dd36432904accf10",
+      "public_sha256": "cdf67ac1b9be755d28159501d8c58db284454a9d3ba4d4bc479ec655ee49c0ac",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/G_or_S_IndrctSwcs/LVS/G_or_S_IndrctSwcsSchem.spice"
+    },
+    {
+      "path": "sky130_cells/G_or_S_IndrctSwcs/SIMs/SimDiodeFetPullDown.spice",
+      "source_sha256": "962b07b35680f01c609dbec72e0b34eedc6b7c7a40717883e6e4abd42b8e1019",
+      "public_sha256": "65f05234a80b62761b2ec3ade39afec2bf078e0ac01220e2c39634a9296f2365",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/G_or_S_IndrctSwcs/SIMs/SimDiodeFetPullDown.spice"
+    },
+    {
+      "path": "sky130_cells/IndirctGswc_OutMat/IndirectGswc_OutMat.mag",
+      "source_sha256": "585cefa313370b5c22afe9caaaf7ac22418cbd75715fa6a82c3b52699dcc51d4",
+      "public_sha256": "585cefa313370b5c22afe9caaaf7ac22418cbd75715fa6a82c3b52699dcc51d4",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirctGswc_OutMat/IndirectGswc_OutMat.mag"
+    },
+    {
+      "path": "sky130_cells/IndirctGswc_OutMat/IndirectGswc_OutMatSchem.sch",
+      "source_sha256": "0f0ac6eaf9a32e21079e899537a538e5fd8131c99e44afc856801c54b4455386",
+      "public_sha256": "0f0ac6eaf9a32e21079e899537a538e5fd8131c99e44afc856801c54b4455386",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirctGswc_OutMat/IndirectGswc_OutMatSchem.sch"
+    },
+    {
+      "path": "sky130_cells/IndirctGswc_OutMat/IndirectGswc_OutMatSchem.sym",
+      "source_sha256": "4fbb7c6308e66f8672d6b4f0357ae2981f28dcca6798f09cd2fa60042b1628f3",
+      "public_sha256": "4fbb7c6308e66f8672d6b4f0357ae2981f28dcca6798f09cd2fa60042b1628f3",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirctGswc_OutMat/IndirectGswc_OutMatSchem.sym"
+    },
+    {
+      "path": "sky130_cells/IndirctGswc_OutMat/LVS/IndirectGswc_OutMat.spice",
+      "source_sha256": "0b28caa779dcd61a6abd1d01e24b8757bd1118cc0ecaf1b04e662050098d557b",
+      "public_sha256": "0b28caa779dcd61a6abd1d01e24b8757bd1118cc0ecaf1b04e662050098d557b",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirctGswc_OutMat/LVS/IndirectGswc_OutMat.spice"
+    },
+    {
+      "path": "sky130_cells/IndirctGswc_OutMat/LVS/IndirectGswc_OutMatSchem.spice",
+      "source_sha256": "50da93ed76a1e2010e616785847c3d79c708c343dc05941d5e0cf34e882b4a3a",
+      "public_sha256": "a662dd2812d2ef309be5fed593bd9174160c1281a77900fd2a8540f7cc6dba90",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/IndirctGswc_OutMat/LVS/IndirectGswc_OutMatSchem.spice"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x1/IndirectVMM_4x1.mag",
+      "source_sha256": "99a2d4615be36a48779a01a0a5df06d85a38b626f39a70ca468c766059df68a4",
+      "public_sha256": "99a2d4615be36a48779a01a0a5df06d85a38b626f39a70ca468c766059df68a4",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_4x1/IndirectVMM_4x1.mag"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x1/IndirectVMM_4x1.sch",
+      "source_sha256": "388ef420116cbd5ce75e740bf6dd3e2496f36f841876d6750c5db3b889edca24",
+      "public_sha256": "0ce07d100a8b31c53822c48470d881fcbe3430395cecf4a0a7957412a105729d",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/IndirectVMM_4x1/IndirectVMM_4x1.sch"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x1/IndirectVMM_4x1.spice",
+      "source_sha256": "775053b2cd2897e742807c2a97b8d8cd44763a49fd6e3468779f68643cf744f6",
+      "public_sha256": "775053b2cd2897e742807c2a97b8d8cd44763a49fd6e3468779f68643cf744f6",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_4x1/IndirectVMM_4x1.spice"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x1/IndirectVMM_4x1.sym",
+      "source_sha256": "dd2dd315ddef968266ddd34009c9b7d55cb1d4601ee0474b02dd6c1834c28d8f",
+      "public_sha256": "dd2dd315ddef968266ddd34009c9b7d55cb1d4601ee0474b02dd6c1834c28d8f",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_4x1/IndirectVMM_4x1.sym"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x1/LVS/IndirectVMM_4x1_magic.spice",
+      "source_sha256": "775053b2cd2897e742807c2a97b8d8cd44763a49fd6e3468779f68643cf744f6",
+      "public_sha256": "775053b2cd2897e742807c2a97b8d8cd44763a49fd6e3468779f68643cf744f6",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_4x1/LVS/IndirectVMM_4x1_magic.spice"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x1/LVS/IndirectVMM_4x1_xschem.spice",
+      "source_sha256": "e8e5e8dca4c97e3b12dba8aea7db80202bbe07cd66874fb3e77baf42d0c7a8e4",
+      "public_sha256": "8fc62424de8ed01bed43ba5976efd4719eadfa7bc215b298e71a5bcffecd80d7",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/IndirectVMM_4x1/LVS/IndirectVMM_4x1_xschem.spice"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x2/4x2_Indirect.sym",
+      "source_sha256": "f0fcaac4bc6cda298f148bc6039a556e71de25de58ea5a000b72aa7c6a693cdc",
+      "public_sha256": "f0fcaac4bc6cda298f148bc6039a556e71de25de58ea5a000b72aa7c6a693cdc",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_4x2/4x2_Indirect.sym"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x2/IndirectVMM_4x2.mag",
+      "source_sha256": "f90672de82e077440596faa1193afc32ce84d0e90959bb4b644a2731f28b6f35",
+      "public_sha256": "f90672de82e077440596faa1193afc32ce84d0e90959bb4b644a2731f28b6f35",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_4x2/IndirectVMM_4x2.mag"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x2/IndirectVMM_4x2.sch",
+      "source_sha256": "0239a2ab5562f794cbef29137f2d4b8e9ed02c89b8f099449a473adc40c879eb",
+      "public_sha256": "e55cdb874deeb9f9074d60893ac967a2fead44f1f60b6d5b41e58b0e08dbc9b4",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/IndirectVMM_4x2/IndirectVMM_4x2.sch"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x2/IndirectVMM_4x2.spice",
+      "source_sha256": "9f9e84647e235dbeaad28c090fcd597b950ef07a32e23d50b6e83f89c6b0e2fe",
+      "public_sha256": "9f9e84647e235dbeaad28c090fcd597b950ef07a32e23d50b6e83f89c6b0e2fe",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_4x2/IndirectVMM_4x2.spice"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x2/IndirectVMM_4x2_ashes.mag",
+      "source_sha256": "13972659824b1a1ed27f2fed1780fa74e4a7a2a0694c53d33ac78ed52e0d1d97",
+      "public_sha256": "13972659824b1a1ed27f2fed1780fa74e4a7a2a0694c53d33ac78ed52e0d1d97",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_4x2/IndirectVMM_4x2_ashes.mag"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x2/LVS/IndirectVMM_4x2_magic.spice",
+      "source_sha256": "9f9e84647e235dbeaad28c090fcd597b950ef07a32e23d50b6e83f89c6b0e2fe",
+      "public_sha256": "9f9e84647e235dbeaad28c090fcd597b950ef07a32e23d50b6e83f89c6b0e2fe",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_4x2/LVS/IndirectVMM_4x2_magic.spice"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x2/LVS/IndirectVMM_4x2_xschem.spice",
+      "source_sha256": "6db8d7fe4ef71ebe834f5e34c6a0176343c74fcf1c140d8f52a43ade526774d0",
+      "public_sha256": "736640f4cf2cc9de9125410aac0764a95ee97ad29909657708769bc84eee539c",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/IndirectVMM_4x2/LVS/IndirectVMM_4x2_xschem.spice"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_4x2/TODO.md",
+      "source_sha256": "09d6bc14637b37f59d45cebd65aeed69619c0e8570c236ceecd21e01f7d4f9bf",
+      "public_sha256": "8018108f1bacf8aca071c14828daba92dcc9fff1d14e9d4a379ce05c66b077e1",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/IndirectVMM_4x2/TODO.md"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_Bot_Bmat_4x2/IndirectGswc_OutMat.mag",
+      "source_sha256": "d81d997adb1bd5032ebc5d4af5b4d457cdff7de8d8008c3a666ea69b6b795149",
+      "public_sha256": "d81d997adb1bd5032ebc5d4af5b4d457cdff7de8d8008c3a666ea69b6b795149",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_Bot_Bmat_4x2/IndirectGswc_OutMat.mag"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_Bot_Bmat_4x2/IndirectVMM_4x2.mag",
+      "source_sha256": "f90672de82e077440596faa1193afc32ce84d0e90959bb4b644a2731f28b6f35",
+      "public_sha256": "f90672de82e077440596faa1193afc32ce84d0e90959bb4b644a2731f28b6f35",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_Bot_Bmat_4x2/IndirectVMM_4x2.mag"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_Bot_Bmat_4x2/IndirectVMM_Bot_Bmat_4x2.mag",
+      "source_sha256": "30f42b443877d3df66b5aceecce0a3013b13274d0bb12a727712e949cc54d30f",
+      "public_sha256": "30f42b443877d3df66b5aceecce0a3013b13274d0bb12a727712e949cc54d30f",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_Bot_Bmat_4x2/IndirectVMM_Bot_Bmat_4x2.mag"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_Bot_Bmat_4x2/IndirectVMM_Bot_Bmat_4x2.sch",
+      "source_sha256": "21779dfde18931eabf9bffe1720335fbb147dc3ee444cb9434a38ee232c0bc7d",
+      "public_sha256": "d013917efa9ef28b77f83080222b2b2a94f9361d25e6d1df04db238a157cead9",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/IndirectVMM_Bot_Bmat_4x2/IndirectVMM_Bot_Bmat_4x2.sch"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_Bot_Bmat_4x2/IndirectVMM_Bot_Bmat_4x2.sym",
+      "source_sha256": "6878736812111d407f6ec0e3856fd5076acdd4542d77ff6f43f39970f2fcaa96",
+      "public_sha256": "6878736812111d407f6ec0e3856fd5076acdd4542d77ff6f43f39970f2fcaa96",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_Bot_Bmat_4x2/IndirectVMM_Bot_Bmat_4x2.sym"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_DrainSwcs/IndirectVMM_DrainSwcs.mag",
+      "source_sha256": "42d1daa323ceb9b261f15b439fd08e82d59f227d0de6760a0274bf371d729f9d",
+      "public_sha256": "42d1daa323ceb9b261f15b439fd08e82d59f227d0de6760a0274bf371d729f9d",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_DrainSwcs/IndirectVMM_DrainSwcs.mag"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_DrainSwcs/IndirectVMM_DrainSwcs.sch",
+      "source_sha256": "6effb59f8631524b49bfbdbb67038f2e175a5f8e15754fa07fca98c20416032c",
+      "public_sha256": "ebc3991cb24093ccf7513bb1aa43bd727cd9f028b2f2e1406b798ba15a73d951",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/IndirectVMM_DrainSwcs/IndirectVMM_DrainSwcs.sch"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_DrainSwcs/IndirectVMM_DrainSwcs.sym",
+      "source_sha256": "2798fde42bca075bf5f1462e066618e5f3fb220fc45236c922ae8165b560a3df",
+      "public_sha256": "2798fde42bca075bf5f1462e066618e5f3fb220fc45236c922ae8165b560a3df",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_DrainSwcs/IndirectVMM_DrainSwcs.sym"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_DrainSwcs/Inverter.sch",
+      "source_sha256": "26a639b22a1bfe6f319fdc8bf74317d4f48f5ef7bc8d2d3a851763e1617ee59f",
+      "public_sha256": "26a639b22a1bfe6f319fdc8bf74317d4f48f5ef7bc8d2d3a851763e1617ee59f",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_DrainSwcs/Inverter.sch"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_DrainSwcs/Inverter.sym",
+      "source_sha256": "d6fc0e8ac448e18b7f57f68e9cef32da2fd3985b9d90f9d5c3c8f37401cb7f94",
+      "public_sha256": "d6fc0e8ac448e18b7f57f68e9cef32da2fd3985b9d90f9d5c3c8f37401cb7f94",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_DrainSwcs/Inverter.sym"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_DrainSwcs/LVS/magic.spice",
+      "source_sha256": "a03404749695701a602fc037622519a82682898217ea443a798596981c9a5f77",
+      "public_sha256": "a03404749695701a602fc037622519a82682898217ea443a798596981c9a5f77",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_DrainSwcs/LVS/magic.spice"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_DrainSwcs/LVS/xschem.spice",
+      "source_sha256": "293f55bd521a0ca1fe7fd0ff940aa85404fc47927119445389e336704eb4220f",
+      "public_sha256": "9624c8e576a3178e53af129ca515d23bd0faf0cff29d20909f630cd11304a11c",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/IndirectVMM_DrainSwcs/LVS/xschem.spice"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_GSwcs_1x2/IndirectVMM_GSwcs_1x2.mag",
+      "source_sha256": "8d4c741d8c5b2d15db6b95edac51afcef58cea611fc7e8a0e3a6c54c66e79d6d",
+      "public_sha256": "8d4c741d8c5b2d15db6b95edac51afcef58cea611fc7e8a0e3a6c54c66e79d6d",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_GSwcs_1x2/IndirectVMM_GSwcs_1x2.mag"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_GSwcs_1x2/IndirectVMM_GSwcs_1x2.sch",
+      "source_sha256": "5fe8c56fda2e6bfcdf53eced7cb5d0287371799b4177edafb129fd4f78370137",
+      "public_sha256": "5fe8c56fda2e6bfcdf53eced7cb5d0287371799b4177edafb129fd4f78370137",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_GSwcs_1x2/IndirectVMM_GSwcs_1x2.sch"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_GSwcs_1x2/IndirectVMM_GSwcs_1x2.sym",
+      "source_sha256": "cef57e5a0ce879205c6b711e3f7f9ac19cff05ca4d85b1f6c01a8541c027581b",
+      "public_sha256": "cef57e5a0ce879205c6b711e3f7f9ac19cff05ca4d85b1f6c01a8541c027581b",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_GSwcs_1x2/IndirectVMM_GSwcs_1x2.sym"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_GSwcs_1x2/LVS/IndirectVMM_GSwcs_1x2_magic.spice",
+      "source_sha256": "bb21d1b3ffff207fc9f8b1f585bbea9094c82a7c38d9549d1982d0a726b50176",
+      "public_sha256": "bb21d1b3ffff207fc9f8b1f585bbea9094c82a7c38d9549d1982d0a726b50176",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_GSwcs_1x2/LVS/IndirectVMM_GSwcs_1x2_magic.spice"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_Top_AorBmat_4x2/G_or_S_IndrctSwcs.mag",
+      "source_sha256": "6410c6351894954cc7618b693ce5405c2bfa0c18f67f4b9b388129a5d4639256",
+      "public_sha256": "6410c6351894954cc7618b693ce5405c2bfa0c18f67f4b9b388129a5d4639256",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_Top_AorBmat_4x2/G_or_S_IndrctSwcs.mag"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_Top_AorBmat_4x2/IndirectVMM_Top_AorBmat_4x2.mag",
+      "source_sha256": "a6d31858731e273538a301f42afd12e76c790fb521423682feec1816ee102389",
+      "public_sha256": "a6d31858731e273538a301f42afd12e76c790fb521423682feec1816ee102389",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_Top_AorBmat_4x2/IndirectVMM_Top_AorBmat_4x2.mag"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_Top_AorBmat_4x2/IndirectVMM_Top_AorBmat_4x2.sch",
+      "source_sha256": "778ecaca693dcd5c1a829d5a16e98778f46367ed83116d6dfb903b716d0e293d",
+      "public_sha256": "10b9fe9bdb203cba5790f9d001458af4ded14b839d9bc8dea62e3619d13fde10",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/IndirectVMM_Top_AorBmat_4x2/IndirectVMM_Top_AorBmat_4x2.sch"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_Top_AorBmat_4x2/IndirectVMM_Top_AorBmat_4x2.sym",
+      "source_sha256": "0b0db2a434149e1f48acf06bf42d81918c3290f0ee4615a912fa12ad60a386e1",
+      "public_sha256": "0b0db2a434149e1f48acf06bf42d81918c3290f0ee4615a912fa12ad60a386e1",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_Top_AorBmat_4x2/IndirectVMM_Top_AorBmat_4x2.sym"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_Top_AorBmat_4x2/LVS/IndirectVMM_Top_AorBmat_4x2.spice",
+      "source_sha256": "62291e1f66bc07a13f66754e13a6bed738e5aa17549118ce4c8c7ee7177fcd9b",
+      "public_sha256": "62291e1f66bc07a13f66754e13a6bed738e5aa17549118ce4c8c7ee7177fcd9b",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/IndirectVMM_Top_AorBmat_4x2/LVS/IndirectVMM_Top_AorBmat_4x2.spice"
+    },
+    {
+      "path": "sky130_cells/IndirectVMM_Top_AorBmat_4x2/LVS/IndirectVMM_Top_AorBmat_4x2schem.spice",
+      "source_sha256": "179126255d8b26dd279f5429ae568bf4bdcb1cd1e87f18c8bf66714dddc72912",
+      "public_sha256": "52259b4db0e2c93a4f838fb51e322b3ee5b45e975c6abaace55e3f0e33054d62",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/IndirectVMM_Top_AorBmat_4x2/LVS/IndirectVMM_Top_AorBmat_4x2schem.spice"
+    },
+    {
+      "path": "sky130_cells/Level_Shifter/Horizontal_LS/LVS/level_shifter_horizontal_magic.spice",
+      "source_sha256": "7fc89fc1ecde076cff4579593ed3c794809e96a7b04effc404674b195696cd73",
+      "public_sha256": "7fc89fc1ecde076cff4579593ed3c794809e96a7b04effc404674b195696cd73",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Level_Shifter/Horizontal_LS/LVS/level_shifter_horizontal_magic.spice"
+    },
+    {
+      "path": "sky130_cells/Level_Shifter/Horizontal_LS/LVS/level_shifter_horizontal_xschem.spice",
+      "source_sha256": "9983512ef0215b5dd18891ea8861a230a2b37a03ade7dcd8e69f5c6bb0de93b6",
+      "public_sha256": "9d92b546bdee697a8f3770ff789724378e55cf81b7025eff70d0184f8a455b1b",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Level_Shifter/Horizontal_LS/LVS/level_shifter_horizontal_xschem.spice"
+    },
+    {
+      "path": "sky130_cells/Level_Shifter/Horizontal_LS/level_shifter_horizontal.mag",
+      "source_sha256": "14e34ba79029503a5309be1f54eacc3f62250fff377da7cdc84b393d7eaf72c8",
+      "public_sha256": "14e34ba79029503a5309be1f54eacc3f62250fff377da7cdc84b393d7eaf72c8",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Level_Shifter/Horizontal_LS/level_shifter_horizontal.mag"
+    },
+    {
+      "path": "sky130_cells/Level_Shifter/Horizontal_LS/level_shifter_horizontal.sch",
+      "source_sha256": "2ba7ea8458b944c79c576da56966fa8e6f201eaf96c304c1ce5463e30746506e",
+      "public_sha256": "2ba7ea8458b944c79c576da56966fa8e6f201eaf96c304c1ce5463e30746506e",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Level_Shifter/Horizontal_LS/level_shifter_horizontal.sch"
+    },
+    {
+      "path": "sky130_cells/Level_Shifter/Horizontal_LS/level_shifter_horizontal.sym",
+      "source_sha256": "3d4c8f4353acafd0c32710d3db797c8feba9206bf561196897d7bbb7f2aa739d",
+      "public_sha256": "3d4c8f4353acafd0c32710d3db797c8feba9206bf561196897d7bbb7f2aa739d",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Level_Shifter/Horizontal_LS/level_shifter_horizontal.sym"
+    },
+    {
+      "path": "sky130_cells/Level_Shifter/Vertical_LS/LVS/level_shifter_vertical_magic.spice",
+      "source_sha256": "102c110fedf5305922356fcc3ca2bbf22465cab18e34d621a6bded93d2c40109",
+      "public_sha256": "102c110fedf5305922356fcc3ca2bbf22465cab18e34d621a6bded93d2c40109",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Level_Shifter/Vertical_LS/LVS/level_shifter_vertical_magic.spice"
+    },
+    {
+      "path": "sky130_cells/Level_Shifter/Vertical_LS/LVS/level_shifter_vertical_xschem.spice",
+      "source_sha256": "dd92857f86c3e595ab04c6e5036f4325d447fb4d92955dd50eca8a351629a267",
+      "public_sha256": "c2b633c034ebd7762bea96bd57108cd83aa5d34e38aefbceaabe76bb4b50b076",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Level_Shifter/Vertical_LS/LVS/level_shifter_vertical_xschem.spice"
+    },
+    {
+      "path": "sky130_cells/Level_Shifter/Vertical_LS/level_shifter_vertical.mag",
+      "source_sha256": "094d3973e66fafd363f76f2dddbf99260896e4baf571ee1dff09b4152489f1db",
+      "public_sha256": "094d3973e66fafd363f76f2dddbf99260896e4baf571ee1dff09b4152489f1db",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Level_Shifter/Vertical_LS/level_shifter_vertical.mag"
+    },
+    {
+      "path": "sky130_cells/Level_Shifter/Vertical_LS/level_shifter_vertical.sch",
+      "source_sha256": "3b0696f18d4835bde42025feb8822ee7458b1dd3d615b9cfe5811ff6d34d09ef",
+      "public_sha256": "3b0696f18d4835bde42025feb8822ee7458b1dd3d615b9cfe5811ff6d34d09ef",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Level_Shifter/Vertical_LS/level_shifter_vertical.sch"
+    },
+    {
+      "path": "sky130_cells/Level_Shifter/Vertical_LS/level_shifter_vertical.sym",
+      "source_sha256": "64fb1bf92b466bd633c5cd1da748052093d721cac542debaaccd7232ed232a6c",
+      "public_sha256": "39b489375327c605f9337a7982a26b043dd62699650678218bafce46bd53ba8b",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Level_Shifter/Vertical_LS/level_shifter_vertical.sym"
+    },
+    {
+      "path": "sky130_cells/Mux/Design/sky130_hilas_GateMuxSwc.sch",
+      "source_sha256": "368dd0bcfa8cf3a9dedfae335403558afcaf05b3219367e658adc99e4a4c6f96",
+      "public_sha256": "b7bbae1ca6f8a05a18fe8ebcb833d33c3758f4fd2dddbfe15482d5ba7af8d312",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Mux/Design/sky130_hilas_GateMuxSwc.sch"
+    },
+    {
+      "path": "sky130_cells/Mux/Design/sky130_hilas_GateMuxSwc.sym",
+      "source_sha256": "ce5ea48331a3d7ad4e4447ab8ddb0c84c1e4eb23cdc710d77f0cc2d0f4099746",
+      "public_sha256": "ce5ea48331a3d7ad4e4447ab8ddb0c84c1e4eb23cdc710d77f0cc2d0f4099746",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Mux/Design/sky130_hilas_GateMuxSwc.sym"
+    },
+    {
+      "path": "sky130_cells/Mux/Design/sky130_hilas_Tgate.sch",
+      "source_sha256": "2652083f4e3f71c213588df4bae8b97116a7632fe08e95fd674f5ae18718f361",
+      "public_sha256": "2652083f4e3f71c213588df4bae8b97116a7632fe08e95fd674f5ae18718f361",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Mux/Design/sky130_hilas_Tgate.sch"
+    },
+    {
+      "path": "sky130_cells/Mux/Design/sky130_hilas_Tgate.sym",
+      "source_sha256": "ef2e4ee46bb81ab6193747089ff7f6499fdf666d13e0a3e66011f516dfefdf93",
+      "public_sha256": "ef2e4ee46bb81ab6193747089ff7f6499fdf666d13e0a3e66011f516dfefdf93",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Mux/Design/sky130_hilas_Tgate.sym"
+    },
+    {
+      "path": "sky130_cells/Mux/Layout/GateMuxSwc.mag",
+      "source_sha256": "ea5c0d3db41ff944738b4b4a806c8ddfb0cabdebe0d1ccff4b7bec0fcbf99e15",
+      "public_sha256": "ea5c0d3db41ff944738b4b4a806c8ddfb0cabdebe0d1ccff4b7bec0fcbf99e15",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Mux/Layout/GateMuxSwc.mag"
+    },
+    {
+      "path": "sky130_cells/Mux/Sim/GateMuxSwc_Testbench.sch",
+      "source_sha256": "d380d029034eced1ee16355298dbe9d202295e07f5fcf324d121178649e851b5",
+      "public_sha256": "13bce6881e4fd8ad5cc118fb0f92ff859f09fe562479c6f50a74d345a7e327d6",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Mux/Sim/GateMuxSwc_Testbench.sch"
+    },
+    {
+      "path": "sky130_cells/Pcells/130nm_nmos_freeBody.mag",
+      "source_sha256": "167e850e145573b3b55388bbd7b099f0f10c7cbac6cd3dcbd417adc320f75e30",
+      "public_sha256": "167e850e145573b3b55388bbd7b099f0f10c7cbac6cd3dcbd417adc320f75e30",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Pcells/130nm_nmos_freeBody.mag"
+    },
+    {
+      "path": "sky130_cells/Pcells/130nm_pmos_freeBody.mag",
+      "source_sha256": "952f8f00091a6b6a13bdba58019393c98d4662d2603c9905e967555fa6033f77",
+      "public_sha256": "952f8f00091a6b6a13bdba58019393c98d4662d2603c9905e967555fa6033f77",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Pcells/130nm_pmos_freeBody.mag"
+    },
+    {
+      "path": "sky130_cells/Pcells/FG_Indirect.mag",
+      "source_sha256": "250a08b31598a11fad72adba9d9cac57441a20ff3dbe9c2ad6578b1c6b1ecd04",
+      "public_sha256": "250a08b31598a11fad72adba9d9cac57441a20ff3dbe9c2ad6578b1c6b1ecd04",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Pcells/FG_Indirect.mag"
+    },
+    {
+      "path": "sky130_cells/Pcells/NMOS_150x420nm.mag",
+      "source_sha256": "263a76606b3554b4ba1252f52e7503531b503eb875b5f8d1099375285a03ddb2",
+      "public_sha256": "263a76606b3554b4ba1252f52e7503531b503eb875b5f8d1099375285a03ddb2",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Pcells/NMOS_150x420nm.mag"
+    },
+    {
+      "path": "sky130_cells/Pcells/NMOS_500x420nm.mag",
+      "source_sha256": "2a44553edcffc67befe37f47f4d581c705fcab99885f7d1420454d9c56e650ce",
+      "public_sha256": "2a44553edcffc67befe37f47f4d581c705fcab99885f7d1420454d9c56e650ce",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Pcells/NMOS_500x420nm.mag"
+    },
+    {
+      "path": "sky130_cells/Pcells/NMOS_HV_500x1300nm.mag",
+      "source_sha256": "0ad6ceca590cf2b7af4375df7a478e1eb2ef5542ffc0bb1b2211a76ab584110a",
+      "public_sha256": "0ad6ceca590cf2b7af4375df7a478e1eb2ef5542ffc0bb1b2211a76ab584110a",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Pcells/NMOS_HV_500x1300nm.mag"
+    },
+    {
+      "path": "sky130_cells/Pcells/NMOS_HV_500x1300nm.spice",
+      "source_sha256": "2967ceac78ecf149bb62f86def62d7462001cb884451ac864f32160fcac8921b",
+      "public_sha256": "2967ceac78ecf149bb62f86def62d7462001cb884451ac864f32160fcac8921b",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Pcells/NMOS_HV_500x1300nm.spice"
+    },
+    {
+      "path": "sky130_cells/Pcells/PMOS_150x420nm.mag",
+      "source_sha256": "7c7bb4cda0c427c7756b5a712c45fe04ef26cd2e04852ae3ba708da6a9a7ca99",
+      "public_sha256": "7c7bb4cda0c427c7756b5a712c45fe04ef26cd2e04852ae3ba708da6a9a7ca99",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Pcells/PMOS_150x420nm.mag"
+    },
+    {
+      "path": "sky130_cells/Pcells/PMOS_HV_500x2000.mag",
+      "source_sha256": "f22921d45eadeb045aa28fddac63471b2e3923af88e66eefdcf88ed6152e015b",
+      "public_sha256": "f22921d45eadeb045aa28fddac63471b2e3923af88e66eefdcf88ed6152e015b",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Pcells/PMOS_HV_500x2000.mag"
+    },
+    {
+      "path": "sky130_cells/Pcells/PMOS_HV_500x2000nm.mag",
+      "source_sha256": "c79bfbc3efe77978d0fd2c40463932bbddff5b5659b18b350ad7d055bf03364b",
+      "public_sha256": "c79bfbc3efe77978d0fd2c40463932bbddff5b5659b18b350ad7d055bf03364b",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Pcells/PMOS_HV_500x2000nm.mag"
+    },
+    {
+      "path": "sky130_cells/Pcells/PMOS_HV_minSize.mag",
+      "source_sha256": "d997a5a9aed6cfa3f0b7e9c67fcc4bb0ed1cc0eb35f986dfd74583166baac14c",
+      "public_sha256": "d997a5a9aed6cfa3f0b7e9c67fcc4bb0ed1cc0eb35f986dfd74583166baac14c",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Pcells/PMOS_HV_minSize.mag"
+    },
+    {
+      "path": "sky130_cells/Pcells/sky130_fd_sc_hd__dfrbp_1.mag",
+      "source_sha256": "cca074917a1876cb11a15f53cbc817bf200836a35ba7ad70e6bddf4dd7963765",
+      "public_sha256": "cca074917a1876cb11a15f53cbc817bf200836a35ba7ad70e6bddf4dd7963765",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Pcells/sky130_fd_sc_hd__dfrbp_1.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/Capacitor_Array/CAPArray_TB.svg",
+      "source_sha256": "2c29bd9138c87d27c770dca30114c889b410ba466ccd745360172bf217f68cce",
+      "public_sha256": "2c29bd9138c87d27c770dca30114c889b410ba466ccd745360172bf217f68cce",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Capacitor_Array/CAPArray_TB.svg"
+    },
+    {
+      "path": "sky130_cells/Practice/Capacitor_Array/CapArray.svg",
+      "source_sha256": "93de76a4c1951d91f60ad59fef15d1d3928febac670d704369c0e86be7dd1c9b",
+      "public_sha256": "93de76a4c1951d91f60ad59fef15d1d3928febac670d704369c0e86be7dd1c9b",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Capacitor_Array/CapArray.svg"
+    },
+    {
+      "path": "sky130_cells/Practice/Capacitor_Array/LVS/CapArrayxsch.sch",
+      "source_sha256": "5c7fa1d3284b30a84e688740beb5922ff20aaa8e69c78f8066bdd8392986ef71",
+      "public_sha256": "024d2757a7f503020a0dbf55c3223567497107ff45f81fc5e99813fbcc1f5381",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Practice/Capacitor_Array/LVS/CapArrayxsch.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/Capacitor_Array/LVS/CapArrayxsch.sym",
+      "source_sha256": "8aa03d1a1e595fa518ecfd90e70170c553df464a05318302a2e25c1633ec2c80",
+      "public_sha256": "8aa03d1a1e595fa518ecfd90e70170c553df464a05318302a2e25c1633ec2c80",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Capacitor_Array/LVS/CapArrayxsch.sym"
+    },
+    {
+      "path": "sky130_cells/Practice/Capacitor_Array/LVS/skywater130nm_Capacitor_Array.spice",
+      "source_sha256": "e140445fb25d40a245449b7cb872c75b09748629d6f620915736f5c8e6c5daa3",
+      "public_sha256": "e140445fb25d40a245449b7cb872c75b09748629d6f620915736f5c8e6c5daa3",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Capacitor_Array/LVS/skywater130nm_Capacitor_Array.spice"
+    },
+    {
+      "path": "sky130_cells/Practice/Capacitor_Array/Layout Files/skywater130nm_Capacitor_Array.mag",
+      "source_sha256": "c36e3606423d81bc0aeb4763b0f1486713f05f2b14e56446fdfa4af05759beea",
+      "public_sha256": "c36e3606423d81bc0aeb4763b0f1486713f05f2b14e56446fdfa4af05759beea",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Capacitor_Array/Layout Files/skywater130nm_Capacitor_Array.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/Capacitor_Array/Schematic/CAPArray_TB.sch",
+      "source_sha256": "b8e53c95fc862dc5eb4d646a226cc3529d4f65abdaf6dc55045e02334daa5cff",
+      "public_sha256": "f496c7bd2463343bfc7f376411a4aad722ceddf2194025fa05f18ec54f027def",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Practice/Capacitor_Array/Schematic/CAPArray_TB.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/Capacitor_Array/Schematic/CapArray.sch",
+      "source_sha256": "01c1a0fc4cfc34a15f7af915243f2fcac7422440549bc94d8ace55caac77d3c1",
+      "public_sha256": "093f4f54d06e5ab218dbfcbc26fcbb776e759d3e31348c54d74b56e66e0878bb",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Practice/Capacitor_Array/Schematic/CapArray.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/Capacitor_Array/Schematic/CapArray.sym",
+      "source_sha256": "ab89d9c678e3de9d11973c99906f9dd89110e5a467c05dcdb3e42aa8a93d41e5",
+      "public_sha256": "ab89d9c678e3de9d11973c99906f9dd89110e5a467c05dcdb3e42aa8a93d41e5",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Capacitor_Array/Schematic/CapArray.sym"
+    },
+    {
+      "path": "sky130_cells/Practice/Capacitor_Array/Schematic/Tgate0.52by0.4.sch",
+      "source_sha256": "b5a86f6bf1bfdde63d5b45a81b9b12e1d84da94e7a708a00ab5c1c9017e0141d",
+      "public_sha256": "b5a86f6bf1bfdde63d5b45a81b9b12e1d84da94e7a708a00ab5c1c9017e0141d",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Capacitor_Array/Schematic/Tgate0.52by0.4.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/Capacitor_Array/Schematic/Tgate0.52by0.4.sym",
+      "source_sha256": "1afeaa59aca48c561f1e50b607d7b02d18eb2c262f98838bb02c56886c4370d1",
+      "public_sha256": "1afeaa59aca48c561f1e50b607d7b02d18eb2c262f98838bb02c56886c4370d1",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Capacitor_Array/Schematic/Tgate0.52by0.4.sym"
+    },
+    {
+      "path": "sky130_cells/Practice/Capacitor_Array/Schematic/TgateSmallSim.sch",
+      "source_sha256": "c0b0678fc154b6439b63f03e7b32c017a3afdda6ebf75c0d6eaa909bfb181d27",
+      "public_sha256": "9412cc121ddc1aad5ad6a339d2e79992a04788321a8be004ce2e54af94b8ab92",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Practice/Capacitor_Array/Schematic/TgateSmallSim.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/4x1_Indirect.mag",
+      "source_sha256": "eb951a25625cbba9e8974f6355c3d5bfed6e7bfa9c48c5152b24553cd13bb063",
+      "public_sha256": "eb951a25625cbba9e8974f6355c3d5bfed6e7bfa9c48c5152b24553cd13bb063",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/4x1_Indirect.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/DrainSelect.mag",
+      "source_sha256": "71a0e3563a24de0d42b8b284036e8d722609fc7307ff9b956eef85495f3c1ab8",
+      "public_sha256": "71a0e3563a24de0d42b8b284036e8d722609fc7307ff9b956eef85495f3c1ab8",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/DrainSelect.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/DrainSelect.sch",
+      "source_sha256": "74765fa59d68cf774e8d494770ddd8d0d0b48f74268af105e2dfa6d36b8f2b47",
+      "public_sha256": "74765fa59d68cf774e8d494770ddd8d0d0b48f74268af105e2dfa6d36b8f2b47",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/DrainSelect.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/DrainSelect.spice",
+      "source_sha256": "f9e9b93b6b74c978c434db72190dc80d76f20465a28a2015cd982efdfae47c59",
+      "public_sha256": "58d413ed418e072bff79902ea8fa9ca3f427f2c4e891d16c5af4d8f09c9ad5b9",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Practice/DrainSelect/DrainSelect.spice"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/DrainSelect.sym",
+      "source_sha256": "3eca671c0f94d81aa21ecf503229146451043151b4bd488d910fd3779fb4e092",
+      "public_sha256": "3eca671c0f94d81aa21ecf503229146451043151b4bd488d910fd3779fb4e092",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/DrainSelect.sym"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/DrainSelect3.mag",
+      "source_sha256": "c255eac7f24fd1fd44236c8a50044bd5ae6c69ebb965b8832ba9a37b28c0cd72",
+      "public_sha256": "c255eac7f24fd1fd44236c8a50044bd5ae6c69ebb965b8832ba9a37b28c0cd72",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/DrainSelect3.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/DrainSelectFlat.mag",
+      "source_sha256": "c22678dea5647ebabf170c2edc4fec739db91ae4c5398a11fcd9c87261b1137f",
+      "public_sha256": "c22678dea5647ebabf170c2edc4fec739db91ae4c5398a11fcd9c87261b1137f",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/DrainSelectFlat.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/DrainSelectFlat.spice",
+      "source_sha256": "64f68828d7e06813bcce087270ec538d4a4dca25e3040fd8773e7759e7765ced",
+      "public_sha256": "64f68828d7e06813bcce087270ec538d4a4dca25e3040fd8773e7759e7765ced",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/DrainSelectFlat.spice"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/DrainSelectSchematic.sch",
+      "source_sha256": "74765fa59d68cf774e8d494770ddd8d0d0b48f74268af105e2dfa6d36b8f2b47",
+      "public_sha256": "74765fa59d68cf774e8d494770ddd8d0d0b48f74268af105e2dfa6d36b8f2b47",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/DrainSelectSchematic.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/DrainSelectSchematic.spice",
+      "source_sha256": "8fd46cc66c6d395c2f9e2221c433c3fffb092b09a8f8948d3923b954ec5ece46",
+      "public_sha256": "009d3f7fc67d7ac58d098d7570482938dd2742a9ec5b832b7f8846d0e9e140eb",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Practice/DrainSelect/DrainSelectSchematic.spice"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/NMos150x1300nm.mag",
+      "source_sha256": "b3a6c878b16f0a0b3aa82e43f814b0dc407e2f8d041820c47c2101c2891eeb28",
+      "public_sha256": "b3a6c878b16f0a0b3aa82e43f814b0dc407e2f8d041820c47c2101c2891eeb28",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/NMos150x1300nm.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/NMos150x420nm.mag",
+      "source_sha256": "1a2190ad8cbd1adb1c1e51f08fbec28266b540eb9c076d1c79ab73a05eba47bc",
+      "public_sha256": "1a2190ad8cbd1adb1c1e51f08fbec28266b540eb9c076d1c79ab73a05eba47bc",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/NMos150x420nm.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/NMos150x650nm.mag",
+      "source_sha256": "fffb77ce2b62921248128817426f56dd0e16528b79516e197f31e1dc87bce7d5",
+      "public_sha256": "fffb77ce2b62921248128817426f56dd0e16528b79516e197f31e1dc87bce7d5",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/NMos150x650nm.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/New_DrainSelect.mag",
+      "source_sha256": "602b6fc526ef663f14d4f5d8ae39ba4106a5dd8e6a403ea2d5bb123fe39a8e40",
+      "public_sha256": "602b6fc526ef663f14d4f5d8ae39ba4106a5dd8e6a403ea2d5bb123fe39a8e40",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/New_DrainSelect.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/PMos150x1000nm.mag",
+      "source_sha256": "51436acddd2f011bef49fed62c7ca8669d915bdc72e9a2715432bd07c29d693c",
+      "public_sha256": "51436acddd2f011bef49fed62c7ca8669d915bdc72e9a2715432bd07c29d693c",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/PMos150x1000nm.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/PMos150x2000nm.mag",
+      "source_sha256": "d5d21e50ccc360fe20f8d729ede79a0a76c6d3b10e613a07410ccbe57a22bd60",
+      "public_sha256": "d5d21e50ccc360fe20f8d729ede79a0a76c6d3b10e613a07410ccbe57a22bd60",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/PMos150x2000nm.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/PMos150x640nm.mag",
+      "source_sha256": "7bad7647c52fbc38455def28cb0d1393f0fdad8ab0f6483f9bf016e95e0a15d3",
+      "public_sha256": "7bad7647c52fbc38455def28cb0d1393f0fdad8ab0f6483f9bf016e95e0a15d3",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/PMos150x640nm.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/drainSelectActiveHighTB.sch",
+      "source_sha256": "51e2d0d801113522487590e6df8ffe4a012356dad144cb41f745a0b9c73d7019",
+      "public_sha256": "a9bf4dbfd0f20a714d9c1c8597bf28da4613368376d5def53e834b160a9c5510",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Practice/DrainSelect/drainSelectActiveHighTB.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/flat.mag",
+      "source_sha256": "b9579fcf92e350395b14ee7f172f8aee35839037c4d93e7e38112a0f85564058",
+      "public_sha256": "b9579fcf92e350395b14ee7f172f8aee35839037c4d93e7e38112a0f85564058",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/flat.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/sky130_hilas_drainSelect01d3ActiveHigh.sch",
+      "source_sha256": "90196152b7721ace7973790e41881077c72267d75b5ea763b7afd7517865ef18",
+      "public_sha256": "90196152b7721ace7973790e41881077c72267d75b5ea763b7afd7517865ef18",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/sky130_hilas_drainSelect01d3ActiveHigh.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/DrainSelect/sky130_hilas_drainSelect01d3ActiveHigh.sym",
+      "source_sha256": "aa8ed91f7cfa0692f038b74d2e67c352675dbae1e3b184695fa54763f3281bd1",
+      "public_sha256": "aa8ed91f7cfa0692f038b74d2e67c352675dbae1e3b184695fa54763f3281bd1",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/DrainSelect/sky130_hilas_drainSelect01d3ActiveHigh.sym"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Buffer.mag",
+      "source_sha256": "b5f11c8cf71c547c52a2203dfdbf109561b6e52a4815f2d428e6cd415c10c507",
+      "public_sha256": "b5f11c8cf71c547c52a2203dfdbf109561b6e52a4815f2d428e6cd415c10c507",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Buffer.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Buffer.sch",
+      "source_sha256": "450d975e5ce2297732942492ae4cb98c7a4f16e439333f68df2506ae4152c6dc",
+      "public_sha256": "450d975e5ce2297732942492ae4cb98c7a4f16e439333f68df2506ae4152c6dc",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Buffer.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Buffer.spice",
+      "source_sha256": "ce4f8ef399ba3cd92c7f26055fc3204a56bf7a51bcc27f950b4fe15811df2a97",
+      "public_sha256": "ce4f8ef399ba3cd92c7f26055fc3204a56bf7a51bcc27f950b4fe15811df2a97",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Buffer.spice"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Buffer.sym",
+      "source_sha256": "bad3d40b088aa484d52538536514f5bcc2bec484465535507d263cd8eaa5fec0",
+      "public_sha256": "bad3d40b088aa484d52538536514f5bcc2bec484465535507d263cd8eaa5fec0",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Buffer.sym"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Buffer1.spice",
+      "source_sha256": "3f744aaacf7d924c29d4bb1c673a8a25d41c21b103d6224c48f6fcf27eb85972",
+      "public_sha256": "8e6af18a6e3aa9a654d9e11bad84435d957f16aac0232a1909ff05c9b9db9d7a",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Buffer1.spice"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Example_Inverter.gds",
+      "source_sha256": "c941cd86d8c9f5dcb60beb8b49a677c7efa5ca6178ecaf3da808b486c2ddd057",
+      "public_sha256": "c941cd86d8c9f5dcb60beb8b49a677c7efa5ca6178ecaf3da808b486c2ddd057",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Example_Inverter.gds"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Example_Inverter.mag",
+      "source_sha256": "1644be0349a7d6689a6bd4470a4fada6c3465ad1a970c1ac7cf3af5884105714",
+      "public_sha256": "1644be0349a7d6689a6bd4470a4fada6c3465ad1a970c1ac7cf3af5884105714",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Example_Inverter.mag"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Example_Inverter.pdf",
+      "source_sha256": "387f03a0fb1f2f5b8322df90a4f6520461a26a3f688fb1840dd8aff9f7722c37",
+      "public_sha256": "387f03a0fb1f2f5b8322df90a4f6520461a26a3f688fb1840dd8aff9f7722c37",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Example_Inverter.pdf"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Example_Inverter.sch",
+      "source_sha256": "c308333a885f0c75ab41d4aa016df6ab0bfeba7a2c166b9a006b5bcd36de7b83",
+      "public_sha256": "c308333a885f0c75ab41d4aa016df6ab0bfeba7a2c166b9a006b5bcd36de7b83",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Example_Inverter.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Example_Inverter.spice",
+      "source_sha256": "3cbce934ddeeaff2936c1b8fb8a21cdc9da9048c241de8339590bd8edeb67e54",
+      "public_sha256": "3cbce934ddeeaff2936c1b8fb8a21cdc9da9048c241de8339590bd8edeb67e54",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Example_Inverter.spice"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Example_Inverter.sym",
+      "source_sha256": "e7f6e5c58366723f1eb4a2d558de5977950f11337eaf1ef41cb72c2b027ce5a7",
+      "public_sha256": "e7f6e5c58366723f1eb4a2d558de5977950f11337eaf1ef41cb72c2b027ce5a7",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Example_Inverter.sym"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/LVS/Buffer.spice",
+      "source_sha256": "ce4f8ef399ba3cd92c7f26055fc3204a56bf7a51bcc27f950b4fe15811df2a97",
+      "public_sha256": "ce4f8ef399ba3cd92c7f26055fc3204a56bf7a51bcc27f950b4fe15811df2a97",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/LVS/Buffer.spice"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/LVS/Example_Inverter.spice",
+      "source_sha256": "b7fa23aed411d48bedcf2c01246b3b21d0773fa14f1d4487ad05dc87ddbcc10e",
+      "public_sha256": "b7fa23aed411d48bedcf2c01246b3b21d0773fa14f1d4487ad05dc87ddbcc10e",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/LVS/Example_Inverter.spice"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/LVS/Example_Inverter_magic.spice",
+      "source_sha256": "bdb59c38d08c6e9aae0db6867ff917685efdd1db205bccd124a93cceb3a81d0d",
+      "public_sha256": "bdb59c38d08c6e9aae0db6867ff917685efdd1db205bccd124a93cceb3a81d0d",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/LVS/Example_Inverter_magic.spice"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/LVS/Example_Inverter_xschem.spice",
+      "source_sha256": "4e8525949ee29c392630e808574bc89373a8a2a590f55b464cebeb6514da5233",
+      "public_sha256": "fbfc6df4ec51bfd2a543a0556304b3bfd2a05c177baccb15c3313ae4e5650522",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Practice/Example_Inverter/LVS/Example_Inverter_xschem.spice"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/LVS/buffer_Test.spice",
+      "source_sha256": "6878b1344de332bd411e9467b04312970e9cf1d110e5c471ac22e3b2f96cc8f8",
+      "public_sha256": "2975eaef8bbd7ff900ab1c96dd69748c9229733082d18616d53ceb3cdb65950f",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Practice/Example_Inverter/LVS/buffer_Test.spice"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Sims/Example_Inverter_TB.sch",
+      "source_sha256": "94799ad8be6d7c02a9cd66eb7225838e5986ed45f191541f252df0b51d64f813",
+      "public_sha256": "36519bdcd0726a4c6690af52f394cecf8df1d5ab13b73f64b37ad664f3fa08d0",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Sims/Example_Inverter_TB.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Sims/Example_Inverter_TB_VTC.sch",
+      "source_sha256": "dd43745c1c9c68bf31f9f5730afa87a681bff6f85c1f309a0692f4748396acb4",
+      "public_sha256": "1c8942c293f39ed3185f592a06b9890c67e5da7d1ce3c1cbdd92ec2a1e870dfa",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Sims/Example_Inverter_TB_VTC.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Sym_Test_Example_Inverter.sch",
+      "source_sha256": "c308333a885f0c75ab41d4aa016df6ab0bfeba7a2c166b9a006b5bcd36de7b83",
+      "public_sha256": "c308333a885f0c75ab41d4aa016df6ab0bfeba7a2c166b9a006b5bcd36de7b83",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Sym_Test_Example_Inverter.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Sym_Test_Example_Inverter.sym",
+      "source_sha256": "47e14a00f12f74ce474777a23ec7e9e5833225abaf2e18b2991b762dea5718b7",
+      "public_sha256": "47e14a00f12f74ce474777a23ec7e9e5833225abaf2e18b2991b762dea5718b7",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Sym_Test_Example_Inverter.sym"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/Test_Example_Inverter.sch",
+      "source_sha256": "63639eb856ca0d4ab2614f45130ac97e9db3fb34b2db81ecb0659c6c8ebe86ba",
+      "public_sha256": "63639eb856ca0d4ab2614f45130ac97e9db3fb34b2db81ecb0659c6c8ebe86ba",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/Test_Example_Inverter.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/buffer_Test.sch",
+      "source_sha256": "7ae43cda91980531141732f1bb6a01e20b6cd42ba64d5f4223f1e506d9feb3c1",
+      "public_sha256": "7ae43cda91980531141732f1bb6a01e20b6cd42ba64d5f4223f1e506d9feb3c1",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/buffer_Test.sch"
+    },
+    {
+      "path": "sky130_cells/Practice/Example_Inverter/buffer_Test.sym",
+      "source_sha256": "badf1174dda5bba029e2813e4d5bc3498b6f49de7c95466517c1dc992a1f0968",
+      "public_sha256": "badf1174dda5bba029e2813e4d5bc3498b6f49de7c95466517c1dc992a1f0968",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Practice/Example_Inverter/buffer_Test.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "source_sha256": "9260137557c8b5221e6186e6d1acbfe0870660fe67050ac13a424a45c9180e6e",
+      "public_sha256": "57fbf3a18606c80c8ac6bedc7663d4f1f7bf85e6b1bd6100f07ca1381da4c7ef",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Design/6bit_RDAC.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/6bit_RDAC.sym",
+      "source_sha256": "467841de6db7bd2bd9041beb3dacb845dba585fcf277f6e33afed07997ed0589",
+      "public_sha256": "467841de6db7bd2bd9041beb3dacb845dba585fcf277f6e33afed07997ed0589",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/6bit_RDAC.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/Tgate.sch",
+      "source_sha256": "22c02456fab6ffa76eadb1735532b1d35ebcfbd2e6d44572dc3de88e572d3217",
+      "public_sha256": "22c02456fab6ffa76eadb1735532b1d35ebcfbd2e6d44572dc3de88e572d3217",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/Tgate.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/Tgate.sym",
+      "source_sha256": "d214d08dd11017ad5cfc8ae6476f7f24639ff9cfd64465edce58952949c6758b",
+      "public_sha256": "d214d08dd11017ad5cfc8ae6476f7f24639ff9cfd64465edce58952949c6758b",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/Tgate.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_Vinj_TGATE.sch",
+      "source_sha256": "2355b903b7be94847f51f13131a8ddb3a2b05aa951f92f62d962338b6a34eda4",
+      "public_sha256": "2355b903b7be94847f51f13131a8ddb3a2b05aa951f92f62d962338b6a34eda4",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_Vinj_TGATE.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_Vinj_TGATE.sym",
+      "source_sha256": "ac4a932bedc9caf3695eea7b776f843307086d7f892506d739ac4efc532eff87",
+      "public_sha256": "ac4a932bedc9caf3695eea7b776f843307086d7f892506d739ac4efc532eff87",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_Vinj_TGATE.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_2AND.sch",
+      "source_sha256": "8c39b7feb9c342c91c91be1ad107aae2ee3beafbb970f2f8dcabd3918fd1c11e",
+      "public_sha256": "8c39b7feb9c342c91c91be1ad107aae2ee3beafbb970f2f8dcabd3918fd1c11e",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_2AND.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_2AND.sym",
+      "source_sha256": "1d1bbe7ab940cd2ced09791db56ee4264ec2c8cde689e4cc9ad84f2329596fce",
+      "public_sha256": "1d1bbe7ab940cd2ced09791db56ee4264ec2c8cde689e4cc9ad84f2329596fce",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_2AND.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_2NAND.sch",
+      "source_sha256": "7276fbec01af0c559a0a034f4e6323bc2917cf508519d5096bce08383dc746af",
+      "public_sha256": "7276fbec01af0c559a0a034f4e6323bc2917cf508519d5096bce08383dc746af",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_2NAND.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_2NAND.sym",
+      "source_sha256": "9c06ed0eeab368b441c738e73a7a76d44ae1cd2040fc44c7070e7092469bff5c",
+      "public_sha256": "9c06ed0eeab368b441c738e73a7a76d44ae1cd2040fc44c7070e7092469bff5c",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_2NAND.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_CellVoltageDAC01.sch",
+      "source_sha256": "30ae0d5eb122d0725dc7097277fbfbc9ef65bb9a11e7461dded88ebcd3467d07",
+      "public_sha256": "1aecf3118718643ea837c5177bc429c0f381d3b6add62b3f207ba0c3815db43e",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_CellVoltageDAC01.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_CellVoltageDAC01.sym",
+      "source_sha256": "e933a9b4f5f6184f3f115e6ee907dd346ff9fd06153ddc9050030a5f7bebdc15",
+      "public_sha256": "e933a9b4f5f6184f3f115e6ee907dd346ff9fd06153ddc9050030a5f7bebdc15",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_CellVoltageDAC01.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_VinjDecode2to4.sch",
+      "source_sha256": "7ab359bce0ea427faa4ae493aa7f5a92f898febec6562fd5ccd260b4db7ef40b",
+      "public_sha256": "9631fda69e5f47dbabb27074061a7ca189ef48ab1dfc5afe433c281c196f5975",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_VinjDecode2to4.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_VinjDecode2to4.sym",
+      "source_sha256": "fbb495532da65eb8d8ac85b5f8b9e13c74d38446ea334ec826eb2b416ab07ac0",
+      "public_sha256": "fbb495532da65eb8d8ac85b5f8b9e13c74d38446ea334ec826eb2b416ab07ac0",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_VinjDecode2to4.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_VinjInv2.sch",
+      "source_sha256": "2a4ce0b878e102fcdd38d0976bbf5381507636c9b32db6f2b393f57872da91ab",
+      "public_sha256": "2a4ce0b878e102fcdd38d0976bbf5381507636c9b32db6f2b393f57872da91ab",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_VinjInv2.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_VinjInv2.sym",
+      "source_sha256": "ad164fc37350d28326a0f370476220c2e1b87bf814038183f9fa6e7ef33c51f8",
+      "public_sha256": "ad164fc37350d28326a0f370476220c2e1b87bf814038183f9fa6e7ef33c51f8",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_VinjInv2.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_VinjNOR3.sch",
+      "source_sha256": "2bab4f5abec1d3e00dd3a34e2ad8146c76beeb2fbb9acd3c7fa84820f5da4b22",
+      "public_sha256": "2bab4f5abec1d3e00dd3a34e2ad8146c76beeb2fbb9acd3c7fa84820f5da4b22",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_VinjNOR3.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_VinjNOR3.sym",
+      "source_sha256": "8a259f5694eea4b370620fa22a5023810a2512a084ebd77448108d54cca505a0",
+      "public_sha256": "8a259f5694eea4b370620fa22a5023810a2512a084ebd77448108d54cca505a0",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_VinjNOR3.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_Vinj_Decode_4to16.sch",
+      "source_sha256": "c2b37400371660bd3c7d57f66999278fba13ce10c19e67df5e6cfd10829c403c",
+      "public_sha256": "01971ce57469cf5680455dd0ae03b92082b6f838a8f3f5b62eae58707cc3cb45",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_Vinj_Decode_4to16.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_Vinj_Decode_4to16.sym",
+      "source_sha256": "560423771bcc0e7e4d2c65714da71170352c16e82bbaff7aa8382c6ffceac0ac",
+      "public_sha256": "560423771bcc0e7e4d2c65714da71170352c16e82bbaff7aa8382c6ffceac0ac",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_Vinj_Decode_4to16.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_Voltage_DAC_6bit.sch",
+      "source_sha256": "957ae6cb059d647eb5eeb4e697ab21b8dad72feeb41817696aee3b2e5e7d070f",
+      "public_sha256": "c9915a2ed9fd855c50dcb803c7b118c5ff05b619839ef3835b1d48e4b500a2fb",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_Voltage_DAC_6bit.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_Voltage_DAC_6bit.sym",
+      "source_sha256": "e06763d028748d8a9912bbe476c0ade402511df65b57929cd2df35c229848c31",
+      "public_sha256": "e06763d028748d8a9912bbe476c0ade402511df65b57929cd2df35c229848c31",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_Voltage_DAC_6bit.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_dac_cell.sch",
+      "source_sha256": "4b8ea797cb4dd04cc8015ac33c966c8c2c509c089e799cd513a522cd52bca647",
+      "public_sha256": "b9bee4dd168bb2b5a6291768e18e7aaa825c1d441eeb0395a0a89b2d08920e7d",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_dac_cell.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_dac_cell.sym",
+      "source_sha256": "a4fb524c9147261fda245848fc8dc6ed90cac53ce4d2844f90395c424519ecf0",
+      "public_sha256": "a4fb524c9147261fda245848fc8dc6ed90cac53ce4d2844f90395c424519ecf0",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_dac_cell.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_resistor_string.sch",
+      "source_sha256": "e4361e2e9b7399117b2283d3b89275d35420b17db0fcb3ce06632774753768e7",
+      "public_sha256": "e4361e2e9b7399117b2283d3b89275d35420b17db0fcb3ce06632774753768e7",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_resistor_string.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Design/sky130_hilas_resistor_string.sym",
+      "source_sha256": "eff9c212be4069adb17fce8f765728cd276fe4488165c9990ca4894524758824",
+      "public_sha256": "eff9c212be4069adb17fce8f765728cd276fe4488165c9990ca4894524758824",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Design/sky130_hilas_resistor_string.sym"
+    },
+    {
+      "path": "sky130_cells/RDAC/Layout/sky130_hilas_CellVoltageDAC01.mag",
+      "source_sha256": "955fe9b6a5e2531d9545b80fd78c98098cf9b265846e9140f6f686093c1ed229",
+      "public_sha256": "955fe9b6a5e2531d9545b80fd78c98098cf9b265846e9140f6f686093c1ed229",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Layout/sky130_hilas_CellVoltageDAC01.mag"
+    },
+    {
+      "path": "sky130_cells/RDAC/Layout/sky130_hilas_TgateVinj02.mag",
+      "source_sha256": "55cb9bbda7469eb1f8dd1d863aec693c8a6ab7dfe55b523b0994d5599d55e6b7",
+      "public_sha256": "55cb9bbda7469eb1f8dd1d863aec693c8a6ab7dfe55b523b0994d5599d55e6b7",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Layout/sky130_hilas_TgateVinj02.mag"
+    },
+    {
+      "path": "sky130_cells/RDAC/Layout/sky130_hilas_VinjDecode2to4.mag",
+      "source_sha256": "a89203ed3036d0a72792e7ed170359a314c73eaa8dbdd1c0cd63fbe8dd36b955",
+      "public_sha256": "a89203ed3036d0a72792e7ed170359a314c73eaa8dbdd1c0cd63fbe8dd36b955",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Layout/sky130_hilas_VinjDecode2to4.mag"
+    },
+    {
+      "path": "sky130_cells/RDAC/Layout/sky130_hilas_VinjInv2.mag",
+      "source_sha256": "d74a3459b24456b3241f13a7d427e17057a6a74700658b8d506edf51b7a367ca",
+      "public_sha256": "d74a3459b24456b3241f13a7d427e17057a6a74700658b8d506edf51b7a367ca",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Layout/sky130_hilas_VinjInv2.mag"
+    },
+    {
+      "path": "sky130_cells/RDAC/Layout/sky130_hilas_VinjNOR3.mag",
+      "source_sha256": "055efd19bd160242da767dfaaaa702513c70d568964eb47acd373a440d9eff05",
+      "public_sha256": "055efd19bd160242da767dfaaaa702513c70d568964eb47acd373a440d9eff05",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Layout/sky130_hilas_VinjNOR3.mag"
+    },
+    {
+      "path": "sky130_cells/RDAC/Layout/sky130_hilas_Voltage_DAC_6bit.mag",
+      "source_sha256": "33a152f7bee64039db4b4a99c6021c7065b2bfb6bd2a9b461c768cc9748dd345",
+      "public_sha256": "33a152f7bee64039db4b4a99c6021c7065b2bfb6bd2a9b461c768cc9748dd345",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Layout/sky130_hilas_Voltage_DAC_6bit.mag"
+    },
+    {
+      "path": "sky130_cells/RDAC/Layout/sky130_hilas_Voltage_DAC_6bit_seperate_vinj.mag",
+      "source_sha256": "3f802142319defde4ce922dd6d8bfe47feaafe9ab8f150c53bab8a26766966df",
+      "public_sha256": "3f802142319defde4ce922dd6d8bfe47feaafe9ab8f150c53bab8a26766966df",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Layout/sky130_hilas_Voltage_DAC_6bit_seperate_vinj.mag"
+    },
+    {
+      "path": "sky130_cells/RDAC/Layout/sky130_hilas_dac_cell.mag",
+      "source_sha256": "9dee8fbb464af14f8983fbb230b57f10e3d25d4b93efc895ddfc79f6afe59b8f",
+      "public_sha256": "9dee8fbb464af14f8983fbb230b57f10e3d25d4b93efc895ddfc79f6afe59b8f",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Layout/sky130_hilas_dac_cell.mag"
+    },
+    {
+      "path": "sky130_cells/RDAC/Layout/sky130_hilas_li2m1.mag",
+      "source_sha256": "c79bfbc3efe77978d0fd2c40463932bbddff5b5659b18b350ad7d055bf03364b",
+      "public_sha256": "c79bfbc3efe77978d0fd2c40463932bbddff5b5659b18b350ad7d055bf03364b",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Layout/sky130_hilas_li2m1.mag"
+    },
+    {
+      "path": "sky130_cells/RDAC/Layout/sky130_hilas_psubtap.mag",
+      "source_sha256": "035a63f2afd6c7969c7c2fe69cace17095c8a6219cdd4f2d3bad28923bced21c",
+      "public_sha256": "035a63f2afd6c7969c7c2fe69cace17095c8a6219cdd4f2d3bad28923bced21c",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Layout/sky130_hilas_psubtap.mag"
+    },
+    {
+      "path": "sky130_cells/RDAC/Layout/sky130_hilas_resistor_string.mag",
+      "source_sha256": "4d12b2096807ee59f1c7360bad6ce46238a9b536cc3de515610afd6bba9360da",
+      "public_sha256": "4d12b2096807ee59f1c7360bad6ce46238a9b536cc3de515610afd6bba9360da",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Layout/sky130_hilas_resistor_string.mag"
+    },
+    {
+      "path": "sky130_cells/RDAC/Layout/sky130_hilas_small_TgateVinj02.mag",
+      "source_sha256": "25452cc5f32330db80b48b0efaa9053cf0a84e320d964de72ea534ed6e6ce78a",
+      "public_sha256": "25452cc5f32330db80b48b0efaa9053cf0a84e320d964de72ea534ed6e6ce78a",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Layout/sky130_hilas_small_TgateVinj02.mag"
+    },
+    {
+      "path": "sky130_cells/RDAC/Layout/sky130_hilias_TgateVinj4.mag",
+      "source_sha256": "200521830a7f23898a698c10a3dcd6612d2e22f4233c8948517c7097fa5084ec",
+      "public_sha256": "200521830a7f23898a698c10a3dcd6612d2e22f4233c8948517c7097fa5084ec",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Layout/sky130_hilias_TgateVinj4.mag"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/4b_rdac_testbench.sch",
+      "source_sha256": "bfa0458c20248c7567ebbd0f6e9d7d77914887c2fcc14466d688d292daa9189c",
+      "public_sha256": "862fa50088b7b31c8808b29edb2efdb1fc545d16010f339cbd6a200062b20ffd",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/4b_rdac_testbench.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/6bit_RDAC_testbench.sch",
+      "source_sha256": "7e508edb4ce89ad52da69339a3e7ccdeb140ee067f2fe36ebf43e7feb1a46662",
+      "public_sha256": "4295018e6365e12213787d518a9fbd63a45d41a210d645bdcdf1ff5af4b813ae",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/6bit_RDAC_testbench.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/6to64_decoder_testbench.sch",
+      "source_sha256": "bbbfd82fa0825b5ce80c1ae243a1c50eaf8bde8bfcc3ba82ba7b89d9dccd7186",
+      "public_sha256": "bf55eb343242e7be39a35dd4a0feafeb2063b26b2e449529d6dbf3fa6bd3b5ce",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/6to64_decoder_testbench.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/6to64_decoder_testbencn.sch",
+      "source_sha256": "36fe876d7896d2e11b48570bf74e95e2c76b946459e1cea85e97b35ec7fe5613",
+      "public_sha256": "bcf5202f416ef13580cb8af1f3456807e1229fb9430521981a2ff3f03647ca6b",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/6to64_decoder_testbencn.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/RDAC_cell_testbench.sch",
+      "source_sha256": "522e920c746e704533b0265bf4b985e8e22d95f5a2dbaa166ca4426cc9a65077",
+      "public_sha256": "7a4669ee5b84aac24dd1dc570e4ffa97b74ce08da0b205d99dfe6f05e8427779",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/RDAC_cell_testbench.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/Tgate.spice",
+      "source_sha256": "c4db69cefbd3e49d12b5ad909aadcc7da9f548b16640a104324f406afd320d77",
+      "public_sha256": "8f751d67bfb5f537445066b1316ebe540e25cb61d7c57e2e5c558f9e62868b66",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/Tgate.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/Vinj_Decode2to4_testbench.sch",
+      "source_sha256": "2aa66ec352de5fab3c956510fa545dbb3e843961fcaf63ac35de2dc538d92ee3",
+      "public_sha256": "87cbf9e5fa937b5fef48a4e9baa5b05bf85dd345260ceecd54c46033a49f4c95",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/Vinj_Decode2to4_testbench.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/Vinj_Decode4to16_testbench.sch",
+      "source_sha256": "9003d1f3fb94cc1098b6442d30e5c0be4439fb0cd1f3852f00679bf722058140",
+      "public_sha256": "8efef4afc1a7386bb9bbd0e8eb3fe6e549aae5da6603e7c7d3dd2e7555c480b1",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/Vinj_Decode4to16_testbench.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/Vinj_NOR_testbench.sch",
+      "source_sha256": "5a847b333b05655333528c6ade358d62d6bcddcaf167e10983270be05910c4c5",
+      "public_sha256": "b1de0c766c759d1f6dc07f99c6e28fcae326c4ed7e4ccc4c97bcc2f3e5d2c2dd",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/Vinj_NOR_testbench.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/Vinj_inverter_testbench.sch",
+      "source_sha256": "54e998c193ed854dfacbb8bd00e4d2bb8839803be5b180b5058349f19ef09102",
+      "public_sha256": "5606d6874734b424d3b5d139df65ccc9864c571e75b0e48c12af5e4984825695",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/Vinj_inverter_testbench.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/Voltage_DAC_6bit_testbench.sch",
+      "source_sha256": "5d6dab90160cabbe0843354ec35af44a617a0bccc4e54a68796ede03df778102",
+      "public_sha256": "6b59b4f6484822445c45419e81ca94cd5f335c333cb9f869fd5f053ea85ee87e",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/Voltage_DAC_6bit_testbench.sch"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_Vinj_NOR.spice",
+      "source_sha256": "3cf495f072fbb92ea86a6dec5097bf474fb695748c4f3268fae8ff808a45fd1b",
+      "public_sha256": "4345802cb3182cd8bfde6c86508e98eeeb6771d68031ebbef580d056540b5ea4",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_Vinj_NOR.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_CellVoltageDAC01.spice",
+      "source_sha256": "c9d545c92fd6ef8f30325532805779dddd3cec2fc2dc1c0e0d8373e1e7d4f3a2",
+      "public_sha256": "a32e9b520daf087f0eac05d0fc3f0ddbba8dda9c97443577458e8c0869cc5417",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_CellVoltageDAC01.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_CellVoltageDAC01_wrapper.spice",
+      "source_sha256": "ab3aa467aa7820ea6aa4d2d6ca4643092c08dd82197a8de0c36d2693e5192b1f",
+      "public_sha256": "ab3aa467aa7820ea6aa4d2d6ca4643092c08dd82197a8de0c36d2693e5192b1f",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_CellVoltageDAC01_wrapper.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_TgateVinj02.spice",
+      "source_sha256": "a496a89abfffdce72926a2b4af0b6d2bbc354a3abad0d3287922a8afc8b696e7",
+      "public_sha256": "a496a89abfffdce72926a2b4af0b6d2bbc354a3abad0d3287922a8afc8b696e7",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_TgateVinj02.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_TgateVinj02_wrapper.spice",
+      "source_sha256": "f318682b20bbbf0583402002a585dbbe3485845eb53c54e20b7a5dc75cc7fa63",
+      "public_sha256": "f318682b20bbbf0583402002a585dbbe3485845eb53c54e20b7a5dc75cc7fa63",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_TgateVinj02_wrapper.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_VinjDecode2to4.spice",
+      "source_sha256": "4535c55e2adf68e2f178a4a2d25cd565d361d9ceb4d444ab160d512614473547",
+      "public_sha256": "f10924f96a1373997c43d12a6fa4ea1a6f24654f04a1af3262e954757b494fb7",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_VinjDecode2to4.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_VinjInv2.spice",
+      "source_sha256": "5ab066eb4aa6b82c340aca77878681574c72b1e3def9fcc89a603a9903603b65",
+      "public_sha256": "5ab066eb4aa6b82c340aca77878681574c72b1e3def9fcc89a603a9903603b65",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_VinjInv2.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_VinjInv2_wrapper.spice",
+      "source_sha256": "7a1ecef6570a86d7fc8965a7d1a4b7fd48037f4beadb9efe483d110ee0ecd78c",
+      "public_sha256": "7a1ecef6570a86d7fc8965a7d1a4b7fd48037f4beadb9efe483d110ee0ecd78c",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_VinjInv2_wrapper.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_VinjNOR3.spice",
+      "source_sha256": "641f9cf33c96fca7d3fd560418f688dff91746717fdc6fb04a329ec146f2560e",
+      "public_sha256": "641f9cf33c96fca7d3fd560418f688dff91746717fdc6fb04a329ec146f2560e",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_VinjNOR3.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_VinjNOR3_wrapper.spice",
+      "source_sha256": "e283530417a50608a192bdcd100c6371ebda34c535c1c580d95cd198884245b4",
+      "public_sha256": "e283530417a50608a192bdcd100c6371ebda34c535c1c580d95cd198884245b4",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_VinjNOR3_wrapper.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_Vinj_inverter.spice",
+      "source_sha256": "573598fe069f6b37e63e05a380af2c67b2f9741bd8cda26c55712f351dd200ba",
+      "public_sha256": "fea3781a77e60c8d24d3524e86764c6b76266e92e0cfbc37e0066def7c515d29",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_Vinj_inverter.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_Voltage_DAC_6bit.spice",
+      "source_sha256": "9d4c3c73001d73412ae18975b3583495d94c1622f157ef734f8ac12fa07086cf",
+      "public_sha256": "5ef60e2052a64d307344296cd9443f515961cdd08b3dfed06508ddd29e26a450",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_Voltage_DAC_6bit.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_dac_cell.spice",
+      "source_sha256": "7e999aa08680eb612740fbefd3b0ed7d19464aee722d6459aaf6514b0ba7734f",
+      "public_sha256": "a0acc0e170674bfc1fe7daa59981fb787b4e79645b0e73a5df54c0033fd644e8",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_dac_cell.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_hirach_VinjDecode2to4.spice",
+      "source_sha256": "bc705bca5797207a3eaae4b02a865273a6b74b26f269b2f9ead3883f817daba4",
+      "public_sha256": "1e291097f0e997c6184d31820b6ef6b2115f009118d68146dff9f0d4aa2f114d",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_hirach_VinjDecode2to4.spice"
+    },
+    {
+      "path": "sky130_cells/RDAC/Sims/sky130_hilas_resistor_string.spice",
+      "source_sha256": "778728053ed0b98e8cb6d16081df19d28cae65f3e2fbbab87adc9ebc37a8553f",
+      "public_sha256": "2f57be7283ff2fe9123b3dfc17a5583ce2a25ce446a9838656988cad17128b60",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/RDAC/Sims/sky130_hilas_resistor_string.spice"
+    },
+    {
+      "path": "sky130_cells/Sblock/S_Block.mag",
+      "source_sha256": "07a93c7ee3fd7f3bcc69e9a4ec465663a5ccaa5208e57275a9c4a69b0a6b8e5a",
+      "public_sha256": "07a93c7ee3fd7f3bcc69e9a4ec465663a5ccaa5208e57275a9c4a69b0a6b8e5a",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Sblock/S_Block.mag"
+    },
+    {
+      "path": "sky130_cells/Sblock/S_Block.sch",
+      "source_sha256": "eed8cc0b292e7b932154ef8f66b4d3ea410f8f4ce9d1c6eb48132c444d2d683d",
+      "public_sha256": "fa390d69c1710f6e8a4dfd5b911b667ebad40c14b29e82c7329415ad3b8e4daf",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Sblock/S_Block.sch"
+    },
+    {
+      "path": "sky130_cells/Sblock/S_Block.sym",
+      "source_sha256": "aab671e50d186484a38bf387a7ccf40567479942f5d06da52faa51a1c07e5af9",
+      "public_sha256": "aab671e50d186484a38bf387a7ccf40567479942f5d06da52faa51a1c07e5af9",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Sblock/S_Block.sym"
+    },
+    {
+      "path": "sky130_cells/Sblock/S_Block_FG_Indirect.sch",
+      "source_sha256": "5a34e93decad80d600fedabb894a9fff679037dcd64333fb1225797b13f2e659",
+      "public_sha256": "5a34e93decad80d600fedabb894a9fff679037dcd64333fb1225797b13f2e659",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Sblock/S_Block_FG_Indirect.sch"
+    },
+    {
+      "path": "sky130_cells/Sblock/S_Block_FG_Indirect.sym",
+      "source_sha256": "a34be4b5baec8263eee06809b9fb26fd2272b6f29de9a581b29ea8ecbf247e7a",
+      "public_sha256": "a34be4b5baec8263eee06809b9fb26fd2272b6f29de9a581b29ea8ecbf247e7a",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Sblock/S_Block_FG_Indirect.sym"
+    },
+    {
+      "path": "sky130_cells/Sblock/S_Block_NS_routing_diagonal.mag",
+      "source_sha256": "1e7e10181bce758dcae7bde8f7594d143ff19e3432bab39d7851dea722ab1458",
+      "public_sha256": "1e7e10181bce758dcae7bde8f7594d143ff19e3432bab39d7851dea722ab1458",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Sblock/S_Block_NS_routing_diagonal.mag"
+    },
+    {
+      "path": "sky130_cells/Sblock/S_Block_east.mag",
+      "source_sha256": "a72c366220e1d27f98236068297be7c983429ae24d816a4b0159322008c35f2f",
+      "public_sha256": "a72c366220e1d27f98236068297be7c983429ae24d816a4b0159322008c35f2f",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Sblock/S_Block_east.mag"
+    },
+    {
+      "path": "sky130_cells/Sblock/S_Block_filler_off_diagonal.mag",
+      "source_sha256": "6f887bd6770fb6be3fdca2d24ea2be47d885b8fcfe850fd9e3b91cc87b391650",
+      "public_sha256": "6f887bd6770fb6be3fdca2d24ea2be47d885b8fcfe850fd9e3b91cc87b391650",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Sblock/S_Block_filler_off_diagonal.mag"
+    },
+    {
+      "path": "sky130_cells/Sblock/S_Block_test.mag",
+      "source_sha256": "6417c6d8030934d0c11a0221faae9fef5f1ea205100562b4c8fc6d69774adbee",
+      "public_sha256": "6417c6d8030934d0c11a0221faae9fef5f1ea205100562b4c8fc6d69774adbee",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Sblock/S_Block_test.mag"
+    },
+    {
+      "path": "sky130_cells/Sblock/S_Block_west.mag",
+      "source_sha256": "a5e742a96c9d2c50ee5acb26ed84a2a34e831a991e831975c9f465eb99689d9c",
+      "public_sha256": "a5e742a96c9d2c50ee5acb26ed84a2a34e831a991e831975c9f465eb99689d9c",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Sblock/S_Block_west.mag"
+    },
+    {
+      "path": "sky130_cells/TA_FGbias_1x2/LVS/TA_FGbias_1x2_magic.spice",
+      "source_sha256": "d60b880d0c6d6b76ee121cc930d2650371c6e2174d8e254b752f493183a50551",
+      "public_sha256": "d60b880d0c6d6b76ee121cc930d2650371c6e2174d8e254b752f493183a50551",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/TA_FGbias_1x2/LVS/TA_FGbias_1x2_magic.spice"
+    },
+    {
+      "path": "sky130_cells/TA_FGbias_1x2/LVS/TA_FGbias_1x2_xschem.spice",
+      "source_sha256": "7c9c17035c27de07e4164258eba77b9f89bba20b14095c4cf79a1c00a61665c4",
+      "public_sha256": "7b63199e12fee4d3d69ea191ea052fb3b74023d1cca268337687d991e0a960be",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/TA_FGbias_1x2/LVS/TA_FGbias_1x2_xschem.spice"
+    },
+    {
+      "path": "sky130_cells/TA_FGbias_1x2/TA_FGbias_1x2.mag",
+      "source_sha256": "a287719ef335371c146a1344dea9613ece66aca07e78ac5f02a23ef975492cf3",
+      "public_sha256": "a287719ef335371c146a1344dea9613ece66aca07e78ac5f02a23ef975492cf3",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/TA_FGbias_1x2/TA_FGbias_1x2.mag"
+    },
+    {
+      "path": "sky130_cells/TA_FGbias_1x2/TA_FGbias_1x2.png",
+      "source_sha256": "e21ea3a8efc7b0b9795d628cce04a0caaa2e6d9c0a27469d6bdbf9d3612b5f9c",
+      "public_sha256": "e21ea3a8efc7b0b9795d628cce04a0caaa2e6d9c0a27469d6bdbf9d3612b5f9c",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/TA_FGbias_1x2/TA_FGbias_1x2.png"
+    },
+    {
+      "path": "sky130_cells/TA_FGbias_1x2/TA_FGbias_1x2.sch",
+      "source_sha256": "15d8c65d9c3bd9fcee9599c512553f8c4f0414cd4ddc7bd269e2e4d9085eb638",
+      "public_sha256": "4adf6ba97465690dccbf126fc0eeabc5de2c8adb2b5dbef6e1b130bdecb14e8a",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/TA_FGbias_1x2/TA_FGbias_1x2.sch"
+    },
+    {
+      "path": "sky130_cells/TA_FGbias_1x2/TA_FGbias_1x2.spice",
+      "source_sha256": "d60b880d0c6d6b76ee121cc930d2650371c6e2174d8e254b752f493183a50551",
+      "public_sha256": "d60b880d0c6d6b76ee121cc930d2650371c6e2174d8e254b752f493183a50551",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/TA_FGbias_1x2/TA_FGbias_1x2.spice"
+    },
+    {
+      "path": "sky130_cells/TA_FGbias_1x2/TA_FGbias_1x2.sym",
+      "source_sha256": "52bf4a4c154014cacab066322fec0fb024d4e34487e537e4ccdbcbac33972fbb",
+      "public_sha256": "52bf4a4c154014cacab066322fec0fb024d4e34487e537e4ccdbcbac33972fbb",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/TA_FGbias_1x2/TA_FGbias_1x2.sym"
+    },
+    {
+      "path": "sky130_cells/TA_FGbias_1x2/TA_FGbias_1x2_ashes.mag",
+      "source_sha256": "dc1fff41542e202e70f094b04de726a6a833d2bfe4ed12c20e40865bf0f53f29",
+      "public_sha256": "dc1fff41542e202e70f094b04de726a6a833d2bfe4ed12c20e40865bf0f53f29",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/TA_FGbias_1x2/TA_FGbias_1x2_ashes.mag"
+    },
+    {
+      "path": "sky130_cells/TA_FGbias_1x2/TODO.md",
+      "source_sha256": "493a12b55f8591089b87a408e59d26a8150d5d102c566dd886c89271e3edef63",
+      "public_sha256": "b822d78d55d5e7d04eba5b3557b58bdff87fc445fc228343acd22c829ee989b3",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/TA_FGbias_1x2/TODO.md"
+    },
+    {
+      "path": "sky130_cells/TGate_2nMirror/LVS/TGate_2nMirror_magic.spice",
+      "source_sha256": "71d31d9be069f8145aebeb56f2c1a21ebaa1becd97cf3ce95b28a0a3d6c19711",
+      "public_sha256": "71d31d9be069f8145aebeb56f2c1a21ebaa1becd97cf3ce95b28a0a3d6c19711",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/TGate_2nMirror/LVS/TGate_2nMirror_magic.spice"
+    },
+    {
+      "path": "sky130_cells/TGate_2nMirror/LVS/TGate_2nMirror_xschem.spice",
+      "source_sha256": "5e1a2797ecaa04bebd4232fac446174d4325651ab1d2d5d70768e043b6e02b4a",
+      "public_sha256": "c64cce41c643ac4480b8a8208472c0ecf6b042ca649be14dc0edd175ba614e56",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/TGate_2nMirror/LVS/TGate_2nMirror_xschem.spice"
+    },
+    {
+      "path": "sky130_cells/TGate_2nMirror/TGate_2nMirror.mag",
+      "source_sha256": "4995aa726b4af0c62675223d523f28258de493a65adaf8f113c29dff48677898",
+      "public_sha256": "4995aa726b4af0c62675223d523f28258de493a65adaf8f113c29dff48677898",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/TGate_2nMirror/TGate_2nMirror.mag"
+    },
+    {
+      "path": "sky130_cells/TGate_2nMirror/TGate_2nMirror.sch",
+      "source_sha256": "69de8d580bc9d7283cc7933e59187fd5c3beef27e6155cde7627f39e02c652c1",
+      "public_sha256": "c348dc9334c2196bc4965819b7fb28bbc8b8dd633456c63cdc53200cc5751e3d",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/TGate_2nMirror/TGate_2nMirror.sch"
+    },
+    {
+      "path": "sky130_cells/TGate_2nMirror/TGate_2nMirror.sym",
+      "source_sha256": "7fcf43dd8255820f5b33e6b4c7a01dbbdc9518121b4087bbc5175fc7d93c1364",
+      "public_sha256": "7fcf43dd8255820f5b33e6b4c7a01dbbdc9518121b4087bbc5175fc7d93c1364",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/TGate_2nMirror/TGate_2nMirror.sym"
+    },
+    {
+      "path": "sky130_cells/Volatile_Swcs/LVS/Magic.spice",
+      "source_sha256": "c9aaabc8bfd0aa746fff34606737cb37a24b1af5d9d44414393d28557f4a6fbf",
+      "public_sha256": "c9aaabc8bfd0aa746fff34606737cb37a24b1af5d9d44414393d28557f4a6fbf",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Volatile_Swcs/LVS/Magic.spice"
+    },
+    {
+      "path": "sky130_cells/Volatile_Swcs/LVS/Xschem.spice",
+      "source_sha256": "4234b41189f2c66d3acb5388bb3a9fc89fae4970c422d0edb02f09eaadd351c8",
+      "public_sha256": "7f4ee597c1e112e8754c2e978ad833b49a93f18e381229bb1d88e36f4a9acf79",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Volatile_Swcs/LVS/Xschem.spice"
+    },
+    {
+      "path": "sky130_cells/Volatile_Swcs/Volatile_Swcs.mag",
+      "source_sha256": "72f5b3c4f681690cf25696838202a2718a339610c2a5adbfe6ab82ecd7e5aa6a",
+      "public_sha256": "72f5b3c4f681690cf25696838202a2718a339610c2a5adbfe6ab82ecd7e5aa6a",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Volatile_Swcs/Volatile_Swcs.mag"
+    },
+    {
+      "path": "sky130_cells/Volatile_Swcs/Volatile_Swcs.sch",
+      "source_sha256": "c670018d8871f45af6673742944a1781b903bdd736d3d8ef9e77c3b9aa526542",
+      "public_sha256": "19fa4c4f02101c85f1025d0e5e2c56cea857684851c843cd31d0e1611b72b47f",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_cells/Volatile_Swcs/Volatile_Swcs.sch"
+    },
+    {
+      "path": "sky130_cells/Volatile_Swcs/Volatile_Swcs.sym",
+      "source_sha256": "b721996f01d624c34b66758d3fd1d527e876f6170d1b93075b2df02117a32fae",
+      "public_sha256": "b721996f01d624c34b66758d3fd1d527e876f6170d1b93075b2df02117a32fae",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_cells/Volatile_Swcs/Volatile_Swcs.sym"
+    },
+    {
+      "path": "sky130_dig_cells/flipflop/sky130_fd_sc_hd__dfrbp_1.sch",
+      "source_sha256": "ee6b6f8a1203484a7a9e53bd99cc70a3d13c55ca5bbeae689e1c5121b18bba06",
+      "public_sha256": "ee6b6f8a1203484a7a9e53bd99cc70a3d13c55ca5bbeae689e1c5121b18bba06",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_dig_cells/flipflop/sky130_fd_sc_hd__dfrbp_1.sch"
+    },
+    {
+      "path": "sky130_dig_cells/flipflop/sky130_fd_sc_hd__dfrbp_1.spice",
+      "source_sha256": "2ac5c812be4ee8a8218d8131996ecb840df3e05b94c036295199c13da2f6f080",
+      "public_sha256": "2ac5c812be4ee8a8218d8131996ecb840df3e05b94c036295199c13da2f6f080",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_dig_cells/flipflop/sky130_fd_sc_hd__dfrbp_1.spice"
+    },
+    {
+      "path": "sky130_dig_cells/flipflop/sky130_fd_sc_hd__dfrbp_1.sym",
+      "source_sha256": "025d58e239148455efc327f3b06b9efdc9abb92ae63780ddd8f5e33361498190",
+      "public_sha256": "025d58e239148455efc327f3b06b9efdc9abb92ae63780ddd8f5e33361498190",
+      "modified_for_public_copy": false,
+      "source_path": "sky130_dig_cells/flipflop/sky130_fd_sc_hd__dfrbp_1.sym"
+    },
+    {
+      "path": "sky130_dig_cells/flipflop/tb_dfrbpv4.sch",
+      "source_sha256": "54e30bc9148001a712fcf3897ffb5d83a548e7cf2bbf5827c905ce8ae589f315",
+      "public_sha256": "f38dc91af6f89662f8e752941b09b5420092f7d5af526eecf2ba18806ae709a4",
+      "modified_for_public_copy": true,
+      "source_path": "sky130_dig_cells/flipflop/tb_dfrbpv4.sch"
+    },
+    {
+      "path": "Tools/lib/gds/Cap_Bank.gds",
+      "source_sha256": "d3f7c3571f60bd5ea9f1cbe0b496911f7d6d92280b63f2374b57912e84c292d6",
+      "public_sha256": "d3f7c3571f60bd5ea9f1cbe0b496911f7d6d92280b63f2374b57912e84c292d6",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/Cap_Bank.gds"
+    },
+    {
+      "path": "Tools/lib/gds/G_or_S_IndrctSwcs.gds",
+      "source_sha256": "f670ca396da41ef573a3312f7a9aefe58e5a66e435c4d59ff55fa04a8eb6cb09",
+      "public_sha256": "f670ca396da41ef573a3312f7a9aefe58e5a66e435c4d59ff55fa04a8eb6cb09",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/G_or_S_IndrctSwcs.gds"
+    },
+    {
+      "path": "Tools/lib/gds/IndirectGswc_OutMat.gds",
+      "source_sha256": "2797ccd347f451e7b3b0eb1fd2d3e76c39479e6e571ac0267281c64a299fbaed",
+      "public_sha256": "2797ccd347f451e7b3b0eb1fd2d3e76c39479e6e571ac0267281c64a299fbaed",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/IndirectGswc_OutMat.gds"
+    },
+    {
+      "path": "Tools/lib/gds/IndirectVMM_4x2.gds",
+      "source_sha256": "4cb28b29bfb240a660d89ef49f1082aa7b0c1a2245db9e44222f72c65c2538ef",
+      "public_sha256": "4cb28b29bfb240a660d89ef49f1082aa7b0c1a2245db9e44222f72c65c2538ef",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/IndirectVMM_4x2.gds"
+    },
+    {
+      "path": "Tools/lib/gds/IndirectVMM_Bot_Bmat_4x2.gds",
+      "source_sha256": "9e7a5b84b864ad2bd006521ea7e573bf2b967b4a2ef4555b5f682180c1814ffa",
+      "public_sha256": "9e7a5b84b864ad2bd006521ea7e573bf2b967b4a2ef4555b5f682180c1814ffa",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/IndirectVMM_Bot_Bmat_4x2.gds"
+    },
+    {
+      "path": "Tools/lib/gds/IndirectVMM_DrainSwcs.gds",
+      "source_sha256": "1a5bc590fc623f7c8b8731de0a584d27ddcf359bf11a3a233d76a0f778cda1ea",
+      "public_sha256": "1a5bc590fc623f7c8b8731de0a584d27ddcf359bf11a3a233d76a0f778cda1ea",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/IndirectVMM_DrainSwcs.gds"
+    },
+    {
+      "path": "Tools/lib/gds/IndirectVMM_GSwcs_1x2.gds",
+      "source_sha256": "cafdf7108fe9623bd3879fa3d065ed6ee56547eaeeeb39d4db070d1c90cd1223",
+      "public_sha256": "cafdf7108fe9623bd3879fa3d065ed6ee56547eaeeeb39d4db070d1c90cd1223",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/IndirectVMM_GSwcs_1x2.gds"
+    },
+    {
+      "path": "Tools/lib/gds/IndirectVMM_Top_AorBmat_4x2.gds",
+      "source_sha256": "274eeb77144b13ec1dc5855ae9293400faec91bf0151e063dae30825477591e2",
+      "public_sha256": "274eeb77144b13ec1dc5855ae9293400faec91bf0151e063dae30825477591e2",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/IndirectVMM_Top_AorBmat_4x2.gds"
+    },
+    {
+      "path": "Tools/lib/gds/S_Block.gds",
+      "source_sha256": "eec082087f3f505830a8ba37b2d4b75d7b64c275b5ee50dcd4befad801a619b6",
+      "public_sha256": "eec082087f3f505830a8ba37b2d4b75d7b64c275b5ee50dcd4befad801a619b6",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/S_Block.gds"
+    },
+    {
+      "path": "Tools/lib/gds/S_Block_NS_routing_diagonal.gds",
+      "source_sha256": "b5c8c1c1eb28eadec23fc52d815fa8d4d8e4d314d396ddef4a3a68d44edaaf21",
+      "public_sha256": "b5c8c1c1eb28eadec23fc52d815fa8d4d8e4d314d396ddef4a3a68d44edaaf21",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/S_Block_NS_routing_diagonal.gds"
+    },
+    {
+      "path": "Tools/lib/gds/S_Block_east.gds",
+      "source_sha256": "dd14aefef581cddb6e3d1fd5b7ff724d1097873fe2a5dc50c73830492085172b",
+      "public_sha256": "dd14aefef581cddb6e3d1fd5b7ff724d1097873fe2a5dc50c73830492085172b",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/S_Block_east.gds"
+    },
+    {
+      "path": "Tools/lib/gds/S_Block_filler_off_diagonal.gds",
+      "source_sha256": "863fa172bca08eb89dbe810eaa509d9d5b0aef235c9b1e2d25b2641bffb62296",
+      "public_sha256": "863fa172bca08eb89dbe810eaa509d9d5b0aef235c9b1e2d25b2641bffb62296",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/S_Block_filler_off_diagonal.gds"
+    },
+    {
+      "path": "Tools/lib/gds/S_Block_west.gds",
+      "source_sha256": "3379b2263160bb38bcbf4f12379ca020fd9f37e941357187ce1ac327d9c540e7",
+      "public_sha256": "3379b2263160bb38bcbf4f12379ca020fd9f37e941357187ce1ac327d9c540e7",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/S_Block_west.gds"
+    },
+    {
+      "path": "Tools/lib/gds/TA_FGbias_1x2.gds",
+      "source_sha256": "aab672ca92fdf0bb6b737981f9d2d00bc2ff19b57239c5f9ca54bda6feaccb30",
+      "public_sha256": "aab672ca92fdf0bb6b737981f9d2d00bc2ff19b57239c5f9ca54bda6feaccb30",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/TA_FGbias_1x2.gds"
+    },
+    {
+      "path": "Tools/lib/gds/TGate_2nMirror.gds",
+      "source_sha256": "2e6423864f116a4063d97dc7b96120c70facfde07bc8ccc4e9b008f7e7f94d00",
+      "public_sha256": "2e6423864f116a4063d97dc7b96120c70facfde07bc8ccc4e9b008f7e7f94d00",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/TGate_2nMirror.gds"
+    },
+    {
+      "path": "Tools/lib/gds/Volatile_Swcs.gds",
+      "source_sha256": "310600b829a8e884432b45e30a43b96b16edf2f415b64307c9455d9fbae9b88a",
+      "public_sha256": "310600b829a8e884432b45e30a43b96b16edf2f415b64307c9455d9fbae9b88a",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/Volatile_Swcs.gds"
+    },
+    {
+      "path": "Tools/lib/gds/alexpmos.gds",
+      "source_sha256": "4dba7943cf57911199e8d2441d1f3f42530070b0219314723eec035e127f0e02",
+      "public_sha256": "4dba7943cf57911199e8d2441d1f3f42530070b0219314723eec035e127f0e02",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/alexpmos.gds"
+    },
+    {
+      "path": "Tools/lib/gds/level_shifter_horizontal.gds",
+      "source_sha256": "034a4d22ccc5e0886ea6df012e25cef49d5e5a6d9d99d36e189b51a830158966",
+      "public_sha256": "034a4d22ccc5e0886ea6df012e25cef49d5e5a6d9d99d36e189b51a830158966",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/level_shifter_horizontal.gds"
+    },
+    {
+      "path": "Tools/lib/gds/level_shifter_vertical.gds",
+      "source_sha256": "8a2834f5538980afab2e2835848577d2423d7b2b30aaf594e67f91475aa45c6b",
+      "public_sha256": "8a2834f5538980afab2e2835848577d2423d7b2b30aaf594e67f91475aa45c6b",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds/level_shifter_vertical.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/Cap_Bank.gds",
+      "source_sha256": "d466b60b0c86e1f3046c4c5e36157339386cd70a9e746397885d9d0208664646",
+      "public_sha256": "d466b60b0c86e1f3046c4c5e36157339386cd70a9e746397885d9d0208664646",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/Cap_Bank.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/G_or_S_IndrctSwcs.gds",
+      "source_sha256": "55732e3341bb199c1797e0b37c5e4e132c5b34f969bff9e160497b1dc239b2ee",
+      "public_sha256": "55732e3341bb199c1797e0b37c5e4e132c5b34f969bff9e160497b1dc239b2ee",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/G_or_S_IndrctSwcs.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/IndirectGswc_OutMat.gds",
+      "source_sha256": "90213186c3f56a756eaa14ed5745b7cfc086102b5f494fb8fe825ad76486a44e",
+      "public_sha256": "90213186c3f56a756eaa14ed5745b7cfc086102b5f494fb8fe825ad76486a44e",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/IndirectGswc_OutMat.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/IndirectVMM_4x2.gds",
+      "source_sha256": "1197b812bbda6fac1cbf2a41986ba43076a0fba15471f1c32d745f4baf10ecf7",
+      "public_sha256": "1197b812bbda6fac1cbf2a41986ba43076a0fba15471f1c32d745f4baf10ecf7",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/IndirectVMM_4x2.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/IndirectVMM_Bot_Bmat_4x2.gds",
+      "source_sha256": "650ea07b91f3728277707fbb92c340bf43e548ee392a12eaf420c50ae97d5ef1",
+      "public_sha256": "650ea07b91f3728277707fbb92c340bf43e548ee392a12eaf420c50ae97d5ef1",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/IndirectVMM_Bot_Bmat_4x2.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/IndirectVMM_DrainSwcs.gds",
+      "source_sha256": "3676f10f731d0b5b8ab6c6bdb6b130b7175403e394d6da0e05cd00796429cdf5",
+      "public_sha256": "3676f10f731d0b5b8ab6c6bdb6b130b7175403e394d6da0e05cd00796429cdf5",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/IndirectVMM_DrainSwcs.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/IndirectVMM_GSwcs_1x2.gds",
+      "source_sha256": "c65456368a589021bbd2f2b63377c40f485818566e71eb2b5a65b21acd8691c4",
+      "public_sha256": "c65456368a589021bbd2f2b63377c40f485818566e71eb2b5a65b21acd8691c4",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/IndirectVMM_GSwcs_1x2.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/IndirectVMM_Top_AorBmat_4x2.gds",
+      "source_sha256": "6935dc8fa608f11bd152d288c8564266635544d48e069038339c846432296de9",
+      "public_sha256": "6935dc8fa608f11bd152d288c8564266635544d48e069038339c846432296de9",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/IndirectVMM_Top_AorBmat_4x2.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/S_Block.gds",
+      "source_sha256": "de72319edbf8b1375420d4990874f136d7a14bc6ec4988b450ccb724281bc659",
+      "public_sha256": "de72319edbf8b1375420d4990874f136d7a14bc6ec4988b450ccb724281bc659",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/S_Block.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/S_Block_NS_routing_diagonal.gds",
+      "source_sha256": "6ac878789dc279e23192d33df10478c08a4968a68de6c021640a4e00b95e1bbd",
+      "public_sha256": "6ac878789dc279e23192d33df10478c08a4968a68de6c021640a4e00b95e1bbd",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/S_Block_NS_routing_diagonal.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/S_Block_east.gds",
+      "source_sha256": "a3cbc394d7d173a0e24296a54de14d192770607843d738e21421e07478a3bb79",
+      "public_sha256": "a3cbc394d7d173a0e24296a54de14d192770607843d738e21421e07478a3bb79",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/S_Block_east.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/S_Block_filler_off_diagonal.gds",
+      "source_sha256": "cb4698f60b5024eace793910a16bf4fc1084946d60ecf383686cc6685a11cc68",
+      "public_sha256": "cb4698f60b5024eace793910a16bf4fc1084946d60ecf383686cc6685a11cc68",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/S_Block_filler_off_diagonal.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/S_Block_west.gds",
+      "source_sha256": "55aacb96532965e39d649773815d8d1a8fcc822de7554ab7f4379cec37aa910a",
+      "public_sha256": "55aacb96532965e39d649773815d8d1a8fcc822de7554ab7f4379cec37aa910a",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/S_Block_west.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/TA_FGbias_1x2.gds",
+      "source_sha256": "370af87bc84dacc28de89710fa66a4214c6c20cb7ac547863f9e4e9005d2346f",
+      "public_sha256": "370af87bc84dacc28de89710fa66a4214c6c20cb7ac547863f9e4e9005d2346f",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/TA_FGbias_1x2.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/TGate_2nMirror.gds",
+      "source_sha256": "3a0ed63696bbfdf522d849cfa380a7898142b46c193e68294aedaa5324075281",
+      "public_sha256": "3a0ed63696bbfdf522d849cfa380a7898142b46c193e68294aedaa5324075281",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/TGate_2nMirror.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/Volatile_Swcs.gds",
+      "source_sha256": "d0d7ee2e1f664ea6a54a6ecc49e91c08d1ccbd16ae066eee3474a910e343e805",
+      "public_sha256": "d0d7ee2e1f664ea6a54a6ecc49e91c08d1ccbd16ae066eee3474a910e343e805",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/Volatile_Swcs.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/alexpmos.gds",
+      "source_sha256": "fd12171f0d121c12e4f6d47d512588d7007633c8b28696121fa5e9f4ac73f3fa",
+      "public_sha256": "fd12171f0d121c12e4f6d47d512588d7007633c8b28696121fa5e9f4ac73f3fa",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/alexpmos.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/level_shifter_horizontal.gds",
+      "source_sha256": "a30bd17dfb106cd9f1c510cf70fdbafc3bd8b665b92a74cf40542f4304f18716",
+      "public_sha256": "a30bd17dfb106cd9f1c510cf70fdbafc3bd8b665b92a74cf40542f4304f18716",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/level_shifter_horizontal.gds"
+    },
+    {
+      "path": "Tools/lib/gds_source/level_shifter_vertical.gds",
+      "source_sha256": "72a59399d20e2d0e29170a1b8c652eed4e6d22efe78a46bfc0eb7d669e4ec52a",
+      "public_sha256": "72a59399d20e2d0e29170a1b8c652eed4e6d22efe78a46bfc0eb7d669e4ec52a",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/gds_cadence/level_shifter_vertical.gds"
+    },
+    {
+      "path": "Tools/lib/tech_lef/sky130.lef",
+      "source_sha256": "bade0eb77a204fa4471e2137e36e1dc139c575ca4222a90cb9ad754b79cde95d",
+      "public_sha256": "bade0eb77a204fa4471e2137e36e1dc139c575ca4222a90cb9ad754b79cde95d",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/tech_lef/sky130.lef"
+    },
+    {
+      "path": "Tools/lib/tech_lef/sky130_original.lef",
+      "source_sha256": "15937b8fff393264fbea3c7cea3a9c53c1c827e44fe7dadb5622ccae081e7dff",
+      "public_sha256": "15937b8fff393264fbea3c7cea3a9c53c1c827e44fe7dadb5622ccae081e7dff",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/tech_lef/sky130_original.lef"
+    },
+    {
+      "path": "Tools/lib/layer_map/sky130.json",
+      "source_sha256": "7b7de1798adaa8763cc3e7346b995d191bb9c8330f20c52d33bffa4e0dea35ed",
+      "public_sha256": "7b7de1798adaa8763cc3e7346b995d191bb9c8330f20c52d33bffa4e0dea35ed",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/layer_map/sky130.json"
+    },
+    {
+      "path": "Tools/lib/layer_map/sky130_EDA.layermap",
+      "source_sha256": "84a57e617a8460b0566411bd939b0b4d3a5ee63d0e1b6118d17faa53e283c39d",
+      "public_sha256": "84a57e617a8460b0566411bd939b0b4d3a5ee63d0e1b6118d17faa53e283c39d",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/lib/layer_map/sky130_EDA.layermap"
+    },
+    {
+      "path": "Klayout_layermap/sky130nm.lyp",
+      "source_sha256": "bb620355f67b1ccd98a233adaec30e7abe5227ff7b37197da4af05a031006d79",
+      "public_sha256": "bb620355f67b1ccd98a233adaec30e7abe5227ff7b37197da4af05a031006d79",
+      "modified_for_public_copy": false,
+      "source_path": "Klayout_layermap/sky130nm.lyp"
+    },
+    {
+      "path": "Tools/run_syn/Sky130_Trial/Trail.py",
+      "source_sha256": "6a747c66d1b46ef1170307735175439c006618d0e58841114689e278894450d4",
+      "public_sha256": "b2b1e082ef8cbd226182b8c8763f8d8891129a344cbf53163c07c416c873ccdd",
+      "modified_for_public_copy": true,
+      "source_path": "Tools/run_syn/Sky130_Trial/Trail.py"
+    },
+    {
+      "path": "Tools/run_syn/Sky130_Trial/synthesis_settings.json",
+      "source_sha256": "bc5c564b8c4316b9208df66caf0376d9849cc78efb3a3373bf59c354eb0947d2",
+      "public_sha256": "2c2158808402a8a9e1cbd9433926ab98338f72bd7cf1d9f0efcb77f3eae57dc8",
+      "modified_for_public_copy": true,
+      "source_path": "Tools/run_syn/Sky130_Trial/synthesis_settings.json"
+    },
+    {
+      "path": "Tools/run_syn/Sky130_Trial/pd_settings.json",
+      "source_sha256": "1a63d93f813cf1bb8a1a08cf53b87bd9ddfccce5b3c73482cca0ff8a49de84e7",
+      "public_sha256": "1a63d93f813cf1bb8a1a08cf53b87bd9ddfccce5b3c73482cca0ff8a49de84e7",
+      "modified_for_public_copy": false,
+      "source_path": "Tools/run_syn/Sky130_Trial/pd_settings.json"
+    }
+  ],
+  "unresolved_source_references": [
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Sims/Vinj_NOR_testbench.sch",
+      "resource": "sky130_Vinj_NOR.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Sims/Vinj_inverter_testbench.sch",
+      "resource": "sky130_hilas_Vinj_inverter.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Sims/6to64_decoder_testbench.sch",
+      "resource": "sky130_hilas_hirach_VinjDecode2to4.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Sims/4b_rdac_testbench.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Sims/4b_rdac_testbench.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Sims/4b_rdac_testbench.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    },
+    {
+      "file": "sky130_cells/RDAC/Sims/4b_rdac_testbench.sch",
+      "resource": "RDAC_4bit_cell.sym"
+    }
+  ],
+  "retired_files": [
+    {
+      "path": "Tools/lib/stdcell_defs/fix_gds.py",
+      "source_sha256": "2a85c94587618d29c59167cabed7b02ae78d81c2b8d8b2f20f50783277d6213e",
+      "public_sha256": "87ce797c990221eb4c2a1658c0a6f25d7daf55b5d0c4260e52696a29edea2050",
+      "modified_for_public_copy": true,
+      "source_path": "Tools/lib/stdcell_defs/fix_gds.py",
+      "retirement_reason": "Project-local generator retired in favor of shared ASHES library commands"
+    },
+    {
+      "path": "Tools/lib/stdcell_defs/exe_gdsconv.sh",
+      "source_sha256": "45493dc7c14c84492665e0e67f262fd98dd52e48a61e2c4c03321dc41ec9315f",
+      "public_sha256": "31cb81a1ae6eb3aca3fb936219b5c87d46ee13c0977ee550bc98d2d39e845ee4",
+      "modified_for_public_copy": true,
+      "source_path": "Tools/lib/stdcell_defs/exe_gdsconv.sh",
+      "retirement_reason": "Project-local generator retired in favor of shared ASHES library commands"
+    },
+    {
+      "path": "Tools/lib/stdcell_defs/exe_stdcelldef.sh",
+      "source_sha256": "0332da6d4081a6af26001e6efe0af145212f133f0380847d32b8042f4f7657e9",
+      "public_sha256": "bec722969e7ae89146591a8a7c735a9ae3f4e4d79a45a726598faf58a1c97184",
+      "modified_for_public_copy": true,
+      "source_path": "Tools/lib/stdcell_defs/exe_stdcelldef.sh",
+      "retirement_reason": "Project-local generator retired in favor of shared ASHES library commands"
+    },
+    {
+      "path": "Tools/lib/stdcell_defs/gds_to_celldef/gds2text.py",
+      "source_sha256": "54228e096d7137feab27823cb4289801bcd2beedfd78c6667be57ade1e223e72",
+      "public_sha256": "7c4656773fb8049e75c135a6e41a9a6e45fbdf57ff7a656aa214fd0041c27666",
+      "modified_for_public_copy": true,
+      "source_path": "Tools/lib/stdcell_defs/gds_to_celldef/gds2text.py",
+      "retirement_reason": "Project-local generator retired in favor of shared ASHES library commands"
+    },
+    {
+      "path": "Tools/lib/stdcell_defs/gds_to_celldef/json2python.py",
+      "source_sha256": "096ce6e567169b194af5eb939c4545bcda970057a1eda05b2cddff28c98b7314",
+      "public_sha256": "abeabc3bd2db97fead24cbd1f9ea2e2aeb21b497ecb83169429e11ef65f5f0c6",
+      "modified_for_public_copy": true,
+      "source_path": "Tools/lib/stdcell_defs/gds_to_celldef/json2python.py",
+      "retirement_reason": "Project-local generator retired in favor of shared ASHES library commands"
+    },
+    {
+      "path": "Tools/lib/stdcell_defs/gds_to_celldef/text2json.py",
+      "source_sha256": "05336183a7b2e46777df314d5123985c37f90da43b2069198736b12314794eb9",
+      "public_sha256": "639ad57b6a68fa19db0059820f562bab5e59dd44ae5fdba8a99c3066036fc8c8",
+      "modified_for_public_copy": true,
+      "source_path": "Tools/lib/stdcell_defs/gds_to_celldef/text2json.py",
+      "retirement_reason": "Project-local generator retired in favor of shared ASHES library commands"
+    },
+    {
+      "path": "Tools/lib/stdcell_defs/gds_to_celldef/gen_stdcell_defs.py",
+      "source_sha256": "f6ef38f3ccc774f706ef4eb07610a6e841df83d68c51864cc93496e734c80764",
+      "public_sha256": "65a7841db2dbc7282f2e16314a67a46007273c8bf867d5f6ac95fbad9714b8b8",
+      "modified_for_public_copy": true,
+      "source_path": "Tools/lib/stdcell_defs/gds_to_celldef/gen_stdcell_defs.py",
+      "retirement_reason": "Project-local generator retired in favor of shared ASHES library commands"
+    }
+  ]
+}

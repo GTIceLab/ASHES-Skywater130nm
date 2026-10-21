@@ -1,0 +1,224 @@
+magic
+tech sky130A
+timestamp 1740149012
+<< metal1 >>
+rect -576 658 -554 681
+rect -319 657 -296 681
+rect -270 631 -243 660
+rect -274 604 -271 631
+rect -244 604 -241 631
+rect -178 612 -151 617
+rect -270 526 -243 604
+rect -271 523 -243 526
+rect -244 496 -243 523
+rect -271 493 -243 496
+rect -270 490 -243 493
+rect -224 563 -197 570
+rect -224 358 -197 536
+rect -178 471 -151 585
+rect -83 552 -54 557
+rect -85 551 -54 552
+rect -85 521 -82 551
+rect -56 521 -54 551
+rect -85 517 -54 521
+rect -183 444 -180 471
+rect -153 444 -150 471
+rect -225 355 -197 358
+rect -198 328 -197 355
+rect -225 325 -197 328
+rect -576 33 -554 235
+rect -319 33 -296 236
+rect -224 189 -197 325
+rect -178 313 -151 444
+rect -180 310 -151 313
+rect -153 283 -151 310
+rect -180 280 -151 283
+rect -178 278 -151 280
+rect -131 417 -104 423
+rect -131 414 -103 417
+rect -131 387 -130 414
+rect -131 384 -103 387
+rect -83 404 -54 517
+rect -228 186 -193 189
+rect -228 159 -224 186
+rect -197 159 -193 186
+rect -228 156 -193 159
+rect -131 143 -104 384
+rect -83 378 -81 404
+rect -55 378 -54 404
+rect -83 257 -54 378
+rect -83 254 -53 257
+rect -83 225 -82 254
+rect -53 225 -49 254
+rect -83 223 -53 225
+rect -135 141 -100 143
+rect -135 114 -131 141
+rect -104 114 -100 141
+rect -135 111 -100 114
+rect -83 95 -54 223
+rect -87 93 -50 95
+rect -87 64 -83 93
+rect -54 64 -50 93
+rect -87 61 -50 64
+<< via1 >>
+rect -271 604 -244 631
+rect -178 585 -151 612
+rect -271 496 -244 523
+rect -224 536 -197 563
+rect -82 521 -56 551
+rect -180 444 -153 471
+rect -225 328 -198 355
+rect -180 283 -153 310
+rect -130 387 -103 414
+rect -224 159 -197 186
+rect -81 378 -55 404
+rect -82 225 -53 254
+rect -131 114 -104 141
+rect -83 64 -54 93
+<< metal2 >>
+rect -268 657 -125 660
+rect -268 651 -113 657
+rect -268 644 -111 651
+rect -268 634 -242 644
+rect -138 643 -111 644
+rect -271 631 -242 634
+rect -637 609 -626 627
+rect -294 609 -271 627
+rect -244 629 -242 631
+rect -134 637 -111 643
+rect -244 609 -241 629
+rect -134 621 -37 637
+rect -162 612 -148 615
+rect -271 601 -244 604
+rect -181 585 -178 612
+rect -151 599 -148 612
+rect -151 593 -134 599
+rect -151 585 -37 593
+rect -148 577 -37 585
+rect -227 560 -224 563
+rect -294 542 -224 560
+rect -227 536 -224 542
+rect -197 560 -194 563
+rect -197 541 -192 560
+rect -85 551 -37 554
+rect -197 536 -194 541
+rect -274 496 -271 523
+rect -244 517 -241 523
+rect -85 521 -82 551
+rect -56 538 -37 551
+rect -56 521 -53 538
+rect -85 518 -53 521
+rect -244 501 -111 517
+rect -244 496 -241 501
+rect -126 483 -111 501
+rect -637 458 -626 476
+rect -294 474 -158 476
+rect -294 471 -153 474
+rect -294 458 -180 471
+rect -126 467 -37 483
+rect -153 444 -152 455
+rect -180 441 -152 444
+rect -175 439 -152 441
+rect -125 446 -109 453
+rect -125 439 -67 446
+rect -125 430 -37 439
+rect -125 414 -109 430
+rect -79 423 -37 430
+rect -133 409 -130 414
+rect -294 391 -130 409
+rect -133 387 -130 391
+rect -103 387 -100 414
+rect -84 378 -81 404
+rect -55 400 -52 404
+rect -55 384 -37 400
+rect -55 378 -52 384
+rect -228 328 -225 355
+rect -198 340 -195 355
+rect -198 338 -108 340
+rect -198 331 -93 338
+rect -198 328 -37 331
+rect -637 307 -626 325
+rect -228 324 -37 328
+rect -108 315 -37 324
+rect -183 283 -180 310
+rect -153 295 -150 310
+rect -153 293 -84 295
+rect -153 287 -59 293
+rect -153 283 -37 287
+rect -182 279 -37 283
+rect -81 271 -37 279
+rect -294 256 -120 258
+rect -294 254 -53 256
+rect -294 240 -82 254
+rect -126 237 -82 240
+rect -120 234 -82 237
+rect -85 225 -82 234
+rect -53 248 -50 254
+rect -53 232 -37 248
+rect -53 225 -50 232
+rect -227 186 -194 188
+rect -227 159 -224 186
+rect -197 180 -194 186
+rect -197 179 -40 180
+rect -197 164 -31 179
+rect -197 159 -194 164
+rect -48 163 -31 164
+rect -227 157 -194 159
+rect -134 141 -101 142
+rect -134 114 -131 141
+rect -104 135 -101 141
+rect -104 119 -31 135
+rect -104 114 -101 119
+rect -134 112 -101 114
+rect -86 93 -35 96
+rect -86 64 -83 93
+rect -54 80 -35 93
+rect -54 64 -51 80
+rect -86 63 -51 64
+use sky130_hilas_VinjNOR3  sky130_hilas_VinjNOR3_0
+timestamp 1737082290
+transform 1 0 306 0 1 359
+box -343 132 629 310
+use sky130_hilas_VinjNOR3  sky130_hilas_VinjNOR3_1
+timestamp 1737082290
+transform 1 0 306 0 1 205
+box -343 132 629 310
+use sky130_hilas_VinjNOR3  sky130_hilas_VinjNOR3_2
+timestamp 1737082290
+transform 1 0 306 0 1 53
+box -343 132 629 310
+use sky130_hilas_VinjNOR3  sky130_hilas_VinjNOR3_3
+timestamp 1737082290
+transform 1 0 306 0 1 -99
+box -343 132 629 310
+use sky130_hilas_VinjInv2  VinjInv2_0
+timestamp 1736976651
+transform 1 0 -301 0 1 362
+box -336 136 25 308
+use sky130_hilas_VinjInv2  VinjInv2_1
+timestamp 1736976651
+transform 1 0 -301 0 1 211
+box -336 136 25 308
+use sky130_hilas_VinjInv2  VinjInv2_2
+timestamp 1736976651
+transform 1 0 -301 0 1 60
+box -336 136 25 308
+<< labels >>
+rlabel metal2 -637 307 -626 325 0 ENABLE
+port 9 nsew
+flabel metal2 -637 609 -627 627 0 FreeSans 40 0 0 0 IN[0]
+port 11 nsew
+flabel metal2 -637 458 -627 476 0 FreeSans 40 0 0 0 IN[1]
+port 13 nsew
+flabel space 929 534 935 551 0 FreeSans 40 0 0 0 OUTPUT00
+port 50 nsew
+flabel space 929 228 935 245 0 FreeSans 40 0 0 0 OUTPUT10
+port 54 nsew
+flabel space 929 380 935 397 0 FreeSans 40 0 0 0 OUTPUT01
+flabel metal1 -319 672 -296 681 0 FreeSans 40 0 0 0 VGND
+port 60 nsew
+flabel space 770 658 797 669 0 FreeSans 40 0 0 0 VGND
+port 62 nsew
+flabel space 929 76 935 93 0 FreeSans 40 0 0 0 OUTPUT11
+port 56 nsew
+<< end >>

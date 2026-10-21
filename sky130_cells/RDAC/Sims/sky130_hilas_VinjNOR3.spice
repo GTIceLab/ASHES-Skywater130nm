@@ -1,0 +1,11 @@
+* NGSPICE file created from sky130_hilas_VinjNOR3.ext - technology: sky130A
+
+.subckt sky130_hilas_VinjNOR3 OUTPUT
+X0 a_n398_344# Input3 Vinj Vinj sky130_fd_pr__pfet_g5v0d10v5 ad=0.1176 pd=1.4 as=0.1134 ps=1.38 w=0.42 l=0.53
+X1 a_n122_440# a_n226_414# a_n398_344# Vinj sky130_fd_pr__pfet_g5v0d10v5 ad=0.1176 pd=1.4 as=0.1176 ps=1.4 w=0.42 l=0.52
+X2 GND a_n226_414# OUTPUT GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.1204 pd=1.42 as=0.129 ps=1.46 w=0.43 l=0.51
+X3 OUTPUT Input3 GND GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.1218 pd=1.42 as=0.1176 ps=1.4 w=0.42 l=0.5
+X4 OUTPUT a_50_320# a_n122_440# Vinj sky130_fd_pr__pfet_g5v0d10v5 ad=0.1161 pd=1.4 as=0.1161 ps=1.4 w=0.43 l=0.52
+X5 GND a_50_320# OUTPUT GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.1176 pd=1.4 as=0.1218 ps=1.42 w=0.42 l=0.5
+.ends
+

@@ -1,0 +1,56 @@
+v {xschem version=3.4.8RC file_version=1.3}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+T {@symname} -67.5 -6 0 0 0.3 0.3 {}
+T {@name} 135 -112 0 0 0.2 0.2 {}
+P 4 5 130 -100 -130 -100 -130 100 130 100 130 -100 {}
+B 5 -152.5 -92.5 -147.5 -87.5 {name=VINJ dir=in}
+L 4 -150 -90 -130 -90 {}
+T {VINJ} -125 -94 0 0 0.2 0.2 {}
+B 5 147.5 -92.5 152.5 -87.5 {name=DRAIN_MUX dir=inout}
+L 7 130 -90 150 -90 {}
+T {DRAIN_MUX} 125 -94 0 1 0.2 0.2 {}
+B 5 -152.5 -72.5 -147.5 -67.5 {name=SELECT1 dir=in}
+L 4 -150 -70 -130 -70 {}
+T {SELECT1} -125 -74 0 0 0.2 0.2 {}
+B 5 147.5 -72.5 152.5 -67.5 {name=DRAIN1 dir=inout}
+L 7 130 -70 150 -70 {}
+T {DRAIN1} 125 -74 0 1 0.2 0.2 {}
+B 5 -152.5 -52.5 -147.5 -47.5 {name=run_drain1 dir=in}
+L 4 -150 -50 -130 -50 {}
+T {run_drain1} -125 -54 0 0 0.2 0.2 {}
+B 5 -152.5 -32.5 -147.5 -27.5 {name=drain_rail dir=in}
+L 4 -150 -30 -130 -30 {}
+T {drain_rail} -125 -34 0 0 0.2 0.2 {}
+B 5 -152.5 -12.5 -147.5 -7.5 {name=SELECT2 dir=in}
+L 4 -150 -10 -130 -10 {}
+T {SELECT2} -125 -14 0 0 0.2 0.2 {}
+B 5 147.5 -52.5 152.5 -47.5 {name=DRAIN2 dir=inout}
+L 7 130 -50 150 -50 {}
+T {DRAIN2} 125 -54 0 1 0.2 0.2 {}
+B 5 -152.5 7.5 -147.5 12.5 {name=run_drain2 dir=in}
+L 4 -150 10 -130 10 {}
+T {run_drain2} -125 6 0 0 0.2 0.2 {}
+B 5 -152.5 27.5 -147.5 32.5 {name=SELECT3 dir=in}
+L 4 -150 30 -130 30 {}
+T {SELECT3} -125 26 0 0 0.2 0.2 {}
+B 5 147.5 -32.5 152.5 -27.5 {name=DRAIN3 dir=inout}
+L 7 130 -30 150 -30 {}
+T {DRAIN3} 125 -34 0 1 0.2 0.2 {}
+B 5 -152.5 47.5 -147.5 52.5 {name=run_drain3 dir=in}
+L 4 -150 50 -130 50 {}
+T {run_drain3} -125 46 0 0 0.2 0.2 {}
+B 5 -152.5 67.5 -147.5 72.5 {name=SELECT4 dir=in}
+L 4 -150 70 -130 70 {}
+T {SELECT4} -125 66 0 0 0.2 0.2 {}
+B 5 147.5 -12.5 152.5 -7.5 {name=DRAIN4 dir=inout}
+L 7 130 -10 150 -10 {}
+T {DRAIN4} 125 -14 0 1 0.2 0.2 {}
+B 5 -152.5 87.5 -147.5 92.5 {name=run_drain4 dir=in}
+L 4 -150 90 -130 90 {}
+T {run_drain4} -125 86 0 0 0.2 0.2 {}
+B 5 147.5 7.5 152.5 12.5 {name=VGND dir=inout}
+L 7 130 10 150 10 {}
+T {VGND} 125 6 0 1 0.2 0.2 {}

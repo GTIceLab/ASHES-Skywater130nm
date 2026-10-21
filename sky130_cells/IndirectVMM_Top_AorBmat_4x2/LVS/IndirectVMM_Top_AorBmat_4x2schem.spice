@@ -1,0 +1,43 @@
+
+* ------------------------------------------------------------
+* SKY130 device models (REQUIRED for LVS)
+* ------------------------------------------------------------
+.include /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_pr/spice/sky130_fd_pr.spice
+
+* ------------------------------------------------------------
+* Top-level cell
+* ------------------------------------------------------------
+.subckt IndirectVMM_Top_AorBmat_4x2 \
+  Vd_Run[1] Vd_Run[2] Vd_Run[3] \
+  Vd_Prog[0] Vd_Prog[1] Vd_Prog[2] Vd_Prog[3] \
+  Vg VTUN ColSel GND VINJ Vs fgmem[0] fgmem[1]
+
+*.PININFO Vd_Run[1:3]:B Vd_Prog[0:3]:B Vg:B VTUN:B ColSel:B GND:B VINJ:B Vs:B fgmem[0:1]:B
+
+XFG_Indrct1 Vs Vg ColSel VTUN fgmem[0] Vd_Prog[0] VINJ GND FG_Indirect
+XFG_Indrct0 Vs Vg ColSel VTUN fgmem[1] Vd_Prog[0] VINJ GND FG_Indirect
+XFG_Indrct2 Vs Vg ColSel VTUN Vd_Run[1] Vd_Prog[1] VINJ GND FG_Indirect
+XFG_Indrct3 Vs Vg ColSel VTUN Vd_Run[1] Vd_Prog[1] VINJ GND FG_Indirect
+XFG_Indrct4 Vs Vg ColSel VTUN Vd_Run[2] Vd_Prog[2] VINJ GND FG_Indirect
+XFG_Indrct5 Vs Vg ColSel VTUN Vd_Run[2] Vd_Prog[2] VINJ GND FG_Indirect
+XFG_Indrct6 Vs Vg ColSel VTUN Vd_Run[3] Vd_Prog[3] VINJ GND FG_Indirect
+XFG_Indrct7 Vs Vg ColSel VTUN Vd_Run[3] Vd_Prog[3] VINJ GND FG_Indirect
+
+.ends IndirectVMM_Top_AorBmat_4x2
+
+
+* ------------------------------------------------------------
+* FG_Indirect cell
+* ------------------------------------------------------------
+.subckt FG_Indirect Vs Vg Vsel VTUN Vd_R Vd_P VINJ GND
+*.PININFO VINJ:B Vsel:B Vg:B Vs:B Vd_R:B Vd_P:B VTUN:B GND:B
+
+XM1 Vd_R Vfg Vs   VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM2 net1 Vsel VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM3 Vd_P Vfg net1 VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+
+XC1 Vfg VTUN GND sky130_fd_pr__cap_var_hvt W=0.29 L=0.5  m=1
+XC2 Vfg Vg   GND sky130_fd_pr__cap_var_hvt W=0.54 L=0.65 m=1
+
+.ends FG_Indirect
+

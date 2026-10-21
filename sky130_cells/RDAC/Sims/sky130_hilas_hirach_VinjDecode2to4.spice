@@ -1,0 +1,53 @@
+**.subckt sky130_hilas_hirach_VinjDecode2to4 VINJ ENABLE IN2 IN1 OUTPUT00 OUTPUT01 OUTPUT10 OUTPUT11 VGND
+*.ipin IN2
+*.ipin IN1
+*.ipin ENABLE
+*.opin OUTPUT00
+*.opin OUTPUT01
+*.opin OUTPUT10
+*.opin OUTPUT11
+*.iopin VINJ
+*.iopin VGND
+x2 VINJ IN2 VinjNOR3_2/Input2 VGND sky130_hilas_VinjInv2
+x3 VINJ IN1 VinjNOR3_1/Input1 VGND sky130_hilas_VinjInv2
+x4 VINJ ENABLE VinjNOR3_3/Input3 VGND sky130_hilas_VinjInv2
+x1 VINJ IN2 IN1 VinjNOR3_3/Input3 OUTPUT00 VGND sky130_hilas_VinjNOR3
+x5 VINJ IN2 VinjNOR3_1/Input1 VinjNOR3_3/Input3 OUTPUT01 VGND sky130_hilas_VinjNOR3
+x6 VINJ VinjNOR3_2/Input2 IN1 VinjNOR3_3/Input3 OUTPUT10 VGND sky130_hilas_VinjNOR3
+x7 VINJ VinjNOR3_2/Input2 VinjNOR3_1/Input1 VinjNOR3_3/Input3 OUTPUT11 VGND sky130_hilas_VinjNOR3
+**.ends
+
+.subckt sky130_hilas_VinjInv2 Vinj Input Output GND
+*.ipin Input
+*.opin Output
+*.iopin Vinj
+*.iopin GND
+XM4 Output Input Vinj Vinj sky130_fd_pr__pfet_g5v0d10v5 L=0.53 W=0.35 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM3 Output Input GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.52 W=0.34 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+.subckt sky130_hilas_VinjNOR3 Vinj Input1 Input2 Input3 OUTPUT GND
+*.ipin Input3
+*.ipin Input1
+*.ipin Input2
+*.iopin Vinj
+*.iopin GND
+*.opin OUTPUT
+XM1 OUTPUT Input3 GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.36 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2 OUTPUT Input1 GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.37 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM3 OUTPUT Input2 GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.36 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM6 OUTPUT Input2 net2 Vinj sky130_fd_pr__pfet_g5v0d10v5 L=0.52 W=0.37 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM4 net2 Input1 net1 Vinj sky130_fd_pr__pfet_g5v0d10v5 L=0.52 W=0.36 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM5 net1 Input3 Vinj Vinj sky130_fd_pr__pfet_g5v0d10v5 L=0.53 W=0.37 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+.end

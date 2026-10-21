@@ -1,0 +1,35 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+# Generated synthesis and physical-design outputs
+Tools/run_syn/*/syn/
+Tools/run_syn/*/pd/
+Tools/run_syn/*/openroad/
+Tools/run_syn/*/*.log
+# Generated cell history and conversion intermediates
+Tools/lib/cell_def/cell_histories/
+Tools/lib/gds/*_output.txt
+Tools/lib/gds/*_output_directions.json
+Tools/lib/gds_source/*_output.txt
+Tools/lib/gds_source/*_output_directions.json
+# Simulator/editor/build output
+*.raw
+*.out
+*.log
+*.ext
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.bak
+*~
+*Zone.Identifier
+*:Zone.Identifier
+
+# Project-local Xschem setup and generated netlists
+xschemrc.local
+.xschem/
+**/simulation/

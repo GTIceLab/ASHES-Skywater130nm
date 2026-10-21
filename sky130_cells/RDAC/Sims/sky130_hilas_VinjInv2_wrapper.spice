@@ -1,0 +1,6 @@
+* sky130_hilas_VinjInv2_wrapper.spice
+.include sky130_hilas_VinjInv2.spice
+
+xVinjInv2 Input Vinj Ouput GND
+
+.end

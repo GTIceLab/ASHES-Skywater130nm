@@ -1,0 +1,164 @@
+magic
+tech sky130A
+timestamp 1769203741
+<< nwell >>
+rect 1355 760 1384 794
+rect 1355 144 1382 760
+rect 2198 228 2224 274
+<< locali >>
+rect 1289 600 1448 633
+rect 1137 415 1601 440
+rect 1139 385 1598 415
+rect 1288 305 1449 338
+<< metal1 >>
+rect 548 769 588 794
+rect 608 769 648 794
+rect 668 769 708 794
+rect 826 769 866 794
+rect 959 769 999 794
+rect 1101 769 1141 794
+rect 1253 769 1293 794
+rect 1444 769 1484 794
+rect 1596 769 1636 794
+rect 1738 769 1778 794
+rect 1871 769 1911 794
+rect 2029 769 2069 794
+rect 2089 769 2129 794
+rect 2149 769 2189 794
+rect 548 144 588 169
+rect 608 144 648 169
+rect 668 144 708 169
+rect 826 144 866 169
+rect 959 144 999 169
+rect 1101 144 1141 169
+rect 1253 144 1293 169
+rect 1444 144 1484 169
+rect 1596 144 1636 169
+rect 1738 144 1778 169
+rect 1871 144 1911 169
+rect 2029 144 2069 169
+rect 2089 144 2129 169
+rect 2149 144 2189 169
+<< metal2 >>
+rect 513 711 539 757
+rect 1355 719 1382 749
+rect 2198 711 2224 757
+rect 513 642 539 688
+rect 1355 650 1382 680
+rect 2198 642 2224 688
+rect 513 573 539 619
+rect 1355 581 1382 611
+rect 2198 573 2224 619
+rect 513 504 539 550
+rect 1355 512 1382 542
+rect 2198 504 2224 550
+rect 513 435 539 481
+rect 1355 443 1382 473
+rect 2198 435 2224 481
+rect 513 366 539 412
+rect 1355 374 1382 404
+rect 2198 366 2224 412
+rect 513 297 539 343
+rect 1355 306 1382 336
+rect 2198 297 2224 343
+rect 513 228 536 274
+rect 1355 228 1383 274
+rect 2198 228 2224 274
+use IndirectVMM_4x1 *IndirectVMM_4x1_0 ../IndirectVMM_4x1
+timestamp 1769203143
+transform -1 0 2769 0 1 -11
+box 545 155 1390 805
+use IndirectVMM_4x1 *IndirectVMM_4x1_1
+timestamp 1769203143
+transform 1 0 -32 0 1 -11
+box 545 155 1390 805
+<< labels >>
+flabel metal2 2198 228 2224 274 0 FreeSans 64 90 0 0 Vd_P_e[3]
+port 23 nsew
+flabel metal2 2198 297 2224 343 0 FreeSans 64 90 0 0 Vd_R_e[3]
+port 24 nsew
+flabel metal2 2198 366 2224 412 0 FreeSans 64 90 0 0 Vd_R_e[2]
+port 25 nsew
+flabel metal2 2198 435 2224 481 0 FreeSans 64 90 0 0 Vd_P_e[2]
+port 26 nsew
+flabel metal2 2198 504 2224 550 0 FreeSans 64 90 0 0 Vd_P_e[1]
+port 27 nsew
+flabel metal2 2198 573 2224 619 0 FreeSans 64 90 0 0 Vd_R_e[1]
+port 28 nsew
+flabel metal2 2198 642 2224 688 0 FreeSans 64 90 0 0 Vd_R_e[0]
+port 29 nsew
+flabel metal2 2198 711 2224 757 0 FreeSans 64 90 0 0 Vd_P_e[0]
+port 30 nsew
+flabel metal2 513 228 536 274 0 FreeSans 64 90 0 0 Vd_P_w[3]
+port 32 nsew
+flabel metal2 513 297 539 343 0 FreeSans 64 90 0 0 Vd_R_w[3]
+port 33 nsew
+flabel metal2 513 366 539 412 0 FreeSans 64 90 0 0 Vd_R_w[2]
+port 34 nsew
+flabel metal2 513 435 539 481 0 FreeSans 64 90 0 0 Vd_P_w[2]
+port 35 nsew
+flabel metal2 513 504 539 550 0 FreeSans 64 90 0 0 Vd_P_w[1]
+port 36 nsew
+flabel metal2 513 573 539 619 0 FreeSans 64 90 0 0 Vd_R_w[1]
+port 37 nsew
+flabel metal2 513 642 539 688 0 FreeSans 64 90 0 0 Vd_R_w[0]
+port 38 nsew
+flabel metal2 513 711 539 757 0 FreeSans 64 90 0 0 Vd_P_w[0]
+port 39 nsew
+flabel metal1 548 769 588 794 0 FreeSans 64 0 0 0 Vsel_n[0]
+port 41 nsew
+flabel metal1 608 769 648 794 0 FreeSans 64 0 0 0 Vs_n[0]
+port 42 nsew
+flabel metal1 668 769 708 794 0 FreeSans 64 0 0 0 VINJ_n[0]
+port 43 nsew
+flabel metal1 826 769 866 794 0 FreeSans 64 0 0 0 GND_n[0]
+port 44 nsew
+flabel metal1 1101 769 1141 794 0 FreeSans 64 0 0 0 GND_n[1]
+port 45 nsew
+flabel metal1 1596 769 1636 794 0 FreeSans 64 0 0 0 GND_n[2]
+port 46 nsew
+flabel metal1 1871 769 1911 794 0 FreeSans 64 0 0 0 GND_n[3]
+port 47 nsew
+flabel metal1 959 769 999 794 0 FreeSans 64 0 0 0 Vg_n[0]
+port 48 nsew
+flabel metal1 1253 769 1293 794 0 FreeSans 64 0 0 0 VTUN_n[0]
+port 49 nsew
+flabel metal1 1444 769 1484 794 0 FreeSans 64 0 0 0 VTUN_n[1]
+port 51 nsew
+flabel metal1 1738 769 1778 794 0 FreeSans 64 0 0 0 Vg_n[1]
+port 52 nsew
+flabel metal1 2029 769 2069 794 0 FreeSans 64 0 0 0 VINJ_n[1]
+port 53 nsew
+flabel metal1 2089 769 2129 794 0 FreeSans 64 0 0 0 Vs_n[1]
+port 54 nsew
+flabel metal1 2149 769 2189 794 0 FreeSans 64 0 0 0 Vsel_n[1]
+port 55 nsew
+flabel metal1 548 144 588 169 0 FreeSans 64 0 0 0 Vsel_s[0]
+port 56 nsew
+flabel metal1 608 144 648 169 0 FreeSans 64 0 0 0 Vs_s[0]
+port 57 nsew
+flabel metal1 668 144 708 169 0 FreeSans 64 0 0 0 VINJ_s[0]
+port 58 nsew
+flabel metal1 826 144 866 169 0 FreeSans 64 0 0 0 GND_s[0]
+port 59 nsew
+flabel metal1 1101 144 1141 169 0 FreeSans 64 0 0 0 GND_s[1]
+port 60 nsew
+flabel metal1 1596 144 1636 169 0 FreeSans 64 0 0 0 GND_s[2]
+port 61 nsew
+flabel metal1 1871 144 1911 169 0 FreeSans 64 0 0 0 GND_s[2]
+port 62 nsew
+flabel metal1 959 144 999 169 0 FreeSans 64 0 0 0 Vg_s[0]
+port 64 nsew
+flabel metal1 1738 144 1778 169 0 FreeSans 64 0 0 0 Vg_s[1]
+port 67 nsew
+flabel metal1 2029 144 2069 169 0 FreeSans 64 0 0 0 VINJ_s[1]
+port 68 nsew
+flabel metal1 2089 144 2129 169 0 FreeSans 64 0 0 0 Vs_s[1]
+port 69 nsew
+flabel metal1 2149 144 2189 169 0 FreeSans 64 0 0 0 Vsel_s[1]
+port 70 nsew
+flabel metal1 1253 144 1293 169 0 FreeSans 64 0 0 0 VTUN_s[0]
+port 71 nsew
+flabel metal1 1444 144 1484 169 0 FreeSans 64 0 0 0 VTUN_s[1]
+port 72 nsew
+<< end >>

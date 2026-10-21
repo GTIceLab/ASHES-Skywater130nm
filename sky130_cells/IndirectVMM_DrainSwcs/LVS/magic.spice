@@ -1,0 +1,62 @@
+* NGSPICE file created from DrainSelect.ext - technology: sky130A
+
+.subckt DrainSelect VD_P[0] VD_P[1] VD_P[2] VD_R[2] VD_R[3] VD_P[3] VD_R[0] VD_R[1]
++ GND Sel[3] Sel[2] Sel[1] Sel[0] VINJ Prog_DrLn Run_DrLn
+X0 VINJ Sel[0] N_Sel[0] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.35 pd=2.46667 as=0.35 ps=2.7 w=1 l=0.5
+**devattr s=3500,270 d=3500,270
+X1 VD_P[0] Sel[0] Prog_DrLn GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.35 pd=2.7 as=0.35 ps=2.7 w=1 l=0.5
+**devattr s=3500,270 d=3500,270
+X2 VD_R[1] Sel[1] Run_DrLn GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.35 pd=2.7 as=0.35 ps=2.7 w=1 l=0.5
+**devattr s=3500,270 d=3500,270
+X3 N_Sel[3] Sel[3] GND GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.175 pd=1.7 as=0.175 ps=1.7 w=0.5 l=0.5
+**devattr s=1750,170 d=1750,170
+X4 VD_P[0] N_Sel[0] Prog_DrLn VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.7 pd=4.7 as=0.7 ps=4.7 w=2 l=0.5
+**devattr s=7000,470 d=7000,470
+X5 VINJ Sel[3] VD_P[3] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.7 pd=4.93333 as=0.7 ps=4.7 w=2 l=0.5
+**devattr s=7000,470 d=7000,470
+X6 VD_R[0] Sel[0] Run_DrLn GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.35 pd=2.7 as=0.35 ps=2.7 w=1 l=0.5
+**devattr s=3500,270 d=3500,270
+X7 N_Sel[2] Sel[2] VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.35 pd=2.7 as=0.35 ps=2.46667 w=1 l=0.5
+**devattr s=3500,270 d=3500,270
+X8 Prog_DrLn N_Sel[2] VD_P[2] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.7 pd=4.7 as=0.7 ps=4.7 w=2 l=0.5
+**devattr s=7000,470 d=7000,470
+X9 VINJ Sel[2] VD_P[2] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.7 pd=4.93333 as=0.7 ps=4.7 w=2 l=0.5
+**devattr s=7000,470 d=7000,470
+X10 Run_DrLn N_Sel[3] VD_R[3] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.7 pd=4.7 as=0.7 ps=4.7 w=2 l=0.5
+**devattr s=7000,470 d=7000,470
+X11 GND Sel[0] N_Sel[0] GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.175 pd=1.7 as=0.175 ps=1.7 w=0.5 l=0.5
+**devattr s=1750,170 d=1750,170
+X12 VD_R[1] N_Sel[1] Run_DrLn VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.7 pd=4.7 as=0.7 ps=4.7 w=2 l=0.5
+**devattr s=7000,470 d=7000,470
+X13 VD_P[0] Sel[0] VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.7 pd=4.7 as=0.7 ps=4.93333 w=2 l=0.5
+**devattr s=7000,470 d=7000,470
+X14 Run_DrLn Sel[2] VD_R[2] GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.35 pd=2.7 as=0.35 ps=2.7 w=1 l=0.5
+**devattr s=3500,270 d=3500,270
+X15 VINJ Sel[1] N_Sel[1] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.35 pd=2.46667 as=0.35 ps=2.7 w=1 l=0.5
+**devattr s=3500,270 d=3500,270
+X16 VD_P[1] N_Sel[1] Prog_DrLn VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.7 pd=4.7 as=0.7 ps=4.7 w=2 l=0.5
+**devattr s=7000,470 d=7000,470
+X17 VD_P[1] Sel[1] VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.7 pd=4.7 as=0.7 ps=4.93333 w=2 l=0.5
+**devattr s=7000,470 d=7000,470
+X18 N_Sel[2] Sel[2] GND GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.175 pd=1.7 as=0.175 ps=1.7 w=0.5 l=0.5
+**devattr s=1750,170 d=1750,170
+X19 Run_DrLn Sel[3] VD_R[3] GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.35 pd=2.7 as=0.35 ps=2.7 w=1 l=0.5
+**devattr s=3500,270 d=3500,270
+X20 Prog_DrLn Sel[2] VD_P[2] GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.35 pd=2.7 as=0.35 ps=2.7 w=1 l=0.5
+**devattr s=3500,270 d=3500,270
+X21 N_Sel[3] Sel[3] VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.35 pd=2.7 as=0.35 ps=2.46667 w=1 l=0.5
+**devattr s=3500,270 d=3500,270
+X22 Prog_DrLn Sel[3] VD_P[3] GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.35 pd=2.7 as=0.35 ps=2.7 w=1 l=0.5
+**devattr s=3500,270 d=3500,270
+X23 Run_DrLn N_Sel[2] VD_R[2] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.7 pd=4.7 as=0.7 ps=4.7 w=2 l=0.5
+**devattr s=7000,470 d=7000,470
+X24 GND Sel[1] N_Sel[1] GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.175 pd=1.7 as=0.175 ps=1.7 w=0.5 l=0.5
+**devattr s=1750,170 d=1750,170
+X25 Prog_DrLn N_Sel[3] VD_P[3] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.7 pd=4.7 as=0.7 ps=4.7 w=2 l=0.5
+**devattr s=7000,470 d=7000,470
+X26 VD_P[1] Sel[1] Prog_DrLn GND sky130_fd_pr__nfet_g5v0d10v5 ad=0.35 pd=2.7 as=0.35 ps=2.7 w=1 l=0.5
+**devattr s=3500,270 d=3500,270
+X27 VD_R[0] N_Sel[0] Run_DrLn VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.7 pd=4.7 as=0.7 ps=4.7 w=2 l=0.5
+**devattr s=7000,470 d=7000,470
+.ends
+

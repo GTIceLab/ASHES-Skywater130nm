@@ -1,0 +1,56 @@
+v {xschem version=3.4.8RC file_version=1.3}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+}
+T {@symname} -126 -6 0 0 0.3 0.3 {}
+T {@name} 135 -152 0 0 0.2 0.2 {}
+P 4 5 130 -140 -130 -140 -130 140 130 140 130 -140 {}
+B 5 147.5 -132.5 152.5 -127.5 {name=GND dir=inout}
+L 7 130 -130 150 -130 {}
+T {GND} 125 -134 0 1 0.2 0.2 {}
+B 5 147.5 -112.5 152.5 -107.5 {name=AVDD dir=inout}
+L 7 130 -110 150 -110 {}
+T {AVDD} 125 -114 0 1 0.2 0.2 {}
+B 5 147.5 -92.5 152.5 -87.5 {name=VINJ dir=inout}
+L 7 130 -90 150 -90 {}
+T {VINJ} 125 -94 0 1 0.2 0.2 {}
+B 5 -152.5 -132.5 -147.5 -127.5 {name=prog dir=in}
+L 4 -150 -130 -130 -130 {}
+T {prog} -125 -134 0 0 0.2 0.2 {}
+B 5 -152.5 -112.5 -147.5 -107.5 {name=run dir=in}
+L 4 -150 -110 -130 -110 {}
+T {run} -125 -114 0 0 0.2 0.2 {}
+B 5 147.5 -72.5 152.5 -67.5 {name=Vgrun dir=inout}
+L 7 130 -70 150 -70 {}
+T {Vgrun} 125 -74 0 1 0.2 0.2 {}
+B 5 147.5 -52.5 152.5 -47.5 {name=fg_pu(0) dir=inout}
+L 7 130 -50 150 -50 {}
+T {fg_pu(0)} 125 -54 0 1 0.2 0.2 {}
+B 5 147.5 -32.5 152.5 -27.5 {name=fg_pu(1) dir=inout}
+L 7 130 -30 150 -30 {}
+T {fg_pu(1)} 125 -34 0 1 0.2 0.2 {}
+B 5 147.5 -12.5 152.5 -7.5 {name=Vs_out_mtrx(0) dir=inout}
+L 7 130 -10 150 -10 {}
+T {Vs_out_mtrx(0)} 125 -14 0 1 0.2 0.2 {}
+B 5 147.5 7.5 152.5 12.5 {name=Vs_out_mtrx(1) dir=inout}
+L 7 130 10 150 10 {}
+T {Vs_out_mtrx(1)} 125 6 0 1 0.2 0.2 {}
+B 5 147.5 27.5 152.5 32.5 {name=Vg_out_mtrx(0) dir=inout}
+L 7 130 30 150 30 {}
+T {Vg_out_mtrx(0)} 125 26 0 1 0.2 0.2 {}
+B 5 147.5 47.5 152.5 52.5 {name=Vg_out_mtrx(1) dir=inout}
+L 7 130 50 150 50 {}
+T {Vg_out_mtrx(1)} 125 46 0 1 0.2 0.2 {}
+B 5 147.5 67.5 152.5 72.5 {name=Vs_global(0) dir=inout}
+L 7 130 70 150 70 {}
+T {Vs_global(0)} 125 66 0 1 0.2 0.2 {}
+B 5 147.5 87.5 152.5 92.5 {name=Vs_global(1) dir=inout}
+L 7 130 90 150 90 {}
+T {Vs_global(1)} 125 86 0 1 0.2 0.2 {}
+B 5 147.5 107.5 152.5 112.5 {name=Vg_global(0) dir=inout}
+L 7 130 110 150 110 {}
+T {Vg_global(0)} 125 106 0 1 0.2 0.2 {}
+B 5 147.5 127.5 152.5 132.5 {name=Vg_global(1) dir=inout}
+L 7 130 130 150 130 {}
+T {Vg_global(1)} 125 126 0 1 0.2 0.2 {}

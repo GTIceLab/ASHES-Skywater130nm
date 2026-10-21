@@ -1,0 +1,104 @@
+{
+  "IndirectVMM_4x2": {
+    "type": "ASIC",
+    "foundry": "sky",
+    "process_node": "130nm",
+    "W": [
+      "Vd_P_w[0:3]",
+      "Vd_R_w[0:3]"
+    ],
+    "E": [
+      "Vd_R_e[0:3]",
+      "Vd_P_e[0:3]"
+    ],
+    "N": [
+      "Vsel_n[0:1]",
+      "Vs_n[0:1]",
+      "VINJ_n[0:1]",
+      "GND_n",
+      "Vg_n[0:1]",
+      "VTUN_n"
+    ],
+    "S": [
+      "Vsel_s[0:1]",
+      "Vs_s[0:1]",
+      "VINJ_s[0:1]",
+      "GND_s",
+      "Vg_s[0:1]",
+      "VTUN_s"
+    ],
+    "width": 17.11,
+    "height": 6.55,
+    "process_coordinates": "xy",
+    "logical_to_native": {
+      "Vd_P_w": "Vd_P_w",
+      "Vd_R_w": "Vd_R_w",
+      "Vd_R_e": "Vd_R_e",
+      "Vd_P_e": "Vd_P_e",
+      "Vsel_n": "Vsel_n",
+      "Vs_n": "Vs_n",
+      "VINJ_n": "VINJ_n",
+      "GND_n": "GND_n",
+      "Vg_n": "Vg_n",
+      "VTUN_n": "VTUN_n",
+      "Vsel_s": "Vsel_s",
+      "Vs_s": "Vs_s",
+      "VINJ_s": "VINJ_s",
+      "GND_s": "GND_s",
+      "Vg_s": "Vg_s",
+      "VTUN_s": "VTUN_s"
+    }
+  },
+  "TA_FGbias_1x2": {
+    "type": "ASIC",
+    "foundry": "sky",
+    "process_node": "130nm",
+    "W": [
+      "Vin_P_w[0:1]",
+      "Vin_M_w[0:1]",
+      "Vd_P_w[0:1]",
+      "GND_w"
+    ],
+    "E": [
+      "OUTPUT_e[0:1]"
+    ],
+    "N": [
+      "GND_n",
+      "Vg_n",
+      "Vsel_n",
+      "AVDD_n",
+      "VTUN_n",
+      "VINJ_n"
+    ],
+    "S": [
+      "GND_s",
+      "Vg_s",
+      "Vsel_s",
+      "AVDD_s",
+      "VTUN_s",
+      "VINJ_s"
+    ],
+    "width": 27.6,
+    "height": 6.5,
+    "process_coordinates": "xy",
+    "logical_to_native": {
+      "Vin_P_w": "Vin_P_w",
+      "Vin_M_w": "Vin_M_w",
+      "Vd_P_w": "Vd_P_w",
+      "GND_w": "GND_w",
+      "OUTPUT_e": "OUTPUT_e",
+      "GND_n": "GND_n",
+      "Vg_n": "Vg_n",
+      "Vsel_n": "Vsel_n",
+      "AVDD_n": "AVDD_n",
+      "VTUN_n": "VTUN_n",
+      "VINJ_n": "VINJ_n",
+      "GND_s": "GND_s",
+      "Vg_s": "Vg_s",
+      "Vsel_s": "Vsel_s",
+      "AVDD_s": "AVDD_s",
+      "VTUN_s": "VTUN_s",
+      "VINJ_s": "VINJ_s"
+    }
+  }
+}

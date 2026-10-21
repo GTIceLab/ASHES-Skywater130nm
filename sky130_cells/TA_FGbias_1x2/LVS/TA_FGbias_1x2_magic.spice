@@ -1,0 +1,54 @@
+* NGSPICE file created from TA_FGbias_1x2.ext - technology: sky130A
+
+.subckt TA_FGbias_1x2 Vin_P[0] Vin_M[1] Vd_P[0] Vin_P[1] GND Vg Vsel AVDD OUTPUT[0]
++ VTUN VINJ Vd_P[1] Vin_M[0] OUTPUT[1]
+X0 Vd_P[0] a_n1877_1572# a_n968_1524# VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.2016 pd=1.8 as=0.0924 ps=0.86 w=0.42 l=0.5
+**devattr s=924,86 d=2016,180
+X1 a_n1877_1572# VTUN GND sky130_fd_pr__cap_var w=0.59 l=0.5
+X2 AVDD a_153_1130# a_153_1130# AVDD sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.32 ps=2.64 w=1 l=0.6
+**devattr s=3200,264 d=2500,150
+X3 a_n1877_1572# Vg GND sky130_fd_pr__cap_var w=1.11 l=0.5
+X4 a_n262_1170# a_n262_1170# GND GND sky130_fd_pr__nfet_01v8 ad=0.41 pd=2.82 as=0.41 ps=2.82 w=1 l=0.6
+**devattr s=4100,282 d=4100,282
+X5 a_n143_1130# a_n143_1130# GND GND sky130_fd_pr__nfet_01v8 ad=0.41 pd=2.82 as=0.41 ps=2.82 w=1 l=0.6
+**devattr s=4100,282 d=4100,282
+X6 OUTPUT[0] a_n262_1170# GND GND sky130_fd_pr__nfet_01v8 ad=0.41 pd=2.82 as=0.41 ps=2.82 w=1 l=0.6
+**devattr s=4100,282 d=4100,282
+X7 a_n843_1627# a_n1877_1572# AVDD VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.78 pd=4.78 as=0.5 ps=2.5 w=2 l=2
+**devattr s=5000,250 d=7800,478
+X8 GND a_n378_1170# a_153_1577# GND sky130_fd_pr__nfet_01v8 ad=0.41 pd=2.82 as=0.41 ps=2.82 w=1 l=0.6
+**devattr s=4100,282 d=4100,282
+X9 OUTPUT[1] a_n143_1130# GND GND sky130_fd_pr__nfet_01v8 ad=0.41 pd=2.82 as=0.41 ps=2.82 w=1 l=0.6
+**devattr s=4100,282 d=4100,282
+X10 AVDD a_153_1577# OUTPUT[0] AVDD sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.32 ps=2.64 w=1 l=0.6
+**devattr s=3200,264 d=2500,150
+X11 GND a_n27_1130# a_153_1130# GND sky130_fd_pr__nfet_01v8 ad=0.41 pd=2.82 as=0.41 ps=2.82 w=1 l=0.6
+**devattr s=4100,282 d=4100,282
+X12 OUTPUT[1] a_153_1130# AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.3 pd=2.6 as=0.25 ps=1.5 w=1 l=0.6
+**devattr s=2500,150 d=3000,260
+X13 a_n27_1130# Vin_M[1] a_n843_1132# AVDD sky130_fd_pr__pfet_01v8 ad=2.05 pd=10.82 as=1.125 ps=5.45 w=5 l=0.15
+**devattr s=11250,545 d=20500,1082
+X14 GND a_n378_1170# a_n378_1170# GND sky130_fd_pr__nfet_01v8 ad=0.41 pd=2.82 as=0.41 ps=2.82 w=1 l=0.6
+**devattr s=4100,282 d=4100,282
+X15 GND a_n27_1130# a_n27_1130# GND sky130_fd_pr__nfet_01v8 ad=0.41 pd=2.82 as=0.41 ps=2.82 w=1 l=0.6
+**devattr s=4100,282 d=4100,282
+X16 VINJ Vsel a_n968_1225# VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.3192 pd=1.94 as=0.0987 ps=0.89 w=0.42 l=0.5
+**devattr s=987,89 d=3192,194
+X17 a_n843_1132# Vin_P[1] a_n143_1130# AVDD sky130_fd_pr__pfet_01v8 ad=1.125 pd=5.45 as=2.05 ps=10.82 w=5 l=0.15
+**devattr s=20500,1082 d=11250,545
+X18 a_n968_1524# Vsel VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.0924 pd=0.86 as=0.3192 ps=1.94 w=0.42 l=0.5
+**devattr s=3192,194 d=924,86
+X19 a_n1877_1158# Vg GND sky130_fd_pr__cap_var w=1.11 l=0.5
+X20 a_n843_1627# Vin_M[0] a_n378_1170# AVDD sky130_fd_pr__pfet_01v8 ad=1.125 pd=5.45 as=2.05 ps=10.82 w=5 l=0.15
+**devattr s=20500,1082 d=11250,545
+X21 AVDD a_n1877_1158# a_n843_1132# VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.5 pd=2.5 as=0.9 ps=4.9 w=2 l=2
+**devattr s=9000,490 d=5000,250
+X22 a_153_1577# a_153_1577# AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.3 pd=2.6 as=0.25 ps=1.5 w=1 l=0.6
+**devattr s=2500,150 d=3000,260
+X23 a_n262_1170# Vin_P[0] a_n843_1627# AVDD sky130_fd_pr__pfet_01v8 ad=2.05 pd=10.82 as=1.125 ps=5.45 w=5 l=0.15
+**devattr s=11250,545 d=20500,1082
+X24 a_n1877_1158# VTUN GND sky130_fd_pr__cap_var w=0.59 l=0.5
+X25 a_n968_1225# a_n1877_1158# Vd_P[1] VINJ sky130_fd_pr__pfet_g5v0d10v5 ad=0.0987 pd=0.89 as=0.2478 ps=2.02 w=0.42 l=0.5
+**devattr s=2478,202 d=987,89
+.ends
+

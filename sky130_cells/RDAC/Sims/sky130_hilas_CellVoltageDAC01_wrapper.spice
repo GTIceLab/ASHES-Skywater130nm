@@ -1,0 +1,19 @@
+* sky130_hilas_CellVoltageDAC01.spice Wrapper
+.include sky130_hilas_CellVoltageDAC01.spice
+
+Xsky130_hilas_VinjDecode2to4_0 sky130_hilas_VinjDecode2to4_0/OUTPUT00 sky130_hilas_VinjDecode2to4_0/OUTPUT01
++ sky130_hilas_VinjDecode2to4_0/OUTPUT10 sky130_hilas_VinjDecode2to4_0/OUTPUT11 sky130_hilas_VinjDecode2to4_0/VINJ
++ BIT1 BIT0 SELECT sky130_hilas_VinjDecode2to4_0/VGND sky130_hilas_VinjDecode2to4
+Xsky130_hilas_VinjTgate4Single_0 sky130_hilas_VinjTgate4Single_0/DRAIN3 sky130_hilas_VinjTgate4Single_0/VINJ
++ sky130_hilas_VinjTgate4Single_0/DRAIN_MUX sky130_hilas_VinjDecode2to4_0/OUTPUT10
++ sky130_hilas_VinjDecode2to4_0/OUTPUT11 sky130_hilas_VinjDecode2to4_0/OUTPUT01 sky130_hilas_VinjDecode2to4_0/OUTPUT00
++ a_3842_322# a_3842_22# a_3842_984# sky130_hilas_VinjDecode2to4_0/VGND sky130_hilas_VinjTgate4Single
+X0 a_3842_22# a_5956_154# sky130_fd_pr__res_generic_po w=0.33 l=10.19
+X1 a_3842_984# a_5956_1134# sky130_fd_pr__res_generic_po w=0.33 l=10.19
+X2 sky130_hilas_VinjTgate4Single_0/DRAIN3 a_5956_470# sky130_fd_pr__res_generic_po w=0.33 l=10.19
+X3 a_3842_322# a_5956_470# sky130_fd_pr__res_generic_po w=0.33 l=10.19
+X4 sky130_hilas_VinjTgate4Single_0/DRAIN3 a_5956_792# sky130_fd_pr__res_generic_po w=0.33 l=10.19
+X5 a_3842_22# a_5956_22# sky130_fd_pr__res_generic_po w=0.33 l=10.19
+X6 a_3842_984# a_5956_792# sky130_fd_pr__res_generic_po w=0.33 l=10.19
+X7 a_3842_322# a_5956_154# sky130_fd_pr__res_generic_po w=0.33 l=10.19
+.end

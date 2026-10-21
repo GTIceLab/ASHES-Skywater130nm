@@ -1,0 +1,42 @@
+magic
+tech sky130A
+timestamp 1762486083
+<< nmos >>
+rect 0 0 15 130
+<< ndiff >>
+rect -29 122 0 130
+rect -29 8 -23 122
+rect -6 8 0 122
+rect -29 0 0 8
+rect 15 122 44 130
+rect 15 8 21 122
+rect 38 8 44 122
+rect 15 0 44 8
+<< ndiffc >>
+rect -23 8 -6 122
+rect 21 8 38 122
+<< poly >>
+rect 0 130 15 143
+rect 0 -13 15 0
+<< locali >>
+rect -29 122 -1 130
+rect -29 8 -23 122
+rect -6 8 -1 122
+rect -29 0 -1 8
+rect 16 122 44 130
+rect 16 8 21 122
+rect 38 8 44 122
+rect 16 0 44 8
+<< viali >>
+rect -23 8 -6 122
+rect 21 8 38 122
+<< metal1 >>
+rect -29 122 -1 130
+rect -29 8 -23 122
+rect -6 8 -1 122
+rect -29 0 -1 8
+rect 16 122 44 130
+rect 16 8 21 122
+rect 38 8 44 122
+rect 16 0 44 8
+<< end >>

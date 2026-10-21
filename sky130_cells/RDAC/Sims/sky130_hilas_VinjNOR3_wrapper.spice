@@ -1,0 +1,6 @@
+* Manually created wrapper for LVS
+.include sky130_hilas_VinjNOR3.spice
+
+XVinjNOR3 OUTPUT10 VINJ Input3 IN2 Input1 VGND sky130_hilas_VinjNOR3
+
+.end

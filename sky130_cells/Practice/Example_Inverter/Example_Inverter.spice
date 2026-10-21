@@ -1,0 +1,9 @@
+* NGSPICE file created from Example_Inverter.ext - technology: sky130A
+
+.subckt Example_Inverter VDD GND I Z
+X0 Z I VDD VDD sky130_fd_pr__pfet_01v8 ad=0.47 pd=2.94 as=0.29 ps=2.58 w=1 l=0.15
+**devattr s=2900,258 d=4700,294
+X1 Z I GND GND sky130_fd_pr__nfet_01v8 ad=0.418 pd=2.78 as=0.2755 ps=2.48 w=0.95 l=0.15
+**devattr s=2755,248 d=4180,278
+.ends
+

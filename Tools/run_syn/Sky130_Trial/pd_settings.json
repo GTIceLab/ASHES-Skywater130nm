@@ -1,0 +1,133 @@
+{
+    "init": [
+        {
+            "tlef_path": "../../../../../lib/tech_lef/sky130.lef"
+        },
+        {
+            "pwr_nets": "AVDD,VINJ",
+            "gnd_nets": "GND"
+        },
+        {
+            "ndr": [
+                {
+                    "name": "ANALOG",
+                    "width": {
+                        "METAL1": 0.2,
+                        "METAL2": 0.2,
+                        "METAL3": 0.3,
+                        "METAL4": 0.3,
+                        "METAL5": 1.6
+                    },
+                    "spacing": {
+                        "METAL1": 0.2,
+                        "METAL2": 0.2,
+                        "METAL3": 0.3,
+                        "METAL4": 0.3,
+                        "METAL5": 1.6
+                    }
+                },
+                {
+                    "name": "DEFAULT_ROUTE",
+                    "width": {
+                        "METAL1": 0.2,
+                        "METAL2": 0.2,
+                        "METAL3": 0.3,
+                        "METAL4": 0.3,
+                        "METAL5": 1.6
+                    },
+                    "spacing": {
+                        "METAL1": 0.2,
+                        "METAL2": 0.2,
+                        "METAL3": 0.3,
+                        "METAL4": 0.3,
+                        "METAL5": 1.6
+                    }
+                },
+                {
+                    "name": "CLOCK_ROUTE",
+                    "width": {
+                        "METAL1": 0.2,
+                        "METAL2": 0.2,
+                        "METAL3": 0.3,
+                        "METAL4": 0.3,
+                        "METAL5": 1.6
+                    },
+                    "spacing": {
+                        "METAL1": 0.2,
+                        "METAL2": 0.2,
+                        "METAL3": 0.3,
+                        "METAL4": 0.3,
+                        "METAL5": 1.6
+                    }
+                }
+            ]
+        }
+    ],
+    "pins": [
+        {
+            "site": "unithd"
+        },
+        {
+            "place_type": "side"
+        },
+        {
+            "N": {
+                "met_layer": "METAL4",
+                "pin_width": 0.6,
+                "pin_height": 0.6,
+                "offset_start": 5,
+                "offset_end": 5
+            },
+            "S": {
+                "met_layer": "METAL4",
+                "pin_width": 0.6,
+                "pin_height": 0.6,
+                "offset_start": 5,
+                "offset_end": 5
+            },
+            "W": {
+                "met_layer": "METAL3",
+                "pin_width": 0.6,
+                "pin_height": 0.6,
+                "offset_start": 5,
+                "offset_end": 5
+            },
+            "E": {
+                "met_layer": "METAL3",
+                "pin_width": 0.6,
+                "pin_height": 0.6,
+                "offset_start": 5,
+                "offset_end": 5
+            }
+        }
+    ],
+    "power": [
+        {
+            "power_globals": {
+                "nets": [
+                    "AVDD",
+                    "VINJ",
+                    "GND"
+                ],
+                "type": "rings"
+            }
+        }
+    ],
+    "route": [
+        {
+            "top_layer": "METAL5",
+            "bot_layer": "METAL2"
+        },
+        {
+            "iterations": 10
+        }
+    ],
+    "signoff": [
+     {"def2stream": {
+            "tech_lef": "../../../../../lib/tech_lef/sky130.lef",
+            "layer_map": "../../../../../lib/layer_map/sky130_EDA.layermap",
+            "in_files": "../../lib/gds",
+            "def_units":1000
+      }
+      }]
+}

@@ -1,0 +1,30 @@
+.subckt Volatile_Swcs GND VDD RST_b CLK D Q Scan_Vout VTUN VINJ Vsel[0] Vsel[1] Vin[0] Vin[1] Vg[0] Vg[1] Vd_P
+*.PININFO GND:B VDD:B RST_b:I CLK:I D:I Q:O Scan_Vout:B VTUN:I VINJ:I Vsel[0:1]:I Vin[0:1]:B Vg[0:1]:I Vd_P:B
+x3 Vin[0] Vg[0] Vsel[0] VTUN net1 Vd_P VINJ GND FG_Indirect
+x2 Vin[1] Vg[1] Vsel[1] VTUN net2 Vd_P VINJ GND FG_Indirect
+XM9 net1 net4 Scan_Vout GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM10 net1 net3 Scan_Vout VDD sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM1 net2 Q Scan_Vout GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2 net2 net5 Scan_Vout VDD sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+x1 CLK D RST_b GND GND VDD VDD net4 net3 sky130_fd_sc_hd__dfrbp_1
+x4 CLK net4 RST_b GND GND VDD VDD Q net5 sky130_fd_sc_hd__dfrbp_1
+**** begin user architecture code
+
+.include ../../../sky130_dig_cells/flipflop/sky130_fd_sc_hd__dfrbp_1.spice
+
+**** end user architecture code
+.ends
+
+.subckt FG_Indirect Vs Vg Vsel VTUN Vd_R Vd_P VINJ GND
+*.PININFO VINJ:B Vsel:B Vg:B Vs:B Vd_R:B Vd_P:B VTUN:B GND:B
+XM1 Vd_R Vfg Vs VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM2 net1 Vsel VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM3 Vd_P Vfg net1 VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XC1 Vfg VTUN GND sky130_fd_pr__cap_var W=0.29 L=0.5 m=1
+XC2 Vfg Vg GND sky130_fd_pr__cap_var W=0.54 L=0.65 m=1
+.ends
+

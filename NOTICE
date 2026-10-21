@@ -1,0 +1,14 @@
+ASHES SkyWater 130 nm
+Georgia Tech ICE Lab and contributors
+
+This distribution contains Sky130 analog-cell sources and ASHES library helpers.
+Original material in this public distribution is made available under Apache-2.0.
+Existing per-file copyright and license notices remain applicable.
+
+SkyWater digital-cell netlist material retains the notice:
+Copyright 2020 The SkyWater PDK Authors.
+
+Level-shifter schematic material retains the notice:
+Copyright 2021 Stefan Frederik Schippers.
+
+See docs/attribution.md for upstream references and details.

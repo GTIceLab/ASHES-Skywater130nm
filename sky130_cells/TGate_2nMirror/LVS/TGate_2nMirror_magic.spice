@@ -1,0 +1,46 @@
+* NGSPICE file created from TGate_2nMirror.ext - technology: sky130A
+
+.subckt TGate_2nMirror GND IN_CM[0] IN_CM[1] IN_TG OUT_CM[0] OUT_CM[1] OUT_TG SelN
++ AVDD
+X0 GND IN_CM[0] IN_CM[0] GND sky130_fd_pr__nfet_01v8 ad=0.40838 pd=2.32961 as=0.275 ps=1.55 w=1 l=2
+**devattr s=11000,310 d=11000,310
+X1 GND IN_CM[1] OUT_CM[1] GND sky130_fd_pr__nfet_01v8 ad=0.40838 pd=2.32961 as=0.275 ps=1.55 w=1 l=2
+**devattr s=11000,310 d=22000,620
+X2 GND SelN a_n2120_n610# GND sky130_fd_pr__nfet_01v8 ad=0.77592 pd=4.42626 as=0.76 ps=4.6 w=1.9 l=0.15
+**devattr s=30400,920 d=30400,920
+X3 OUT_CM[0] IN_CM[0] GND GND sky130_fd_pr__nfet_01v8 ad=0.275 pd=1.55 as=0.40838 ps=2.32961 w=1 l=2
+**devattr s=11000,310 d=11000,310
+X4 OUT_CM[0] IN_CM[0] GND GND sky130_fd_pr__nfet_01v8 ad=0.275 pd=1.55 as=0.40838 ps=2.32961 w=1 l=2
+**devattr s=22000,620 d=11000,310
+X5 IN_CM[0] IN_CM[0] GND GND sky130_fd_pr__nfet_01v8 ad=0.275 pd=1.55 as=0.40838 ps=2.32961 w=1 l=2
+**devattr s=22000,620 d=11000,310
+X6 IN_TG SelN OUT_TG AVDD sky130_fd_pr__pfet_01v8 ad=0.92 pd=5.4 as=0.92 ps=5.4 w=2.3 l=0.15
+**devattr s=36800,1080 d=36800,1080
+X7 IN_CM[1] IN_CM[1] GND GND sky130_fd_pr__nfet_01v8 ad=0.275 pd=1.55 as=0.40838 ps=2.32961 w=1 l=2
+**devattr s=11000,310 d=11000,310
+X8 IN_CM[1] IN_CM[1] GND GND sky130_fd_pr__nfet_01v8 ad=0.275 pd=1.55 as=0.40838 ps=2.32961 w=1 l=2
+**devattr s=22000,620 d=11000,310
+X9 GND IN_CM[0] IN_CM[0] GND sky130_fd_pr__nfet_01v8 ad=0.40838 pd=2.32961 as=0.275 ps=1.55 w=1 l=2
+**devattr s=11000,310 d=22000,620
+X10 OUT_CM[1] IN_CM[1] GND GND sky130_fd_pr__nfet_01v8 ad=0.275 pd=1.55 as=0.40838 ps=2.32961 w=1 l=2
+**devattr s=11000,310 d=11000,310
+X11 OUT_CM[1] IN_CM[1] GND GND sky130_fd_pr__nfet_01v8 ad=0.275 pd=1.55 as=0.40838 ps=2.32961 w=1 l=2
+**devattr s=20000,600 d=11000,310
+X12 GND IN_CM[0] OUT_CM[0] GND sky130_fd_pr__nfet_01v8 ad=0.40838 pd=2.32961 as=0.275 ps=1.55 w=1 l=2
+**devattr s=11000,310 d=11000,310
+X13 a_n2120_n610# SelN AVDD AVDD sky130_fd_pr__pfet_01v8 ad=0.92 pd=5.4 as=0.92 ps=5.4 w=2.3 l=0.15
+**devattr s=36800,1080 d=36800,1080
+X14 GND IN_CM[0] OUT_CM[0] GND sky130_fd_pr__nfet_01v8 ad=0.40838 pd=2.32961 as=0.275 ps=1.55 w=1 l=2
+**devattr s=11000,310 d=22000,620
+X15 GND IN_CM[1] IN_CM[1] GND sky130_fd_pr__nfet_01v8 ad=0.40838 pd=2.32961 as=0.275 ps=1.55 w=1 l=2
+**devattr s=11000,310 d=11000,310
+X16 IN_CM[0] IN_CM[0] GND GND sky130_fd_pr__nfet_01v8 ad=0.275 pd=1.55 as=0.40838 ps=2.32961 w=1 l=2
+**devattr s=11000,310 d=11000,310
+X17 OUT_TG a_n2120_n610# IN_TG GND sky130_fd_pr__nfet_01v8 ad=0.76 pd=4.6 as=0.76 ps=4.6 w=1.9 l=0.15
+**devattr s=30400,920 d=30400,920
+X18 GND IN_CM[1] IN_CM[1] GND sky130_fd_pr__nfet_01v8 ad=0.40838 pd=2.32961 as=0.275 ps=1.55 w=1 l=2
+**devattr s=11000,310 d=22000,620
+X19 GND IN_CM[1] OUT_CM[1] GND sky130_fd_pr__nfet_01v8 ad=0.40838 pd=2.32961 as=0.275 ps=1.55 w=1 l=2
+**devattr s=11000,310 d=11000,310
+.ends
+

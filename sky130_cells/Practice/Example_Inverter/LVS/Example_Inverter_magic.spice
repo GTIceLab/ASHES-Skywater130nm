@@ -1,0 +1,7 @@
+* Manually created wrapper for LVS
+.include Example_Inverter.spice
+
+Xinv VDD I Z GND
+
+.end
+

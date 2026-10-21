@@ -1,0 +1,11 @@
+.subckt TGate_2nMirror IN_CM[0] IN_CM[1] OUT_CM[0] OUT_CM[1] AVDD OUT_TG IN_TG SelN GND
+*.PININFO SelN:I AVDD:B IN_TG:I OUT_TG:O IN_CM[0:1]:I OUT_CM[0:1]:O GND:B
+XM1 IN_TG net1 OUT_TG GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.9 nf=1 m=1
+XM2 IN_TG SelN OUT_TG AVDD sky130_fd_pr__pfet_01v8 L=0.15 W=2.3 nf=1 m=1
+XM3 net1 SelN AVDD AVDD sky130_fd_pr__pfet_01v8 L=0.15 W=2.3 nf=1 m=1
+XM4 net1 SelN GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1.9 nf=1 m=1
+XM5[0] GND IN_CM[0] IN_CM[0] GND sky130_fd_pr__nfet_01v8 L=2 W=4 nf=4 m=1
+XM5[1] GND IN_CM[1] IN_CM[1] GND sky130_fd_pr__nfet_01v8 L=2 W=4 nf=4 m=1
+XM6[0] OUT_CM[0] IN_CM[0] GND GND sky130_fd_pr__nfet_01v8 L=2 W=4 nf=4 m=1
+XM6[1] OUT_CM[1] IN_CM[1] GND GND sky130_fd_pr__nfet_01v8 L=2 W=4 nf=4 m=1
+.ends

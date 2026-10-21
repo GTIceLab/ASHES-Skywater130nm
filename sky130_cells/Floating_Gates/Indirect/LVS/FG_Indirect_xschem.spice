@@ -1,0 +1,8 @@
+.subckt FG_Indirect Vs Vg Vsel VTUN Vd_R Vd_P VINJ GND
+*.PININFO VINJ:B Vsel:B Vg:B Vs:B Vd_R:B Vd_P:B VTUN:B GND:B
+XM1 Vd_R Vfg Vs VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM2 net1 Vsel VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM3 Vd_P Vfg net1 VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XC1 Vfg VTUN GND sky130_fd_pr__cap_var W=0.29 L=0.5 m=1
+XC2 Vfg Vg GND sky130_fd_pr__cap_var W=0.54 L=0.65 m=1
+.ends

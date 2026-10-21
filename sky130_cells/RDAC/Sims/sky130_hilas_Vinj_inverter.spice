@@ -1,0 +1,11 @@
+**.subckt sky130_hilas_Vinj_inverter VDD I Z GND
+*.ipin I
+*.opin Z
+*.iopin VDD
+*.iopin GND
+XM4 Z I VDD VDD sky130_fd_pr__pfet_g5v0d10v5 L=0.53 W=0.35 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM3 Z I GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.52 W=0.34 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+**.ends
+.end

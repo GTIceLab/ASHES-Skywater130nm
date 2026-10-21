@@ -1,0 +1,14 @@
+**.subckt sky130_hilas_resistor_string VREFin Node[3],Node[2],Node[1],Node[0] VREFout
+*.iopin VREFout
+*.iopin VREFin
+*.opin Node[3],Node[2],Node[1],Node[0]
+XR1 Node[0] VREFin sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR2 net1 Node[0] sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR3 Node[1] net1 sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR4 net2 Node[1] sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR5 Node[2] net2 sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR6 net3 Node[2] sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR7 Node[3] net3 sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+XR8 VREFout Node[3] sky130_fd_pr__res_generic_po W=0.33 L=10.19 m=1
+**.ends
+.end

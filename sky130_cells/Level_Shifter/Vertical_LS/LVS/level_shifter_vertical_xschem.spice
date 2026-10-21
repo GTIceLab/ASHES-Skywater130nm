@@ -1,0 +1,23 @@
+.subckt level_shifter_vertical Vlow Vhi Vin[0] Vin[1] Vout[0] Vout[1] GND Vout_B[0] Vout_B[1] VTUN Vgrun[0] Vgrun[1]
+*.PININFO Vlow:I Vhi:I Vin[0:1]:I Vout[0:1]:O GND:I Vout_B[0:1]:O VTUN:I Vgrun[0:1]:I
+XM5[0] net1_1 net2_1 Vhi Vhi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM5[1] net1_0 net2_0 Vhi Vhi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM6[0] net2_1 net1_1 Vhi Vhi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM6[1] net2_0 net1_0 Vhi Vhi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM7[0] Vin_B[0] Vin[0] GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM7[1] Vin_B[1] Vin[1] GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM8[0] Vin_B[0] Vin[0] Vlow Vlow sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 m=1
+XM8[1] Vin_B[1] Vin[1] Vlow Vlow sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 m=1
+XM9[0] Vout[0] net2_1 Vhi Vhi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM9[1] Vout[1] net2_0 Vhi Vhi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM10[0] Vout[0] net2_1 GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM10[1] Vout[1] net2_0 GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM3[0] net2_1 Vin[0] GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=3 nf=1 m=1
+XM3[1] net2_0 Vin[1] GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=3 nf=1 m=1
+XM1[0] net1_1 Vin_B[0] GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=3 nf=1 m=1
+XM1[1] net1_0 Vin_B[1] GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=3 nf=1 m=1
+XM2[0] Vout_B[0] Vout[0] Vhi Vhi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=4 nf=1 m=1
+XM2[1] Vout_B[1] Vout[1] Vhi Vhi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=4 nf=1 m=1
+XM4[0] Vout_B[0] Vout[0] GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM4[1] Vout_B[1] Vout[1] GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+.ends

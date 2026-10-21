@@ -1,0 +1,68 @@
+{
+  "issues": [
+    {
+      "file": "sky130_cells/RDAC/Design/6bit_RDAC.sch",
+      "reference": "RDAC_4bit_cell.sym",
+      "reason": "Symbol not found in repository/PDK/Xschem library paths"
+    },
+    {
+      "file": "sky130_cells/RDAC/Sims/4b_rdac_testbench.sch",
+      "reference": "RDAC_4bit_cell.sym",
+      "reason": "Symbol not found in repository/PDK/Xschem library paths"
+    },
+    {
+      "file": "sky130_cells/RDAC/Sims/6to64_decoder_testbench.sch",
+      "reference": "sky130_hilas_hirach_VinjDecode2to4.sym",
+      "reason": "Symbol not found in repository/PDK/Xschem library paths"
+    },
+    {
+      "file": "sky130_cells/RDAC/Sims/Vinj_NOR_testbench.sch",
+      "reference": "sky130_Vinj_NOR.sym",
+      "reason": "Symbol not found in repository/PDK/Xschem library paths"
+    },
+    {
+      "file": "sky130_cells/RDAC/Sims/Vinj_inverter_testbench.sch",
+      "reference": "sky130_hilas_Vinj_inverter.sym",
+      "reason": "Symbol not found in repository/PDK/Xschem library paths"
+    }
+  ],
+  "deferred_external": [
+    "bus_connect.sym",
+    "bus_connect_nolab.sym",
+    "bus_tap.sym",
+    "capa.sym",
+    "code.sym",
+    "code_shown.sym",
+    "devices/code.sym",
+    "devices/code_shown.sym",
+    "devices/gnd.sym",
+    "devices/iopin.sym",
+    "devices/ipin.sym",
+    "devices/lab_pin.sym",
+    "devices/lab_wire.sym",
+    "devices/launcher.sym",
+    "devices/parax_cap.sym",
+    "devices/simulator_commands_shown.sym",
+    "gnd.sym",
+    "iopin.sym",
+    "ipin.sym",
+    "lab_pin.sym",
+    "lab_wire.sym",
+    "noconn.sym",
+    "opin.sym",
+    "sky130_fd_pr/cap_mim_m3_1.sym",
+    "sky130_fd_pr/cap_mim_m3_2.sym",
+    "sky130_fd_pr/cap_var_hvt.sym",
+    "sky130_fd_pr/lvsdiode.sym",
+    "sky130_fd_pr/nfet_01v8.sym",
+    "sky130_fd_pr/nfet_g5v0d10v5.sym",
+    "sky130_fd_pr/pfet_01v8.sym",
+    "sky130_fd_pr/pfet_01v8_hvt.sym",
+    "sky130_fd_pr/pfet_g5v0d10v5.sym",
+    "sky130_fd_pr/res_generic_l1.sym",
+    "sky130_fd_pr/res_generic_po.sym",
+    "vdd.sym",
+    "vsource.sym"
+  ],
+  "files_checked": 126
+}

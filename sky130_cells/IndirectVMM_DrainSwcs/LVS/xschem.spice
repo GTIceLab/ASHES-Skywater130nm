@@ -1,0 +1,35 @@
+.subckt DrainSwitches Sel[0] Sel[1] Sel[2] Sel[3] Prog_DrLn Run_DrLn VD_P[0] VD_P[1] VD_P[2] VD_P[3] VD_R[0] VD_R[1] VD_R[2]
++ VD_R[3] VINJ GND
+*.PININFO Sel[0:3]:I Prog_DrLn:B Run_DrLn:B VD_P[0:3]:B VD_R[0:3]:B VINJ:B GND:B
+XInverter[0] VINJ Sel[0] NSel[0] GND Inverter
+XInverter[1] VINJ Sel[1] NSel[1] GND Inverter
+XInverter[2] VINJ Sel[2] NSel[2] GND Inverter
+XInverter[3] VINJ Sel[3] NSel[3] GND Inverter
+XM1[0] Prog_DrLn Sel[0] VD_P[0] GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM1[1] Prog_DrLn Sel[1] VD_P[1] GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM1[2] Prog_DrLn Sel[2] VD_P[2] GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM1[3] Prog_DrLn Sel[3] VD_P[3] GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM2[0] VD_P[0] Sel[0] VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM2[1] VD_P[1] Sel[1] VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM2[2] VD_P[2] Sel[2] VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM2[3] VD_P[3] Sel[3] VINJ VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM3[0] Prog_DrLn NSel[0] VD_P[0] VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM3[1] Prog_DrLn NSel[1] VD_P[1] VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM3[2] Prog_DrLn NSel[2] VD_P[2] VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM3[3] Prog_DrLn NSel[3] VD_P[3] VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM4[0] Run_DrLn Sel[0] VD_R[0] GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM4[1] Run_DrLn Sel[1] VD_R[1] GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM4[2] Run_DrLn Sel[2] VD_R[2] GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM4[3] Run_DrLn Sel[3] VD_R[3] GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM5[0] Run_DrLn NSel[0] VD_R[0] VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM5[1] Run_DrLn NSel[1] VD_R[1] VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM5[2] Run_DrLn NSel[2] VD_R[2] VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+XM5[3] Run_DrLn NSel[3] VD_R[3] VINJ sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=1 m=1
+.ends
+
+.subckt Inverter VInject In Out GND
+*.PININFO In:I VInject:I GND:I Out:O
+XM1 Out In GND GND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.5 nf=1 m=1
+XM2 Out In VInject VInject sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+.ends
+

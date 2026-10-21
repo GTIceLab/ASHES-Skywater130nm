@@ -1,0 +1,16 @@
+.subckt SimDiodeFetPullDown
+
+V1 net2 GND 0
+V2 AVDD GND 1.8
+XM1 fg_pu net2 AVDD AVDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM7 net1 fg_pu GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM2 GorS_ctrlb net1 GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM3 fg_pu fg_pu GND GND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM4 net1 fg_pu AVDD AVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM5 GorS_ctrlb net1 AVDD AVDD sky130_fd_pr__pfet_01v8 L=0.15 W=0.42 nf=1 m=1
+**** begin user architecture code
+
+.lib
+
+**** end user architecture code
+.ends

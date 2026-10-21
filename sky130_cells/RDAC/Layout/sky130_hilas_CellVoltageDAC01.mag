@@ -1,0 +1,92 @@
+magic
+tech sky130A
+timestamp 1740149012
+<< nwell >>
+rect -18 -14 180 153
+rect 582 -14 1066 4
+<< psubdiff >>
+rect 3482 626 3527 628
+rect 3482 611 3533 626
+rect 3482 18 3498 611
+rect 3515 18 3533 611
+rect 3482 5 3533 18
+<< psubdiffcont >>
+rect 3498 18 3515 611
+<< locali >>
+rect 3483 612 3515 619
+rect 3483 18 3489 612
+rect 3506 611 3515 612
+rect 3483 11 3515 18
+rect 3498 10 3515 11
+<< viali >>
+rect 3489 611 3506 612
+rect 3489 18 3498 611
+rect 3498 18 3506 611
+<< metal1 >>
+rect -81 589 -65 636
+rect -88 586 -62 589
+rect -88 557 -62 560
+rect -81 -14 -65 557
+rect -44 438 -28 636
+rect 3482 612 3509 652
+rect -49 435 -23 438
+rect -49 406 -23 409
+rect -44 -14 -28 406
+rect 3482 18 3489 612
+rect 3506 611 3509 612
+rect 3506 18 3515 611
+rect 43 -14 65 -10
+rect 300 -14 323 -10
+rect 650 -14 672 -10
+rect 1389 -14 1416 8
+rect 3482 -7 3509 18
+<< via1 >>
+rect -88 560 -62 586
+rect -49 409 -23 435
+<< metal2 >>
+rect -91 586 -59 588
+rect -91 560 -88 586
+rect -62 584 -59 586
+rect -62 566 -18 584
+rect -62 560 -59 566
+rect -91 557 -59 560
+rect 1554 557 1572 580
+rect 1554 491 1570 557
+rect -51 435 -21 436
+rect -52 409 -49 435
+rect -23 433 -20 435
+rect -23 415 -18 433
+rect -23 409 -20 415
+rect -51 407 -21 409
+rect 1554 337 1570 423
+rect -92 264 -18 282
+rect 1554 185 1570 266
+rect 1554 33 1570 109
+use sky130_hilas_dac_cell  sky130_hilas_dac_cell_0
+timestamp 1738679245
+transform 1 0 0 0 1 2
+box 1570 -15 3442 650
+use sky130_hilas_VinjDecode2to4  sky130_hilas_VinjDecode2to4_0
+timestamp 1740149012
+transform 1 0 619 0 1 -43
+box -637 33 935 681
+<< labels >>
+flabel metal1 -81 -14 -65 -7 0 FreeSans 40 0 0 0 IN[0]
+port 13 nsew
+flabel metal1 -44 -14 -28 -7 0 FreeSans 40 0 0 0 IN[1]
+port 15 nsew
+flabel metal2 -92 264 -86 282 0 FreeSans 40 0 0 0 ENABLE
+port 17 nsew
+flabel space 1627 -13 1646 -5 0 FreeSans 40 0 0 0 VGND
+port 19 nsew
+flabel space 1927 -13 1954 -5 0 FreeSans 40 0 0 0 Out
+port 21 nsew
+flabel space 3417 -7 3434 1 0 FreeSans 40 0 0 0 VREFout
+port 25 nsew
+flabel space 3418 644 3435 652 0 FreeSans 40 0 0 0 VREFin
+port 27 nsew
+flabel space 1389 615 1416 626 0 FreeSans 40 0 0 0 VGND
+port 29 nsew
+flabel space 300 629 323 638 0 FreeSans 40 0 0 0 VGND
+port 33 nsew
+<< end >>

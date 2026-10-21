@@ -1,0 +1,5 @@
+* SPICE3 file created from NMOS_HV_500x1300nm.ext - technology: sky130A
+
+.option scale=10n
+
+X0 a_n203_n8# a_n253_n21# a_n283_n8# SUB sky130_fd_pr__nfet_g5v0d10v5 ad=3.9k pd=320 as=3.9k ps=320 w=1.3e+08 l=5e+07
