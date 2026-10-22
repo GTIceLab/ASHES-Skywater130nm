@@ -18,7 +18,8 @@ ports, 8 outputs, and a VTUN frame port. The original supply wiring is internal;
 external supply access and PDN completion are not provided as a signoff claim.
 Die dimensions: 150x150 microns. Island origins: (20,42) and (100,42) microns.
 
-`ashes_2p0` does not define `__file__` while executing the design. The trial uses
+The ASHES CLI revision used for validation does not define `__file__` while
+executing the design. The trial uses
 the invocation directory in that case, so keep the working directory here.
 No shared ASHES compiler changes are required by this repository.
 

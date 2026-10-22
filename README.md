@@ -36,7 +36,7 @@ Install Python 3.12 or newer, ASHES, OpenROAD, and KLayout in that environment.
 
 ```bash
 git clone https://github.com/GTIceLab/ashes.git
-git -C ashes switch ashes_2p0
+git -C ashes switch main
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e ./ashes

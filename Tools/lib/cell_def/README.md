@@ -1,6 +1,6 @@
 # Sky130 cell definitions from ASHES
 
-Library generation is installed with ASHES on `ashes_2p0`; this repository no
+Library generation is installed with ASHES on `main`; this repository no
 longer carries its own generator implementation. Activate the ASHES environment
 and verify `ashes cells generate --help` works. An older ASHES installation
 without the `cells` command must be updated before using these instructions.
@@ -63,4 +63,4 @@ These cells have no explicit placement boundary, so the shared generator uses
 the matching cell's bounding box. Explicit suffixes determine native pin sides.
 Process-specific boundary layers and label filters are optional arguments, not
 hardcoded assumptions. See `ashes cells generate --help` and the
-[ASHES library guide](https://github.com/GTIceLab/ashes/blob/ashes_2p0/docs/cell-library.md).
+[ASHES library guide](https://github.com/GTIceLab/ashes/blob/main/docs/cell-library.md).

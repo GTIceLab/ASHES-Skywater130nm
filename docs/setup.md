@@ -9,20 +9,20 @@ for interactive GUI use; WSLg can supply one on supported Windows systems.
 ```bash
 git clone https://github.com/GTIceLab/ashes.git
 cd ashes
-git switch ashes_2p0
+git switch main
 python3 -m venv venv
 source venv/bin/activate
 python -m pip install -e .
 ```
 
-Use an `ashes_2p0` revision that includes the shared library CLI. Verify it with
-`ashes cells generate --help` after installation; update/reinstall ASHES if the
-command is unavailable. Commit `94d01a0` predates that shared CLI and is no longer
-the complete setup target. The current integration was validated against the
-local updated `ashes_2p0` working tree. Activate the same environment before
-running library generation and synthesis.
+Use ASHES `main`, which includes the cell generator and OpenROAD flow merged
+in commit `47ca6e6` (PR #52). For an existing checkout, update `main` with
+`git pull --ff-only` and reinstall with `python -m pip install -e .`.
+Verify `ashes cells generate --help` after installation. Activate the same
+environment before running library generation and synthesis. The original
+validation used the pre-merge working tree; see [validation status](validation.md).
 
-This branch's model import is `ashes_fg.asic.asic_compile`. Its compile API
+The model import for this flow is `ashes_fg.asic.asic_compile`. Its compile API
 selects OpenROAD through `pd_tool`; do not add settings from newer ASHES APIs
 without checking the installed revision. RASP30/Scilab are not required for this
 ASIC example. Do not install a second unrelated package named `ashes` from PyPI.

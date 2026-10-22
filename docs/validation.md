@@ -2,6 +2,9 @@
 
 Validation run: 2026-10-21, Linux/WSL, Python 3.14.
 ASHES: updated `ashes_2p0` working tree with the shared `ashes cells` CLI.
+The shared flow was subsequently merged into ASHES `main` in commit `47ca6e6`
+(PR #52); current installation instructions use `main`. This record describes
+the original validation, not a rerun against the merged revision.
 The earlier routing run used commit `94d01a0`; that commit alone does not include
 the newly shared generator.
 OpenROAD reports `bazel-nostamp` rather than a version hash; that build cannot be
@@ -22,7 +25,7 @@ identified more precisely from its version string. KLayout: 0.30.6.
 - The repository-wide local symbol check reports four absent RDAC symbols across
   five schematics. The checked VMM and TA sources have no unresolved local symbols.
 - `ashes asic Trail.py` completes synthesis/placement and generates OpenROAD
-  input files and all five Tcl stages on the documented ASHES branch.
+  input files and all five Tcl stages on the ASHES revision recorded above.
 - The public source set contains only Sky130 cell trees and selected helper,
   technology-map, and example content. Original import-source hashes were checked
   to confirm that the source repository was not changed.
